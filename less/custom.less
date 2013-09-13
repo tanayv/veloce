@@ -1,0 +1,43 @@
+/**
+ * Stylesheet - Custom
+ * Author - Andrew Mass, Nick Kortendick
+ * 8/1/2013
+ */
+
+@grayDark: #222222;
+@grayLight: #CCC;
+@bodyBackground: #000;
+@linkColor: @gsBlue;
+
+@transition-time: 0.2s;
+
+@sans-font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+@headings-font-family: 'Oswald', @sans-font-family;
+
+.animation(@anim) {
+  -webkit-animation: @anim;
+  -moz-animation:    @anim;
+  -ms-animation:     @anim;
+  animation:         @anim;
+}
+
+.transform(@trans) {
+  -webkit-transform: @trans;
+  -moz-transform:    @trans;
+  -ms-transform:     @trans;
+  transform:         @trans;
+}
+
+.transform-style(@trans) {
+  -webkit-transform-style: @trans;
+  -moz-transform-style:    @trans;
+  -ms-transform-style:     @trans;
+  transform-style:         @trans;
+}
+
+.perspective(@trans) {
+  -webkit-perspective: @trans;
+  -moz-perspective:    @trans;
+  -ms-perspective:     @trans;
+  perspective:         @trans;
+}
