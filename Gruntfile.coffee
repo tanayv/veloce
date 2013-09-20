@@ -27,14 +27,6 @@ module.exports = (grunt) ->
         files:
           "dist/all.min.js": "dist/all.js"
 
-    htmlmin:
-      all:
-        options:
-          removeComments: true,
-          collapseWhitespace: true
-        files:
-          "dist/index.html": "index.html"
-
     copy:
       all:
         files: [{expand: true, src: ['img/*'], dest: 'dist/', filter: 'isFile'},
@@ -44,6 +36,11 @@ module.exports = (grunt) ->
       js: ["dist/all.js"]
       res: ["dist/font", "dist/img"]
 
+    php:
+      all:
+        options:
+          port: 9001
+
     watch:
       less:
         files: ['less/*.less', 'less/bootstrap/*.less']
@@ -51,9 +48,6 @@ module.exports = (grunt) ->
       concat:
         files: ['js/*.js']
         tasks: ['concat:all', 'uglify:all', 'clean:js']
-      htmlmin:
-        files: ['index.html']
-        tasks: ['htmlmin:all']
       copy:
         files: ['font/*', 'img/*']
         tasks: ['clean:res', 'copy:all']
@@ -61,9 +55,9 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-concat'
   grunt.loadNpmTasks 'grunt-contrib-uglify'
-  grunt.loadNpmTasks 'grunt-contrib-htmlmin'
   grunt.loadNpmTasks 'grunt-contrib-copy'
   grunt.loadNpmTasks 'grunt-contrib-clean'
+  grunt.loadNpmTasks 'grunt-php'
   grunt.loadNpmTasks 'grunt-contrib-watch'
 
-  grunt.registerTask 'default', ['less', 'concat', 'uglify', 'htmlmin', 'copy', 'clean:js', 'watch']
+  grunt.registerTask 'default', ['less', 'concat', 'uglify', 'copy', 'clean:js', 'php', 'watch']
