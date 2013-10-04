@@ -1,8 +1,9 @@
-<!--
-  PHP - Head
-  Authors - Andrew Mass, Nick Kortendick
-  9/26/13
--->
+<?php
+  /**
+   * PHP - Head
+   * Authors - Andrew Mass, Nick Kortendick
+  */
+?>
 
 <title>Illinois Motorsports</title>
 
@@ -16,11 +17,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" href="./dist/style.css">
-<link rel="stylesheet" href="./dist/nickscssthatandrewwilleventuallymovetohisownlessfile.css">
 
 <link rel="icon" href="">
 <link rel="shortcut icon" href="">
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-<script src="all.min.js"></script>
+<script src="./dist/all.min.js"></script>

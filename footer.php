@@ -1,7 +1,8 @@
-<!--
-  PHP - Footer
-  Authors - Andrew Mass, Nick Kortendick
-  9/26/2013
--->
+<?php
+  /**
+  * PHP - Footer
+  * Authors - Andrew Mass, Nick Kortendick
+  */
+?>
 
 This will be the footer.
