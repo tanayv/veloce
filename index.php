@@ -8,8 +8,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <?php include './head.php'; ?>
-  </head>
+    <?php include './head.php'; ?>  </head>
 
   <body>
     <?php include './header.php'; ?>
@@ -40,52 +39,22 @@
         </div>
 
         <div class="content container">
-          <div id="carousel-example-generic" class="carousel slide">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-
-          <div class="carousel-inner">
-            <div class="item active">
-              <div class="row">
-                <div class="col-md-6">
-                  <img src="./img/company1.png" class="carouselcompany"/>
-
-                  <h3>Company 1!</h3>
-
-                  <br>
-
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed dictum lacus. Suspendisse augue erat, feugiat posuere ullamcorper vel, ultrices vel magna. Integer rutrum laoreet facilisis. Aliquam consequat cursus risus, quis semper augue blandit vitae. Nulla vestibulum eros ac velit ultrices, id lacinia lectus varius. Morbi malesuada nibh libero, a cursus felis dapibus nec. Duis at porta lectus. Quisque quis diam non nunc molestie egestas. Praesent bibendum ultrices arcu, vel vehicula arcu laoreet vel. Quisque sed nunc porta, commodo sem quis, aliquet massa. Curabitur faucibus rutrum leo, ut pellentesque est bibendum sed.
-                </div>
-
-                <div class="col-md-6">
-                  <img src="./img/company2.jpg" class="carouselcompany"/>
-
-                  <h3>Company 2!</h3>
-
-                  <br>
-
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed dictum lacus. Suspendisse augue erat, feugiat posuere ullamcorper vel, ultrices vel magna. Integer rutrum laoreet facilisis. Aliquam consequat cursus risus, quis semper augue blandit vitae. Nulla vestibulum eros ac velit ultrices, id lacinia lectus varius. Morbi malesuada nibh libero, a cursus felis dapibus nec. Duis at porta lectus. Quisque quis diam non nunc molestie egestas. Praesent bibendum ultrices arcu, vel vehicula arcu laoreet vel. Quisque sed nunc porta, commodo sem quis, aliquet massa. Curabitur faucibus rutrum leo, ut pellentesque est bibendum sed.
-                </div>
-              </div>
+        <h3> Support Our <a href="./sponsors.php">Sponsors!</a></h3>
+          <div class="row">
+            <div class="col-md-3">
+            <img src="./img/logos/mechse.jpg">
+            </div>
+            <div class="col-md-3">
+            <img src="./img/logos/cat.jpg">
+            </div>
+            <div class="col-md-3">
+            <img src="./img/logos/bosch.jpg">
+            </div>
+            <div class="col-md-3">
+            <img src="http://placehold.it/200x200">
             </div>
           </div>
-
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="icon-prev"></span>
-          </a>
-
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="icon-next"></span>
-          </a>
         </div>
-      </div>
     </div>
 
     <?php include './footer.php'; ?>
