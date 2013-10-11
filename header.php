@@ -16,7 +16,7 @@
         <span class="icon-bar"></span>
       </button>
 
-      <a href="#">
+      <a href="./">
         <img id="header-logo" src="./img/header-logo.png"/>
       </a>
     </div>
@@ -24,7 +24,7 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="active">
-          <a href="#">Home</a>
+          <a href="./">Home</a>
         </li>
 
         <li>

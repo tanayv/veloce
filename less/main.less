@@ -36,3 +36,53 @@
   }
 }
 
+.sponsors {
+
+  .content.container {
+    text-align: center;
+
+    h1 {
+      color: @accent-blue;
+    }
+
+    hr {
+      border-color: @accent-blue;
+    }
+
+    .col-md-6 {
+
+      &:hover {
+        background-color: lighten(@accent-orange, 40%);
+      }
+    }
+  }
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: @accent-blue;
+
+  a {
+    color: @accent-orange;
+  }
+
+  .row {
+    padding-top: 5px;
+  }
+
+  #footer-left {
+    text-align: left;
+  }
+
+  #footer-center {
+    text-align: center;
+  }
+
+  #footer-right {
+    text-align: right;
+  }
+}
