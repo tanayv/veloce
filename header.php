@@ -46,7 +46,7 @@
 
       <ul class="nav navbar-nav navbar-right">
         <li class="social-icon">
-          <a href="//twitter.com/IllinoisFSAE" target="_blank">
+          <a href="//www.twitter.com/IllinoisFSAE" target="_blank">
             <i class="icon-twitter"></i>
           </a>
         </li>

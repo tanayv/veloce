@@ -1,6 +1,6 @@
 /**
  * Stylesheet - Main
- * Author - Andrew Mass, Nick Kortendick
+ * Authors - Andrew Mass, Nick Kortendick
  */
 
 #header-logo {
@@ -16,6 +16,55 @@ body {
   padding-bottom: 15px;
 }
 
+.overlay-container {
+  position: relative;
+
+  #hero-main {
+    margin-top: -100px;
+  }
+
+  .overlay-container-inner {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .inner-inner {
+      position: relative;
+      height: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+
+      .overlay {
+        position: absolute;
+        background-color: @grayDark;
+        color: @grayLight;
+        border-radius: 5px;
+        opacity: 0.75;
+        padding: 10px 15px;
+      }
+
+      #overlay-right {
+        display: none;
+        top: 0;
+        bottom: 70%;
+        right: 20px;
+        left: 60%;
+      }
+
+      #overlay-bottom {
+        display: none;
+        bottom: 50px;
+        left: 20px;
+        //right: 20px;
+        margin: 0;
+        max-width: 1200px;
+      }
+    }
+  }
+}
+
 #twitter-box {
   margin-top: 35px;
   height: 585px;
@@ -23,12 +72,6 @@ body {
   iframe {
     height: 585px;
   }
-}
-
-#hero-main {
-  width: 100%;
-  margin-top: -100px;
-  margin-bottom: 30px;
 }
 
 .navbar {
@@ -69,21 +112,21 @@ body {
     img {
       .transition(@transition-time all);
       width: 200px;
-      filter: url(filters.svg#grayscale);
-      filter: gray;
-      -webkit-filter: grayscale(1);
+      filter: url(./img/filters.svg#grayscale); /* Firefox 3.5+ */
+      filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
 
       &:hover {
         .transition(@transition-time all);
-        filer: none;
-        -webkit-filter: grayscale(0);
+        filter: none;
+        -webkit-filter: none;
       }
     }
   }
 
   h1 {
-    font-size: 60px;
-    color: @accent-blue;
+    font-size: 40px;
+    margin: 0;
   }
 
   h4 {

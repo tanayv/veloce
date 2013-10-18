@@ -14,7 +14,23 @@
   <body class="home">
     <?php include './header.php'; ?>
 
-    <img id="hero-main" src="./img/hero-main.jpg" id="main">
+
+
+    <div class="overlay-container">
+      <img id="hero-main" src="./img/hero-main.jpg">
+
+      <div class="overlay-container-inner">
+        <div class="inner-inner">
+          <div id="overlay-right" class="content container overlay">
+            Interesting facts about the car.
+          </div>
+
+          <div id="overlay-bottom" class="content container overlay">
+            <h1>Illini Motorsports</h1>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="content container">
       <div class="row">
@@ -35,7 +51,7 @@ C ompetitions are held annually in various places all over the world (Michigan, 
 Australia, Brazil, Italy, Germany, etc.) where these design teams bring their car and
 compete against some of the best engineering students worldwide.</p>
 
-          <h4>Want to see your company's logo here? <a href="./img/sponsor.pdf" target="_blank">Sponsor Us</a></h4>
+          <h4>Want to see your company's logo on this page? <a href="./img/sponsor.pdf" target="_blank">Sponsor Us</a></h4>
 
           <img src="./img/rendered.jpg">
         </div>
