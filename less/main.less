@@ -5,6 +5,7 @@
 
 #header-logo {
   margin: 5px 10px;
+  width: inherit;
 }
 
 body {
@@ -32,7 +33,7 @@ body {
 
 .navbar {
   border: none;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 15px auto;
   border-radius: 5px;
 
@@ -55,11 +56,6 @@ body {
       text-align: center;
     }
   }
-
-  .navbar-right li a {
-    padding-top: 13px;
-    padding-bottom: 13px;
-  }
 }
 
 .home {
@@ -68,10 +64,27 @@ body {
     width: 100%;
   }
 
+  #sponsors {
+
+    img {
+      .transition(@transition-time all);
+      width: 200px;
+      filter: url(filters.svg#grayscale);
+      filter: gray;
+      -webkit-filter: grayscale(1);
+
+      &:hover {
+        .transition(@transition-time all);
+        filer: none;
+        -webkit-filter: grayscale(0);
+      }
+    }
+  }
+
   h1 {
     font-size: 60px;
     color: @accent-blue;
-    border-bottom: 2px solid @accent-orange;
+    //border-bottom: 2px solid @accent-orange;
   }
 
   hr {
@@ -84,6 +97,10 @@ body {
   .content.container {
     text-align: center;
 
+    .row {
+      margin-top: 20px;
+    }
+
     h1 {
       color: @accent-blue;
     }
@@ -92,7 +109,15 @@ body {
       border-color: @accent-orange;
     }
 
+    .orange-and-blue {
+      img {
+        width: 400px;
+        height: 200px;
+      }
+    }
+
     img {
+      .transition(@transition-time all);
       filter: url(filters.svg#grayscale);
       filter: gray;
       -webkit-filter: grayscale(1);

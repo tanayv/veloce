@@ -1,11 +1,15 @@
 /**
  * Javascript - Index
  * Author - Andrew Mass, Nick Kortendick
- * 9/6/2013
  */
 
 function Veloce() {}
 
-$(function() {
+Veloce.applyActive = function() {
+  $('.navbar li.active').removeClass('active');
+  $('a[href$="' + '.' + window.location.pathname + '"]').parent().addClass('active');
+};
 
+$(function() {
+  Veloce.applyActive();
 });

@@ -20,7 +20,7 @@
 
         |
 
-        <a href="//twitter.com/IllinoisFSAE" target="_blank">
+        <a href="//www.twitter.com/IllinoisFSAE" target="_blank">
           Twitter
         </a>
       </div>
@@ -29,7 +29,7 @@
       </div>
 
       <div class="col-md-3" id="footer-right">
-        <a href="./contact.php">Contact Us</a>
+        <!--<a href="./contact.php">Contact Us</a>-->
       </div>
     </div>
   </div>

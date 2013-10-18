@@ -27,21 +27,21 @@
           <a href="./">Home</a>
         </li>
 
-        <li>
+        <!--<li>
           <a href="./about.php">About</a>
-        </li>
+        </li>-->
 
-        <li>
+        <!--<li>
           <a href="./updates.php">Updates</a>
-        </li>
+        </li>-->
 
-        <li>
+        <!--<li>
           <a href="./sponsors.php">Sponsors</a>
-        </li>
+        </li>->
 
-        <li>
+        <!--<li>
           <a href="./join.php">Join Us</a>
-        </li>
+        </li>-->
       </ul>
 
       <ul class="nav navbar-nav navbar-right">

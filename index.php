@@ -19,7 +19,7 @@
     <div class="content container">
       <div class="row">
         <div class="col-md-8">
-          <h1>Illini Motorsports</h1>
+          <h3>About Us</h3>
 
           <p>The collegiate chapter of the Society of Automotive Engineers (SAE) at the University of
 Illinois aims to provide its members with numerous educational, professional, and social
@@ -50,7 +50,7 @@ compete against some of the best engineering students worldwide.</p>
       </div>
     </div>
 
-    <div class="content container">
+    <div id="sponsors" class="content container">
       <hr>
 
       <div class="row">
@@ -67,7 +67,7 @@ compete against some of the best engineering students worldwide.</p>
         </div>
 
         <div class="col-md-3">
-          <img src="http://placehold.it/200x200">
+          <img src="./img/logos/spacex.jpg">
         </div>
       </div>
     </div>
