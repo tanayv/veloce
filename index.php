@@ -35,6 +35,8 @@ C ompetitions are held annually in various places all over the world (Michigan, 
 Australia, Brazil, Italy, Germany, etc.) where these design teams bring their car and
 compete against some of the best engineering students worldwide.</p>
 
+          <h4>Want to see your company's logo here? <a href="./img/sponsor.pdf" target="_blank">Sponsor Us</a></h4>
+
           <img src="./img/rendered.jpg">
         </div>
 
