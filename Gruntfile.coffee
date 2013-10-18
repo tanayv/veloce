@@ -28,17 +28,21 @@ module.exports = (grunt) ->
           "dist/all.min.js": "dist/all.js"
 
     copy:
-      all:
-        files: [{expand: true, src: ['img/*'], dest: 'dist/', filter: 'isFile'},
-                {expand: true, src: ['font/*'], dest: 'dist/', filter: 'isFile'}]
+      res:
+        files: [{expand: true, src: ['img/**/*'], dest: 'dist/', filter: 'isFile'},
+                {expand: true, src: ['font/**/*'], dest: 'dist/', filter: 'isFile'}]
+      php:
+        files: [{expand: true, src: ['./*.php'], dest: 'dist/', filter: 'isFile'}]
 
     clean:
       js: ["dist/all.js"]
       res: ["dist/font", "dist/img"]
+      php: ["dist/*.php"]
 
     php:
       all:
         options:
+          base: 'dist'
           port: 9001
 
     watch:
@@ -48,16 +52,19 @@ module.exports = (grunt) ->
       concat:
         files: ['js/*.js']
         tasks: ['concat:all', 'uglify:all', 'clean:js']
-      copy:
-        files: ['font/*', 'img/*']
-        tasks: ['clean:res', 'copy:all']
+      copyres:
+        files: ['font/**/*', 'img/**/*']
+        tasks: ['clean:res', 'copy:res']
+      copyphp:
+        files: ['./*.php']
+        tasks: ['clean:php', 'copy:php']
 
+  grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-contrib-less'
   grunt.loadNpmTasks 'grunt-contrib-concat'
   grunt.loadNpmTasks 'grunt-contrib-uglify'
   grunt.loadNpmTasks 'grunt-contrib-copy'
-  grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-php'
   grunt.loadNpmTasks 'grunt-contrib-watch'
 
-  grunt.registerTask 'default', ['less', 'concat', 'uglify', 'copy', 'clean:js', 'php', 'watch']
+  grunt.registerTask 'default', ['clean', 'less', 'concat', 'uglify', 'clean:js', 'copy', 'php', 'watch']
