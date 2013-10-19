@@ -39,8 +39,12 @@
           <a href="./sponsors.php">Sponsors</a>
         </li>-->
 
-        <li>
+        <!--<li>
           <a href="./cars.php">Cars</a>
+        </li>-->
+
+        <li>
+          <a href="./join.php">Join the Team</a>
         </li>
 
         <li>

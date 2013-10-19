@@ -1,6 +1,6 @@
 <?php
   /**
-  * PHP - 404
+  * PHP - Template
   * Authors - Andrew Mass, Nick Kortendick
   */
 ?>
@@ -11,12 +11,10 @@
     <?php include './head.php'; ?>
   </head>
 
-  <body class="404">
+  <body>
     <?php include './header.php'; ?>
 
     <div class="content container">
-    <h3> Oops. You shouldn't have ended up here. </h3>
-    Sorry, about that. Click <a href="./contact.php">here </a>to report the issue;
     </div>
 
     <?php include './footer.php'; ?>

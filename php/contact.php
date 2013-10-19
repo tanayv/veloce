@@ -11,7 +11,7 @@
     <?php include './head.php'; ?>
   </head>
 
-  <body class="sponsors">
+  <body>
     <?php include './header.php'; ?>
 
     <script type="text/javascript">
@@ -19,6 +19,7 @@
       theme : 'clean'
       };
     </script>
+
     <div class="content container">
       <?php
       //If the form is submitted:
@@ -35,7 +36,7 @@
         $_POST["recaptcha_challenge_field"],
         $_POST["recaptcha_response_field"]);
 
-        //Check to make sure that a contact name has been entered 
+        //Check to make sure that a contact name has been entered
         $authorName = (filter_var($_POST['name'], FILTER_SANITIZE_STRING));
 
         if ($authorName == "")
@@ -63,7 +64,7 @@
           $emailError = true;
           $hasError = true;
         //echo("EMAIL ERROR ");
-        } 
+        }
         else
         {
           $formEmail = $authorEmail;
@@ -112,7 +113,7 @@
         $authorUserAgent = $_SERVER['HTTP_USER_AGENT'];
 
         // if all the fields have been entered correctly and there are no recaptcha errors build an email message
-        if (($resp->is_valid) && (!isset($hasError))) 
+        if (($resp->is_valid) && (!isset($hasError)))
         {
           $emailTo = 'fsae@nickkortendick.com, illinimotorsports@gmail.com'; // here you must enter the email address you want the email sent to
           $subject = $msgSubject; // This is how the subject of the email will look like
@@ -120,24 +121,24 @@
           $headers = 'From: <'.$formEmail.'>' . "\r\n" . 'Reply-To: ' . $formEmail . "\r\n" . 'Return-Path: ' . $formEmail; // Email headers
 
           mail($emailTo, $subject, $body, $headers);
-          
-          $replySubject = $authorName . ", you sent a message about" . $subject; 
+
+          $replySubject = $authorName . ", you sent a message about" . $subject;
           $replyBody = "You just sent the following message to Illini Motorsports: " . "\n" . $msgContent;
           $replyHeaders = 'From: <illinimotorsports@gmail.com>' . "\r\n" . 'Reply-To: ' . 'illinimotorsports@gmail.com' . "\r\n" . 'Return-Path: ' . 'illinimotorsports@gmail.com';
-          
+
           mail($authorEmail, $replySubject, $replyBody, $headers);
-          
+
           // set a variable that confirms that an email has been sent
           $emailSent = true;
         }
-        
+
         // if there are errors in captcha fields set an error variable
         if (!($resp->is_valid))
         {
           $captchaErrorMsg = true;
         }
       }
-      ?>  
+      ?>
 
       <?php if($msgSubjectJoin == TRUE && isset($emailSent) && $emailSent == true)
       {
@@ -150,50 +151,50 @@
       ?>
 
       <?php // if the page the variable "email sent" is set to true show confirmation instead of the form
-      if(isset($emailSent) && $emailSent == true) 
+      if(isset($emailSent) && $emailSent == true)
       {
         if( $msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE)
         echo('<div class="alert alert-success">         <p>
-              <h5>Success! </h5> Thank you for your query. A copy has been sent to the email address you provided. 
+              <h5>Success! </h5> Thank you for your query. A copy has been sent to the email address you provided.
               </p> </div>');
       }
-      else if(isset($_POST['submit'])) 
+      else if(isset($_POST['submit']))
         echo('<div class="alert alert-danger">        <p>
-              <h5> Oops! </h5> There\'s a problem. Fix up your errors and try again. 
+              <h5> Oops! </h5> There\'s a problem. Fix up your errors and try again.
               </p> </div>');
       ?>
 
 
-    <form id="contactForm" role="form" method="post" class="form-horizontal">
-        <div class="form-group 
-        <?php if($authorError || $authorLastError) 
-        {
-        echo 'has-error';
-        }
-        ?>">  
-
-          <label class="col-lg-2 control-label" for="input1">Your Name*
-          </label>  
-          
-          <div class="col-lg-4">  
-            <input type="text" class="form-control" placeholder="First" name="name" id="name" value="<?php if(isset($_POST['name']))  echo $_POST['name'];?>"> 
-            <?php if($authorError || $authorFirstError)
-          {
-            echo'<span class="help-block"> Please enter a first name </span>';
-          } 
-         ?>
-          </div>
-          <div class="col-lg-6">
-            <input type="text" class="form-control" placeholder="Last" name="Lname" id="Lname" value="<?php if(isset($_POST['Lname'])) echo $_POST['Lname'];?>">  
+      <form id="contactForm" role="form" method="post" class="form-horizontal">
+        <div class="form-group
           <?php if($authorError || $authorLastError)
           {
-            echo'<span class="help-block"> Please enter a last name </span>';
-          } 
-         ?>
-          </div>  
+          echo 'has-error';
+          }
+          ?>">
+
+          <label class="col-lg-2 control-label" for="input1">Your Name*</label>
+
+          <div class="col-lg-4">
+            <input type="text" class="form-control" placeholder="First" name="name" id="name" value="<?php if(isset($_POST['name']))  echo $_POST['name'];?>">
+            <?php if($authorError || $authorFirstError)
+              {
+                echo'<span class="help-block"> Please enter a first name </span>';
+              }
+            ?>
+          </div>
+
+          <div class="col-lg-6">
+            <input type="text" class="form-control" placeholder="Last" name="Lname" id="Lname" value="<?php if(isset($_POST['Lname'])) echo $_POST['Lname'];?>">
+          <?php if($authorError || $authorLastError)
+            {
+              echo'<span class="help-block"> Please enter a last name </span>';
+            }
+          ?>
+          </div>
         </div>
 
-        <div class="form-group 
+        <div class="form-group
         <?php if($emailError)
           {
           echo 'has-error';
@@ -203,60 +204,60 @@
            <label class="col-lg-2 control-label" for="input2">Your Email Address*
            </label>
 
-            <div class="col-lg-10">  
-              <input type="text" class="form-control" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>">  
+            <div class="col-lg-10">
+              <input type="text" class="form-control" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>">
               <?php if($emailError){echo'<span class="help-block"> Please enter a valid email address </span>';} ?>
-          </div> 
-        </div> 
+          </div>
+        </div>
 
-        <div class="form-group 
-        <?php if($subjectError) { echo 'has-error'; } ?>">  
-          <label class="col-lg-2 control-label" for="input3">Subject*
-          </label>  
-          
-          <div class="col-lg-10">  
+        <div class="form-group
+          <?php if($subjectError) { echo 'has-error'; } ?>">
+          <label class="col-lg-2 control-label" for="input3">Subject*</label>
 
+          <div class="col-lg-10">
             <label class="checkbox-inline">
               <input type="checkbox" id="joining" name="joining" value="joining" <?php if(isset($_POST['joining']))  echo ('checked="checked"');?>>Joining the team
             </label>
+
             <label class="checkbox-inline">
              <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship" <?php if(isset($_POST['sponsorship']))  echo ('checked="checked"');?>>Sponsorship
             </label>
+
             <label class="checkbox-inline">
               <input type="checkbox" id="website" name="website" value="website" <?php if(isset($_POST['website']))  echo ('checked="checked"');?>>Website issue
             </label>
+
             <label class="checkbox-inline">
               <input type="checkbox" id="other" name="other" value="other" <?php if(isset($_POST['other']))  echo ('checked="checked"');?>>Other
             </label>
+
             <?php if($subjectError){echo'<span class="help-block"> Please enter a subject </span>';} ?>
-          </div>  
+          </div>
         </div>
 
-        <div class="form-group">  
-          <label class="col-lg-2 control-label" for="input04">Your Phone Number
-          </label>
+        <div class="form-group">
+          <label class="col-lg-2 control-label" for="input04">Your Phone Number</label>
 
-          <div class="col-lg-10">  
-            <input type="text" class="form-control" name="phone" id="phone" value="<?php if(isset($_POST['phone']))  echo $_POST['phone'];?>">  
-          </div>  
-        </div>  
+          <div class="col-lg-10">
+            <input type="text" class="form-control" name="phone" id="phone" value="<?php if(isset($_POST['phone']))  echo $_POST['phone'];?>">
+          </div>
+        </div>
 
-        <div class="form-group <?php if($commentError) { echo 'has-error'; } ?>">  
-          <label class="col-lg-2 control-label" for="textarea">Your Message*
-          </label>  
+        <div class="form-group <?php if($commentError) { echo 'has-error'; } ?>">
+          <label class="col-lg-2 control-label" for="textarea">Your Message*</label>
 
-          <div class="col-lg-10">  
-            <textarea class="form-control" name="message" id="message" rows="5"?><?php if(isset($_POST['message']))  echo$_POST['message']; ?></textarea> 
+          <div class="col-lg-10">
+            <textarea class="form-control" name="message" id="message" rows="5"?><?php if(isset($_POST['message']))  echo$_POST['message']; ?></textarea>
+
             <?php if($commentError){echo'<span class="help-block">Please enter a message.</span>';}?>
-          </div>  
-        </div>  
+          </div>
+        </div>
 
         <div class="form-group">
-          <label class="col-lg-2 control-label" for="captcha">Verification*
-          </label>
+          <label class="col-lg-2 control-label" for="captcha">Verification*</label>
+
           <div class="col-lg-10">
             <?php
-
               require_once('./recaptchalib.php');
               $publickey = "6LfbA-kSAAAAAI3fQVtljpWpIPI3sRPuIX3YdEVV"; // you got this from the signup page
               echo recaptcha_get_html($publickey);
@@ -264,19 +265,23 @@
               if($captchaErrorMsg)
               {
                 echo'<span class="help-block has-error"> <p style="color:#b94a48">Incorrect Captcha </p></span>';
-              } 
+              }
             ?>
           </div>
         </div>
+
         <hr>
-        <div class="form-group" style="color:black">  
-          <p> * indicates required field </p>  
-          <button type="submit" class="btn btn-primary" id="submit" name="submit">Submit Form
-          </button>
+
+        <div class="form-group" style="color:black">
+          <div class="col-md-offset-2 col-lg-10">
+            <p> * indicates required field </p>
+
+            <button type="submit" class="btn btn-primary" id="submit" name="submit">Submit Form</button>
+          </div>
         </div>
-      </fieldset>
-    </form>
-  </div>
-  <?php include './footer.php'; ?>
+      </form>
+    </div>
+
+    <?//php include './footer.php'; ?>
   </body>
 </html>

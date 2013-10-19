@@ -19,7 +19,7 @@
 
       <div class="overlay-container-inner">
         <div class="inner-inner">
-          <div id="overlay-right" class="content container overlay">
+          <div class="content container overlay">
             <img src="./img/overlay-logo.png">
           </div>
         </div>
@@ -38,7 +38,7 @@
           <h4>
             Have something awesome to contribute?
 
-            <a href="./contact.php">Join the Team</a>
+            <a href="./join.php">Join the Team</a>
           </h4>
 
           <img src="./img/rendered.jpg">

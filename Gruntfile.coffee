@@ -32,7 +32,7 @@ module.exports = (grunt) ->
         files: [{expand: true, src: ['img/**/*'], dest: 'dist/', filter: 'isFile'},
                 {expand: true, src: ['font/**/*'], dest: 'dist/', filter: 'isFile'}]
       php:
-        files: [{expand: true, src: ['./*.php'], dest: 'dist/', filter: 'isFile'}]
+        files: [{expand: true, cwd:'php/', src: ['**/*.php'], dest: 'dist/', ext: '.php', filter: 'isFile'}]
 
     clean:
       js: ["dist/all.js"]
@@ -56,7 +56,7 @@ module.exports = (grunt) ->
         files: ['font/**/*', 'img/**/*']
         tasks: ['clean:res', 'copy:res']
       copyphp:
-        files: ['./*.php']
+        files: ['php/**/*.php']
         tasks: ['clean:php', 'copy:php']
 
   grunt.loadNpmTasks 'grunt-contrib-clean'
