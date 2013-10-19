@@ -29,7 +29,7 @@
       </div>
 
       <div class="col-md-3" id="footer-right">
-        <!--<a href="./contact.php">Contact Us</a>-->
+        <a href="./contact.php">Contact Us</a>
       </div>
     </div>
   </div>

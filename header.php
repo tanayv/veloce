@@ -37,11 +37,15 @@
 
         <!--<li>
           <a href="./sponsors.php">Sponsors</a>
-        </li>->
-
-        <!--<li>
-          <a href="./join.php">Join Us</a>
         </li>-->
+
+        <li>
+          <a href="./cars.php">Cars</a>
+        </li>
+
+        <li>
+          <a href="./contact.php">Contact Us</a>
+        </li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">

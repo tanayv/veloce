@@ -14,44 +14,32 @@
   <body class="home">
     <?php include './header.php'; ?>
 
-
-
     <div class="overlay-container">
       <img id="hero-main" src="./img/hero-main.jpg">
 
       <div class="overlay-container-inner">
         <div class="inner-inner">
           <div id="overlay-right" class="content container overlay">
-            Interesting facts about the car.
-          </div>
-
-          <div id="overlay-bottom" class="content container overlay">
-            <h1>Illini Motorsports</h1>
+            <img src="./img/overlay-logo.png">
           </div>
         </div>
       </div>
     </div>
 
     <div class="content container">
-      <div class="row">
+      <div id="main-content" class="row">
         <div class="col-md-8">
           <h3>About Us</h3>
 
-          <p>The collegiate chapter of the Society of Automotive Engineers (SAE) at the University of
-Illinois aims to provide its members with numerous educational, professional, and social
-opportunities related to vehicular design. As part of this initiative, UIUC fields the Formula
-SAE team.</p>
+          <p>The collegiate chapter of the Society of Automotive Engineers (SAE) at the University of Illinois aims to provide its members with numerous educational, professional, and social opportunities related to vehicular design. As part of this initiative, UIUC fields the Formula SAE team.</p>
 
-          <p>Each year, Formula SAE teams are challenged by a fictional manufacturing company to
-design and develop a small formula-style racing car targeted at the nonprofessional
-weekend autocross enthusiast. Based on a predetermined set of templates and rules,
-teams must design the fastest, most effective racing machine possible while minimizing
-costs, maximizing reliability, and utilizing the latest technologies in racing today.
-C ompetitions are held annually in various places all over the world (Michigan, Nebraska,
-Australia, Brazil, Italy, Germany, etc.) where these design teams bring their car and
-compete against some of the best engineering students worldwide.</p>
+          <p>Each year, Formula SAE teams are challenged by a fictional manufacturing company to design and develop a small formula-style racing car targeted at the nonprofessional weekend autocross enthusiast. Based on a predetermined set of templates and rules, teams must design the fastest, most effective racing machine possible while minimizing costs, maximizing reliability, and utilizing the latest technologies in racing today. Competitions are held annually in various places all over the world (Michigan, Nebraska, Australia, Brazil, Italy, Germany, etc.) where these design teams bring their car and compete against some of the best engineering students worldwide.</p>
 
-          <h4>Want to see your company's logo on this page? <a href="./img/sponsor.pdf" target="_blank">Sponsor Us</a></h4>
+          <h4>
+            Have something awesome to contribute?
+
+            <a href="./contact.php">Join the Team</a>
+          </h4>
 
           <img src="./img/rendered.jpg">
         </div>
@@ -73,22 +61,37 @@ compete against some of the best engineering students worldwide.</p>
 
       <div class="row">
         <div class="col-md-3">
-          <img src="./img/logos/mechse.jpg">
+          <a href="//">
+            <img src="./img/logos/mechse.jpg">
+          </a>
         </div>
 
         <div class="col-md-3">
-          <img src="./img/logos/cat.jpg">
+          <a href="//">
+            <img src="./img/logos/cat.jpg">
+          </a>
         </div>
 
         <div class="col-md-3">
-          <img src="./img/logos/bosch.jpg">
+          <a href="//">
+            <img src="./img/logos/bosch.jpg">
+          </a>
         </div>
 
         <div class="col-md-3">
-          <img src="./img/logos/spacex.jpg">
+          <a href="//">
+            <img src="./img/logos/spacex.jpg">
+          </a>
         </div>
       </div>
+
+      <h4>
+        Want to see your company's logo on this page?
+
+        <a href="./img/sponsor.pdf" target="_blank">Sponsor Us</a>
+      </h4>
     </div>
+
 
     <?php include './footer.php'; ?>
   </body>
