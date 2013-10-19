@@ -114,7 +114,7 @@
         // if all the fields have been entered correctly and there are no recaptcha errors build an email message
         if (($resp->is_valid) && (!isset($hasError))) 
         {
-          $emailTo = 'fsae@nickkortendick.com'; // here you must enter the email address you want the email sent to
+          $emailTo = 'fsae@nickkortendick.com, illinimotorsports@gmail.com'; // here you must enter the email address you want the email sent to
           $subject = $msgSubject; // This is how the subject of the email will look like
           $body = $authorName . ' ' . $authorLastName . " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone . "\n IP Address: " . $authorIP . "\n User Agent: " . $authorUserAgent . "\n Message: " . $msgContent;
           $headers = 'From: <'.$formEmail.'>' . "\r\n" . 'Reply-To: ' . $formEmail . "\r\n" . 'Return-Path: ' . $formEmail; // Email headers
@@ -139,16 +139,30 @@
       }
       ?>  
 
+      <?php if($msgSubjectJoin == TRUE && isset($emailSent) && $emailSent == true)
+      {
+        echo('<div class="alert alert-success"><h3>Success! Make sure to join the Google group by clicking <a href="//groups.google.com/forum/#!forum/illinimotorsports">here</a>!</h3></div>');
+      }
+      if($msgSubjectSponsor == TRUE && isset($emailSent) && $emailSent == true)
+      {
+        echo('<div class="alert alert-success"><h3>Thank you for your interest in sponsoring Illini Motorsports. A representative will contact you shortly!</h3></div>');
+      }
+      ?>
+
       <?php // if the page the variable "email sent" is set to true show confirmation instead of the form
       if(isset($emailSent) && $emailSent == true) 
+      {
+        if( $msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE)
         echo('<div class="alert alert-success">         <p>
-              <h5>Success! </h5> Your email was successfully sent. A copy has been sent to the email address you provided. 
+              <h5>Success! </h5> Thank you for your query. A copy has been sent to the email address you provided. 
               </p> </div>');
+      }
       else if(isset($_POST['submit'])) 
-        echo('<div class="alert alert-error">        <p>
+        echo('<div class="alert alert-danger">        <p>
               <h5> Oops! </h5> There\'s a problem. Fix up your errors and try again. 
               </p> </div>');
       ?>
+
 
     <form id="contactForm" role="form" method="post" class="form-horizontal">
         <div class="form-group 
