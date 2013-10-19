@@ -70,8 +70,20 @@
         };
 
         //Check to make sure the subject of the message has been entered
-        $msgSubject = (filter_var($_POST['subject'], FILTER_SANITIZE_STRING));
-        if ($msgSubject == "")
+        $msgSubjectJoin = (isset($_POST['joining']));
+        $msgSubjectSponsor = (isset($_POST['sponsorship']));
+        $msgSubjectWebsite = (isset($_POST['website']));
+        $msgSubjectOther = (isset($_POST['other']));
+        $msgSubject = "";
+        if($msgSubjectJoin == TRUE)
+          $msgSubject .= "Joining the team ";
+        if($msgSubjectSponsor == TRUE)
+          $msgSubject .= "Sponsorship ";
+        if($msgSubjectWebsite == TRUE)
+          $msgSubject .= "Website issue ";
+        if($msgSubject)
+          $msgSubject .= "Other";
+        if ($msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE && $msgSubjectWebsite == FALSE && $msgSubjectOther == FALSE)
         {
           $subjectError = true;
           $hasError = true;
@@ -102,14 +114,14 @@
         // if all the fields have been entered correctly and there are no recaptcha errors build an email message
         if (($resp->is_valid) && (!isset($hasError))) 
         {
-          $emailTo = 'fsae@nickkortendick.com, illinimotorsports@gmail.com'; // here you must enter the email address you want the email sent to
+          $emailTo = 'fsae@nickkortendick.com'; // here you must enter the email address you want the email sent to
           $subject = $msgSubject; // This is how the subject of the email will look like
           $body = $authorName . ' ' . $authorLastName . " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone . "\n IP Address: " . $authorIP . "\n User Agent: " . $authorUserAgent . "\n Message: " . $msgContent;
           $headers = 'From: <'.$formEmail.'>' . "\r\n" . 'Reply-To: ' . $formEmail . "\r\n" . 'Return-Path: ' . $formEmail; // Email headers
 
           mail($emailTo, $subject, $body, $headers);
           
-          $replySubject = $authorName . ", you sent a message: " . $subject; 
+          $replySubject = $authorName . ", you sent a message about" . $subject; 
           $replyBody = "You just sent the following message to Illini Motorsports: " . "\n" . $msgContent;
           $replyHeaders = 'From: <illinimotorsports@gmail.com>' . "\r\n" . 'Reply-To: ' . 'illinimotorsports@gmail.com' . "\r\n" . 'Return-Path: ' . 'illinimotorsports@gmail.com';
           
@@ -138,79 +150,97 @@
               </p> </div>');
       ?>
 
-    <form id="contactForm" action="" method="post" class="form-horizontal">
-      <fieldset>  
-        <div class="control-group 
+    <form id="contactForm" role="form" method="post" class="form-horizontal">
+        <div class="form-group 
         <?php if($authorError || $authorLastError) 
         {
-        echo 'error';
+        echo 'has-error';
         }
         ?>">  
 
-          <label class="control-label" for="input1">Your Name*
+          <label class="col-lg-2 control-label" for="input1">Your Name*
           </label>  
           
-          <div class="controls">  
-            <input type="text" class="input-small" placeholder="First" name="name" id="name" value="<?php if(isset($_POST['name']))  echo $_POST['name'];?>"> 
-             <input style="width:160px" type="text" class="input-medium" placeholder="Last" name="Lname" id="Lname" value="<?php if(isset($_POST['Lname'])) echo $_POST['Lname'];?>">  
+          <div class="col-lg-4">  
+            <input type="text" class="form-control" placeholder="First" name="name" id="name" value="<?php if(isset($_POST['name']))  echo $_POST['name'];?>"> 
+            <?php if($authorError || $authorFirstError)
+          {
+            echo'<span class="help-block"> Please enter a first name </span>';
+          } 
+         ?>
+          </div>
+          <div class="col-lg-6">
+            <input type="text" class="form-control" placeholder="Last" name="Lname" id="Lname" value="<?php if(isset($_POST['Lname'])) echo $_POST['Lname'];?>">  
           <?php if($authorError || $authorLastError)
           {
-            echo'<span class="help-inline"> Please enter a full name </span>';
+            echo'<span class="help-block"> Please enter a last name </span>';
           } 
          ?>
           </div>  
         </div>
 
-        <div class="control-group 
+        <div class="form-group 
         <?php if($emailError)
           {
-          echo 'error';
+          echo 'has-error';
           }
           ?>">
 
-           <label class="control-label" for="input2">Your Email Address*
+           <label class="col-lg-2 control-label" for="input2">Your Email Address*
            </label>
 
-            <div class="controls">  
-              <input type="text" class="input-xlarge" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>">  
-              <?php if($emailError){echo'<span class="help-inline"> Please enter a valid email address </span>';} ?>
+            <div class="col-lg-10">  
+              <input type="text" class="form-control" name="email" id="email" value="<?php if(isset($_POST['email']))  echo $_POST['email'];?>">  
+              <?php if($emailError){echo'<span class="help-block"> Please enter a valid email address </span>';} ?>
           </div> 
         </div> 
 
-        <div class="control-group 
-        <?php if($subjectError) { echo 'error'; } ?>">  
-          <label class="control-label" for="input3">Subject*
+        <div class="form-group 
+        <?php if($subjectError) { echo 'has-error'; } ?>">  
+          <label class="col-lg-2 control-label" for="input3">Subject*
           </label>  
           
-          <div class="controls">  
-            <input type="text" class="input-xlarge" name="subject" id="subject" value="<?php if(isset($_POST['subject']))  echo $_POST['subject'];?>">  
-            <?php if($subjectError){echo'<span class="help-inline"> Please enter a subject </span>';} ?>
+          <div class="col-lg-10">  
+
+            <label class="checkbox-inline">
+              <input type="checkbox" id="joining" name="joining" value="joining" <?php if(isset($_POST['joining']))  echo ('checked="checked"');?>>Joining the team
+            </label>
+            <label class="checkbox-inline">
+             <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship" <?php if(isset($_POST['sponsorship']))  echo ('checked="checked"');?>>Sponsorship
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="website" name="website" value="website" <?php if(isset($_POST['website']))  echo ('checked="checked"');?>>Website issue
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="other" name="other" value="other" <?php if(isset($_POST['other']))  echo ('checked="checked"');?>>Other
+            </label>
+            <?php if($subjectError){echo'<span class="help-block"> Please enter a subject </span>';} ?>
           </div>  
         </div>
 
-        <div class="control-group">  
-          <label class="control-label" for="input04">Your Phone Number
+        <div class="form-group">  
+          <label class="col-lg-2 control-label" for="input04">Your Phone Number
           </label>
 
-          <div class="controls">  
-            <input type="text" class="input-xlarge" name="phone" id="phone" value="<?php if(isset($_POST['phone']))  echo $_POST['phone'];?>">  
+          <div class="col-lg-10">  
+            <input type="text" class="form-control" name="phone" id="phone" value="<?php if(isset($_POST['phone']))  echo $_POST['phone'];?>">  
           </div>  
         </div>  
 
-        <div class="control-group <?php if($commentError) { echo 'error'; } ?>">  
-          <label class="control-label" for="textarea">Your Message*
+        <div class="form-group <?php if($commentError) { echo 'has-error'; } ?>">  
+          <label class="col-lg-2 control-label" for="textarea">Your Message*
           </label>  
 
-          <div class="controls">  
-            <textarea class="input-xlarge" name="message" id="message" rows="5"?><?php if(isset($_POST['message']))  echo$_POST['message']; ?></textarea> 
-            <?php if($commentError){echo'<span class="help-inline">Please enter a message.</span>';}?>
+          <div class="col-lg-10">  
+            <textarea class="form-control" name="message" id="message" rows="5"?><?php if(isset($_POST['message']))  echo$_POST['message']; ?></textarea> 
+            <?php if($commentError){echo'<span class="help-block">Please enter a message.</span>';}?>
           </div>  
         </div>  
 
-        <div class="control-group">
-          <label class="control-label" for="captcha">Verification*
+        <div class="form-group">
+          <label class="col-lg-2 control-label" for="captcha">Verification*
           </label>
-          <div class="controls">
+          <div class="col-lg-10">
             <?php
 
               require_once('./recaptchalib.php');
@@ -219,12 +249,13 @@
 
               if($captchaErrorMsg)
               {
-                echo'<span class="help-inline"> <p style="color:#b94a48">Incorrect Captcha </p></span>';
+                echo'<span class="help-block has-error"> <p style="color:#b94a48">Incorrect Captcha </p></span>';
               } 
             ?>
           </div>
         </div>
-        <div class="form-actions" style="color:black">  
+        <hr>
+        <div class="form-group" style="color:black">  
           <p> * indicates required field </p>  
           <button type="submit" class="btn btn-primary" id="submit" name="submit">Submit Form
           </button>
