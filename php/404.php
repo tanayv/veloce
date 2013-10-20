@@ -19,7 +19,9 @@
 
       Sorry, about that. Click <a href="./contact.php">here </a>to report the issue;
     </div>
-
+    
+    <?php include './topsponsors.php'; ?>
+    
     <?php include './footer.php'; ?>
   </body>
 </html>

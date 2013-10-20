@@ -56,35 +56,8 @@
       </div>
     </div>
 
-    <div id="sponsors" class="content container">
-      <hr>
-
-      <div class="row">
-        <div class="col-md-3">
-          <a href="//">
-            <img src="./img/logos/mechse.jpg">
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a href="//">
-            <img src="./img/logos/cat.jpg">
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a href="//">
-            <img src="./img/logos/bosch.jpg">
-          </a>
-        </div>
-
-        <div class="col-md-3">
-          <a href="//">
-            <img src="./img/logos/spacex.jpg">
-          </a>
-        </div>
-      </div>
-
+    <?php include './topsponsors.php'; ?>
+    
       <h4>
         Want to see your company's logo on this page?
 
