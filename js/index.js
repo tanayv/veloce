@@ -1,6 +1,6 @@
 /**
  * Javascript - Index
- * Author - Andrew Mass, Nick Kortendick
+ * Authors - Andrew Mass, Nick Kortendick
  */
 
 function Veloce() {}
@@ -16,10 +16,24 @@ Veloce.scrollNavbar = function() {
   $('.navbar').css('margin-top', adjust);
 }
 
+Veloce.stickFooter = function() {
+  if($('html').outerHeight() <= window.innerHeight) {
+    $('html').css('height', window.innerHeight);
+  }
+  else {
+    $('html').css('height','');
+  }
+}
+
 $(function() {
   Veloce.applyActive();
+  Veloce.stickFooter();
 
   $(window).scroll(function() {
     Veloce.scrollNavbar();
+  });
+
+  $(window).resize(function() {
+    Veloce.stickFooter();
   });
 });

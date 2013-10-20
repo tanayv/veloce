@@ -57,14 +57,6 @@
     </div>
 
     <?php include './topsponsors.php'; ?>
-    
-      <h4>
-        Want to see your company's logo on this page?
-
-        <a href="./img/sponsor.pdf" target="_blank">Sponsor Us</a>
-      </h4>
-    </div>
-
 
     <?php include './footer.php'; ?>
   </body>

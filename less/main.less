@@ -9,7 +9,10 @@
 }
 
 body {
+  position: relative;
+  height: 100%;
   padding-top: @navbar-height + 50px;
+  padding-bottom: 30px;
 }
 
 .content.container {
@@ -17,14 +20,39 @@ body {
 }
 
 #twitter-box {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin-top: 35px;
+  padding-top: 35px;
+  height: 585px;
 
   iframe {
-    height: 100%;
+    width: 100%;
+    height: 550px;
+  }
+}
+
+#top-sponsors {
+
+  .col-md-3 {
+    text-align: center;
+
+    img {
+      .transition(@transition-time all);
+      width: 200px;
+      filter: url(./img/filters.svg#grayscale); /* Firefox 3.5+ */
+      filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+
+      &:hover {
+        .transition(@transition-time all);
+        filter: none;
+        -webkit-filter: none;
+      }
+    }
+  }
+
+  h4 {
+    text-align: center;
+    border: 2px solid @accent-orange;
+    padding: 5px;
   }
 }
 
@@ -61,6 +89,12 @@ body {
     width: 100%;
   }
 
+  h4 {
+    text-align: center;
+    border: 2px solid @accent-orange;
+    padding: 5px;
+  }
+
   #main-content {
     position: relative;
   }
@@ -94,29 +128,6 @@ body {
         }
       }
     }
-  }
-
-  #sponsors {
-
-    img {
-      .transition(@transition-time all);
-      width: 200px;
-      filter: url(./img/filters.svg#grayscale); /* Firefox 3.5+ */
-      filter: gray; /* IE6-9 */
-      -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
-
-      &:hover {
-        .transition(@transition-time all);
-        filter: none;
-        -webkit-filter: none;
-      }
-    }
-  }
-
-  h4 {
-    text-align: center;
-    border: 2px solid @accent-orange;
-    padding: 5px;
   }
 
   hr {
@@ -172,7 +183,7 @@ body {
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -197,5 +208,16 @@ body {
 
   #footer-right {
     text-align: right;
+  }
+}
+
+@media only screen and (min-width: @screen-lg) {
+  #twitter-box {
+    padding-top: 35px;
+    height: 623px;
+
+    iframe {
+      height: 588px;
+    }
   }
 }
