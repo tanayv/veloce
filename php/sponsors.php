@@ -22,28 +22,14 @@
 
         <div class="row orange-and-blue">
           <div class="col-md-6">
-            <a href="//" target="_blank">
-              <img src="./img/logos/mechse.jpg">
+            <a href="//www.ingersoll.com" target="_blank">
+              <img src="./img/logos/ingersoll400x200.jpg">
             </a>
           </div>
 
           <div class="col-md-6">
-            <a href="//" target="_blank">
-              <img src="./img/logos/cat.jpg">
-            </a>
-          </div>
-        </div>
-
-        <div class="row orange-and-blue">
-          <div class="col-md-6">
-            <a href="//" target="_blank">
-              <img src="./img/logos/bosch.jpg">
-            </a>
-          </div>
-
-          <div class="col-md-6">
-            <a href="//" target="_blank">
-              <img src="./img/logos/spacex.jpg">
+            <a href="//engineering.illinois.edu/" target="_blank">
+              <img src="./img/logos/edc400x200.jpg">
             </a>
           </div>
         </div>
@@ -54,63 +40,81 @@
 
         <h1>Gold Partners</h1>
 
-        <div class="row">
-          <div class="col-md-3">
-            <a href="//" target="_blank">
-              <img src="http://placehold.it/250x150">
+        <div class="row gold">
+          <div class="col-md-6">
+            <a href="//www.3m.com" target="_blank">
+              <img src="./img/logos/3m400x200.jpg">
             </a>
           </div>
 
-          <div class="col-md-3">
-            <a href="//" target="_blank">
-              <img src="http://placehold.it/250x150">
-            </a>
-          </div>
-
-          <div class="col-md-3">
-            <a href="//" target="_blank">
-              <img src="http://placehold.it/250x150">
-            </a>
-          </div>
-
-          <div class="col-md-3">
-            <a href="//" target="_blank">
-              <img src="http://placehold.it/250x150">
-            </a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3">
-            <a href="//" target="_blank">
-              <img src="http://placehold.it/250x150">
-            </a>
-          </div>
-
-          <div class="col-md-3">
-            <a href="//" target="_blank">
-              <img src="http://placehold.it/250x150">
-            </a>
-          </div>
-
-          <div class="col-md-3">
-            <a href="//" target="_blank">
-              <img src="http://placehold.it/250x150">
-            </a>
-          </div>
-
-          <div class="col-md-3">
-            <a href="//" target="_blank">
-              <img src="http://placehold.it/250x150">
+          <div class="col-md-6">
+            <a href="//www.generalplastics.com" target="_blank">
+              <img src="./img/logos/generalplastics400x200.jpg">
             </a>
           </div>
         </div>
 
         <hr>
 
-        <h1>Other Partners</h1>
+        <h1>Silver Partners</h1>
 
-        <div class="row">
+        <div class="row silver">
+          <div class="col-md-3">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+        </div>
+
+        <div class="row silver">
+          <div class="col-md-3">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+        </div>
+
+        <hr>
+
+        <h1>Bronze Partners</h1>
+
+        <div class="row bronze">
           <div class="col-md-2">
             <a href="//" target="_blank">
               <img src="http://placehold.it/150x100">
@@ -148,7 +152,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bronze">
           <div class="col-md-2">
             <a href="//" target="_blank">
               <img src="http://placehold.it/150x100">
@@ -186,7 +190,75 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row bronze">
+          <div class="col-md-2 col-md-offset-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+        </div>
+
+        <hr>
+
+        <h1>Honorary Partners</h1>
+
+        <div class="row honorary">
+          <div class="col-md-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+
+          <div class="col-md-2">
+            <a href="//" target="_blank">
+              <img src="http://placehold.it/150x100">
+            </a>
+          </div>
+        </div>
+
+        <div class="row honorary">
           <div class="col-md-2">
             <a href="//" target="_blank">
               <img src="http://placehold.it/150x100">
@@ -224,7 +296,6 @@
           </div>
         </div>
       </div>
-    </div>
 
     <?php include './footer.php'; ?>
   </body>
