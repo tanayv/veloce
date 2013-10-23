@@ -154,7 +154,7 @@
 
         <div class="row bronze">
           <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-            <a href="//www.airtech-streamlining.com" target="_blank">
+            <a href="//www.airtechonline.com/" target="_blank">
               <img src="./img/logos/bronze/airtech.jpg">
             </a>
           </div>
@@ -185,7 +185,7 @@
 
           <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
             <a href="//www.bennettmetal.com" target="_blank">
-              <img src="./img/logos/bronze/bennetmetalproducts.jpg">
+              <img src="./img/logos/bronze/bennettmetalproducts.jpg">
             </a>
           </div>
         </div>
