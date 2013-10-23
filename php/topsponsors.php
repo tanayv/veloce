@@ -11,25 +11,25 @@
   <div class="row">
     <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6">
       <a target="_blank" href="//www.ingersoll.com/">
-        <img src="./img/logos/ingersoll400x200.jpg">
+        <img src="./img/logos/orangeandblue/ingersoll400x200.jpg">
       </a>
     </div>
 
     <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6">
       <a target="_blank" href="//engineering.illinois.edu/">
-        <img src="./img/logos/edc400x200.jpg">
+        <img src="./img/logos/orangeandblue/edc400x200.jpg">
       </a>
     </div>
 
     <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6">
       <a target="_blank" href="//www.3m.com">
-        <img src="./img/logos/3m400x200.jpg">
+        <img src="./img/logos/gold/3m400x200.jpg">
       </a>
     </div>
 
     <div class="col-md-3 col-lg-3 col-sm-3 col-xs-6">
       <a target="_blank" href="//www.generalplastics.com">
-        <img src="./img/logos/generalplastics400x200.jpg">
+        <img src="./img/logos/gold/generalplastics400x200.jpg">
       </a>
     </div>
   </div>
