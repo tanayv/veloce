@@ -41,7 +41,10 @@
             <a href="./join.php">Join the Team</a>
           </h4>
 
-          <img src="./img/rendered.jpg">
+          <div id="likebox-wrapper">
+          <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fillinimotorsports&amp;width=400&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=false&amp;appId=143039425897009" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:590px;" allowTransparency="true"></iframe>
+
+          </div>
         </div>
 
         <div id="twitter-box" class="col-md-4">
@@ -51,11 +54,9 @@
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
           </script>
 
-          <!-- FACEBOOK -->
         </div>
       </div>
     </div>
-
     <?php include './topsponsors.php'; ?>
 
     <?php include './footer.php'; ?>

@@ -35,9 +35,9 @@
           <a href="./updates.php">Updates</a>
         </li>-->
 
-        <!--<li>
-          <a href="./sponsors.php">Sponsors</a>
-        </li>-->
+        <li>
+          <a href="./partners.php">Partners</a>
+        </li>
 
         <!--<li>
           <a href="./cars.php">Cars</a>

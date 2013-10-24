@@ -218,7 +218,7 @@
 
         <hr>
 
-        <h1>Honorary Partners</h1>
+        <!-- <h1>Honorary Partners</h1>
 
         <div class="row honorary">
           <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
@@ -295,6 +295,7 @@
             </a>
           </div>
         </div>
+        !-->
       </div>
 
     <?php include './footer.php'; ?>

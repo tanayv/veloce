@@ -11,23 +11,24 @@ Veloce.applyActive = function() {
 };
 
 Veloce.scrollNavbar = function() {
-  var adjust = 15 - (document.body.scrollTop / 10);
-  adjust = (adjust <= 0) ? 0 : adjust;
-  $('.navbar').css('margin-top', adjust);
+  if(document.body.clientWidth > 768){
+    var adjust = 15 - (document.body.scrollTop / 10);
+    adjust = (adjust <= 0) ? 0 : adjust;
+    $('.navbar').css('margin-top', adjust);
+  }
 }
 
-Veloce.stickFooter = function() {
-  if($('html').outerHeight() <= window.innerHeight) {
-    $('html').css('height', window.innerHeight);
-  }
-  else {
-    $('html').css('height','');
-  }
-}
+//Veloce.stickFooter = function() {
+//  if($('html').outerHeight() <= window.innerHeight) {
+//    $('html').css('height', window.innerHeight);
+//  }
+//  else {
+//    $('html').css('height','');
+// }
+//}
 
 $(function() {
   Veloce.applyActive();
-  Veloce.stickFooter();
 
   $(window).scroll(function() {
     Veloce.scrollNavbar();

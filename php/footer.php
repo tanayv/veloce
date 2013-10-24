@@ -24,10 +24,16 @@
         <a href="//www.twitter.com/IllinoisFSAE" target="_blank">
           Twitter
         </a>
+
+        |
+        <a href="./contact.php">
+          Contact Us
+        </a>
+
       </div>
 
       <div class="col-xs-3" id="footer-right">
-        <a href="./contact.php">Contact</a>
+        <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FIlliniMotorsports&amp;width=100&amp;height=30&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;send=false&amp;appId=143039425897009" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
       </div>
     </div>
   </div>
