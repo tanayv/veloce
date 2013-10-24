@@ -10,7 +10,7 @@
 <meta name="description" content="The Official Page for the University of Illinois' Formula SAE Team.">
 <meta name="author" content="Andrew Mass, Nick Kortendick">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-<meta property="og:title" content="Illinois FSAE" />
+<meta property="og:title" content="Illini Motorsports" />
 <meta property="og:url" content="//motorsports.illinois.edu/" />
 <meta property="og:image" content="//motorsports.illinois.edu/img/rendered.jpg" />
 <meta name="viewport" content="user-scalable=no">
@@ -32,5 +32,4 @@
 
   ga('create', 'UA-36587802-2', 'illinois.edu');
   ga('send', 'pageview');
-
 </script>

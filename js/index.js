@@ -18,23 +18,10 @@ Veloce.scrollNavbar = function() {
   }
 }
 
-//Veloce.stickFooter = function() {
-//  if($('html').outerHeight() <= window.innerHeight) {
-//    $('html').css('height', window.innerHeight);
-//  }
-//  else {
-//    $('html').css('height','');
-// }
-//}
-
 $(function() {
   Veloce.applyActive();
 
   $(window).scroll(function() {
     Veloce.scrollNavbar();
-  });
-
-  $(window).resize(function() {
-    Veloce.stickFooter();
   });
 });

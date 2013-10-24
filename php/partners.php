@@ -15,8 +15,6 @@
     <?php include './header.php'; ?>
 
     <div class="content container">
-
-
       <div class="content container">
         <h1>Orange and Blue Partners</h1>
 
@@ -295,8 +293,9 @@
             </a>
           </div>
         </div>
-        !-->
+        -->
       </div>
+    </div>
 
     <?php include './footer.php'; ?>
   </body>

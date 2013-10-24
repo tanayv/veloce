@@ -44,22 +44,10 @@ h4 {
 
 #top-sponsors {
 
-  .col-md-3 {
-    text-align: center;
+  img {
+    .transition(@transition-time all);
+    width: 100%;
 
-    img {
-      .transition(@transition-time all);
-      width: 100%;
-      filter: url(./img/filters.svg#grayscale); /* Firefox 3.5+ */
-      filter: gray; /* IE6-9 */
-      -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
-
-      &:hover {
-        .transition(@transition-time all);
-        filter: none;
-        -webkit-filter: none;
-      }
-    }
   }
 
   h4 {
@@ -184,16 +172,6 @@ h4 {
     img {
       width: 100%;
       padding:5px;
-      .transition(@transition-time all);
-      filter: url(./img/filters.svg#grayscale); /* Firefox 3.5+ */
-      filter: gray; /* IE6-9 */
-      -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
-
-      &:hover {
-        .transition(@transition-time all);
-        filter: none;
-        -webkit-filter: none;
-      }
     }
   }
 }
@@ -203,6 +181,18 @@ h4 {
   img {
     width: 100%;
     margin-bottom: 25px;
+  }
+}
+
+.join {
+
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  #chief {
+    width: 0;
   }
 }
 
@@ -235,7 +225,49 @@ h4 {
   }
 }
 
+@media only screen and (min-width: @screen-md) {
+
+  .partners {
+
+    img {
+      .transition(@transition-time all);
+      filter: url(./img/filters.svg#grayscale); /* Firefox 3.5+ */
+      filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+
+      &:hover {
+        .transition(@transition-time all);
+        filter: none;
+        -webkit-filter: none;
+      }
+    }
+  }
+
+  #top-sponsors {
+
+    img {
+      filter: url(./img/filters.svg#grayscale); /* Firefox 3.5+ */
+      filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+
+      &:hover {
+        .transition(@transition-time all);
+        filter: none;
+        -webkit-filter: none;
+      }
+    }
+  }
+
+  .join {
+
+    #chief {
+      width: 100%;
+    }
+  }
+}
+
 @media only screen and (min-width: @screen-lg) {
+
   #twitter-box {
     padding-top: 35px;
     height: 623px;
