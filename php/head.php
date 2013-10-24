@@ -5,7 +5,7 @@
   */
 ?>
 
-<title>Illinois Motorsports</title>
+<title>Illini Motorsports</title>
 
 <meta name="description" content="The Official Page for the University of Illinois' Formula SAE Team.">
 <meta name="author" content="Andrew Mass, Nick Kortendick">
