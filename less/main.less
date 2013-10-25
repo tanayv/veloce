@@ -230,16 +230,19 @@ h4 {
 
   .partners {
 
-    img {
-      .transition(@transition-time all);
-      filter: url(./img/filters.svg#grayscale); /* Firefox 3.5+ */
-      filter: gray; /* IE6-9 */
-      -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+    .content{
 
-      &:hover {
+      img {
         .transition(@transition-time all);
-        filter: none;
-        -webkit-filter: none;
+        filter: url(./img/filters.svg#grayscale); /* Firefox 3.5+ */
+        filter: gray; /* IE6-9 */
+        -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+
+        &:hover {
+          .transition(@transition-time all);
+          filter: none;
+          -webkit-filter: none;
+        }
       }
     }
   }
