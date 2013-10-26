@@ -9,27 +9,27 @@
   <hr>
 
   <div class="row">
-    <div class="col-xs-6 col-sm-3">
+    <div class="col-xs-6 col-sm-3 partner">
       <a target="_blank" href="//www.ingersoll.com/">
-        <img src="./img/logos/orangeandblue/ingersoll322.jpg">
+        <img src="./img/logos/orangeandblue/ingersoll.jpg">
       </a>
     </div>
 
-    <div class="col-xs-6 col-sm-3">
+    <div class="col-xs-6 col-sm-3 partner">
       <a target="_blank" href="//engineering.illinois.edu/">
-        <img src="./img/logos/orangeandblue/edc322.jpg">
+        <img src="./img/logos/orangeandblue/edc.jpg">
       </a>
     </div>
 
-    <div class="col-xs-6 col-sm-3">
+    <div class="col-xs-6 col-sm-3 partner">
       <a target="_blank" href="//www.3m.com">
-        <img src="./img/logos/gold/3m322.jpg">
+        <img src="./img/logos/gold/3m.jpg">
       </a>
     </div>
 
-    <div class="col-xs-6 col-sm-3">
+    <div class="col-xs-6 col-sm-3 partner">
       <a target="_blank" href="//www.generalplastics.com">
-        <img src="./img/logos/gold/generalplastics322.jpg">
+        <img src="./img/logos/gold/generalplastics.jpg">
       </a>
     </div>
   </div>

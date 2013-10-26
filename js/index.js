@@ -11,7 +11,7 @@ Veloce.applyActive = function() {
 };
 
 Veloce.scrollNavbar = function() {
-  if(document.body.clientWidth > 768){
+  if(document.body.clientWidth > 992){
     var adjust = 15 - (document.body.scrollTop / 10);
     adjust = (adjust <= 0) ? 0 : adjust;
     $('.navbar').css('margin-top', adjust);
