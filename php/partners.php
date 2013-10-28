@@ -213,73 +213,73 @@
         <h1>Honorary Partners</h1>
 
         <div class="row honorary partner">
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.reeseprod.com" target="_blank">
               <img src="./img/logos/honorary/reese.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.amsoil.com" target="_blank">
               <img src="./img/logos/honorary/amsoil.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.4pcb.com" target="_blank">
               <img src="./img/logos/honorary/pcb.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.drpeppersnapplegroup.com" target="_blank">
               <img src="./img/logos/honorary/drpepper.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.wicksaircraft.com" target="_blank">
               <img src="./img/logos/honorary/wicks.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.cmpanodizing.com/aboutCMPANODIZING.htm" target="_blank">
               <img src="./img/logos/honorary/cmp.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.ptc.com" target="_blank">
               <img src="./img/logos/honorary/ptc.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.mscsoftware.com" target="_blank">
               <img src="./img/logos/honorary/msc.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.cadsoftusa.com" target="_blank">
               <img src="./img/logos/honorary/cadsoft.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.calspan.com" target="_blank">
               <img src="./img/logos/honorary/calspan.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.wolfram.com" target="_blank">
               <img src="./img/logos/honorary/wolfram.jpg">
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.schrothracing.com" target="_blank">
               <img src="./img/logos/honorary/schroth.jpg">
             </a>
