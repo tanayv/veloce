@@ -5,6 +5,7 @@
   */
 ?>
 
+<script type="text/javascript" src="http://emergency.webservices.illinois.edu/illinois.js"></script>
 <div class="footer">
   <div class="container">
     <div class="row">
