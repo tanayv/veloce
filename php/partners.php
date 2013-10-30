@@ -172,7 +172,7 @@
           </div>
 
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-            <a href="//www.boschautoparts.com/Pages/BoschMotorsports.aspx" target="_blank">
+            <a href="//www.bosch-motorsport.de/content/language2/html/index.htm" target="_blank">
               <img src="./img/logos/bronze/boschmotorsport.jpg">
             </a>
           </div>
