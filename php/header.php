@@ -66,7 +66,7 @@
         </li>
 
         <li class="social-icon">
-          <a href="//www.youtube.com/user/UIUCSAE" target="_blank">
+          <a href="//www.youtube.com/user/IlliniMotorsports" target="_blank">
             <i class="icon-youtube"></i>
           </a>
         </li>
