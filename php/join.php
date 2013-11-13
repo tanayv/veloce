@@ -66,13 +66,13 @@
               3: Attend the meetings
             </div>
 
-            <div class="panel-footer">We currently have a general meeting every Tuesday at 7:00pm at the Engineering Student Project Laboratory in Urbana.
-              <iframe width="100%" height="350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Engineering+Student+Project+Laboratory,+1023+Western+Ave,+Urbana,+IL&amp;aq=0&amp;oq=Engineering+Student&amp;sll=40.111808,-88.222489&amp;sspn=0.001426,0.00284&amp;ie=UTF8&amp;hq=&amp;hnear=1023+Western+Ave+Engineering+Student+Project+Laboratory,+Urbana,+Illinois+61801&amp;t=m&amp;z=14&amp;ll=40.119012,-88.222454&amp;output=embed"></iframe>
+            <div class="panel-footer">We currently have a general meeting every Tuesday at 7:00pm. It is located in either the Engineering Student Project Laboratory or the Deere Pavilion (2005) at the Mechanical Engineering Laboratory. Please check the Google Group for updated meeting information.
+              <iframe width="100%" height="350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mapsengine.google.com/map/u/0/embed?mid=z9p9_kmSJe0U.kQs8bfI-t584"></iframe>
 
               <br />
 
               <small>
-                <a target="_blank" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Engineering+Student+Project+Laboratory,+1023+Western+Ave,+Urbana,+IL&amp;aq=0&amp;oq=Engineering+Student&amp;sll=40.111808,-88.222489&amp;sspn=0.001426,0.00284&amp;ie=UTF8&amp;hq=&amp;hnear=1023+Western+Ave+Engineering+Student+Project+Laboratory,+Urbana,+Illinois+61801&amp;t=m&amp;z=14&amp;ll=40.111812,-88.222454" style="color:#0000FF;text-align:left">View Larger Map</a>
+                <a target="_blank" href="https://mapsengine.google.com/map/u/0/embed?mid=z9p9_kmSJe0U.kQs8bfI-t584">View Larger Map</a>
               </small>
             </div>
           </div>
