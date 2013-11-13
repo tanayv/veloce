@@ -67,7 +67,7 @@
             </div>
 
             <div class="panel-footer">We currently have a general meeting every Tuesday at 7:00pm. It is located in either the Engineering Student Project Laboratory or the Deere Pavilion (2005) at the Mechanical Engineering Laboratory. Please check the Google Group for updated meeting information.
-              <iframe width="100%" height="350px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mapsengine.google.com/map/u/0/embed?mid=z9p9_kmSJe0U.kQs8bfI-t584"></iframe>
+              <iframe style="padding-top:15px" width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://mapsengine.google.com/map/u/0/embed?mid=z9p9_kmSJe0U.kQs8bfI-t584"></iframe>
 
               <br />
 
