@@ -39,9 +39,9 @@
           <a href="./partners.php">Partners</a>
         </li>
 
-        <!--<li>
+        <li>
           <a href="./cars.php">Cars</a>
-        </li>-->
+        </li>
 
         <li>
           <a href="./join.php">Join the Team</a>
