@@ -43,6 +43,10 @@
           <a href="./cars.php">Cars</a>
         </li>
 
+        <!--<li>
+          <a href="./team.php">Our Team</a>
+        </li>-->
+
         <li>
           <a href="./join.php">Join the Team</a>
         </li>

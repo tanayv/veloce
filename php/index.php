@@ -14,17 +14,7 @@
   <body class="home">
     <?php include './header.php'; ?>
 
-    <div class="overlay-container">
-      <img id="hero-main" src="./img/hero-main.jpg">
-
-      <div class="overlay-container-inner">
-        <div class="inner-inner">
-          <div class="content container overlay">
-            <img src="./img/overlay-logo.png">
-          </div>
-        </div>
-      </div>
-    </div>
+    <img id="hero-main" src="./img/hero-overlay.jpg">
 
     <div class="content container">
       <div id="main-content" class="row">

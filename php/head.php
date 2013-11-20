@@ -13,8 +13,7 @@
 <meta property="og:title" content="Illini Motorsports" />
 <meta property="og:url" content="//motorsports.illinois.edu/" />
 <meta property="og:image" content="//motorsports.illinois.edu/img/rendered.jpg" />
-<meta name="viewport" content="user-scalable=no">
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
 <link rel="stylesheet" href="./style.css">
 
