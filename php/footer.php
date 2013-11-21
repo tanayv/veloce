@@ -13,7 +13,7 @@
     <div class="row">
       <div class="col-xs-9" id="footer-left">
         <p>
-          <a href="//www.youtube.com/user/UIUCSAE" target="_blank">
+          <a href="//www.youtube.com/user/IlliniMotorsports" target="_blank">
             Youtube
           </a>
 
