@@ -541,8 +541,6 @@
         </div>
       </div>
     </div>
-    
-    <?php include './topsponsors.php'; ?>    
 
     <?php include './footer.php'; ?>
   </body>

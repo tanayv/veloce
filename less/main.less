@@ -25,23 +25,6 @@ h4 {
   padding-bottom: 15px;
 }
 
-#twitter-box {
-  padding-top: 35px;
-  height: 585px;
-
-  iframe {
-    width: 100%;
-    height: 550px;
-  }
-}
-
-#likebox-wrapper * {
-  padding-top: 10px;
-  width: 100% !important;
-  height:100%;
-  max-height:300px;
-}
-
 #top-sponsors {
 
   img {
@@ -54,10 +37,22 @@ h4 {
     border: 2px solid @accent-orange;
     padding: 5px;
   }
+
+  hr {
+    border-color: @accent-orange;
+  }
+
+  .partner {
+    margin-top: 0;
+  }
 }
 
 #hero-main {
   margin-top: -60px;
+}
+
+#likebox-wrapper {
+  height: 623px;
 }
 
 .navbar {
@@ -147,7 +142,7 @@ h4 {
 
 .cars {
 
-  img {
+  .panel img {
     width: 100%;
     margin-bottom: 25px;
   }
@@ -155,6 +150,10 @@ h4 {
   h4 {
     border: none;
     padding: 0;
+  }
+
+  .panel-heading {
+    cursor: pointer;
   }
 }
 
@@ -307,18 +306,6 @@ h4 {
 
     #chief {
       width: 100%;
-    }
-  }
-}
-
-@media only screen and (min-width: @screen-lg) {
-
-  #twitter-box {
-    padding-top: 35px;
-    height: 623px;
-
-    iframe {
-      height: 588px;
     }
   }
 }

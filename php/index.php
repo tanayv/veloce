@@ -32,25 +32,15 @@
           </h4>
 
           <img src="./img/rendered.jpg">
-
-          <!--
-            <div id="likebox-wrapper">
-              <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fillinimotorsports&amp;width=400&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=false&amp;appId=143039425897009" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:590px;" allowTransparency="true"></iframe>
-            </div>
-          -->
         </div>
 
-        <div id="twitter-box" class="col-md-4">
-          <a class="twitter-timeline" href="https://twitter.com/IllinoisFSAE" data-widget-id="383104434047180800"></a>
-
-          <script>
-            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-          </script>
+        <div class="col-md-4">
+          <div id="likebox-wrapper">
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fillinimotorsports&amp;width=400&amp;height=593&amp;colorscheme=dark&amp;show_faces=false&amp;header=true&amp;stream=true&amp;show_border=true&amp;appId=143039425897009" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:593px; margin-top: 30px;" allowTransparency="true"></iframe>
+          </div>
         </div>
       </div>
     </div>
-
-    <?php include './topsponsors.php'; ?>
 
     <?php include './footer.php'; ?>
   </body>
