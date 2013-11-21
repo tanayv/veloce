@@ -160,7 +160,7 @@
 
                       <tr>
                         <td>Unique</td>
-                        <td>Carbon fire anti roll bands</td>
+                        <td>Carbon fiber anti roll bands</td>
                       </tr>
 
                       <tr>
@@ -317,7 +317,7 @@
 
                       <tr>
                         <td>Unique</td>
-                        <td>Carbon fire anti roll bands</td>
+                        <td>Carbon fiber anti roll bands</td>
                       </tr>
 
                       <tr>
@@ -541,6 +541,8 @@
         </div>
       </div>
     </div>
+    
+    <?php include './topsponsors.php'; ?>    
 
     <?php include './footer.php'; ?>
   </body>
