@@ -165,7 +165,7 @@
 
                       <tr>
                         <td>Weight</td>
-                        <td>640 lbs</td>
+                        <td>640 lbs with 150lb driver</td>
                       </tr>
 
                       <tr>
@@ -322,7 +322,7 @@
 
                       <tr>
                         <td>Weight</td>
-                        <td>640 lbs</td>
+                        <td>640 lbs with 150lb driver</td>
                       </tr>
 
                       <tr>
@@ -481,7 +481,7 @@
 
                       <tr>
                         <td>Weight</td>
-                        <td>630 lbs</td>
+                        <td>630 lbs with 150lb driver</td>
                       </tr>
 
                       <tr>

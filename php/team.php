@@ -80,23 +80,23 @@
 
                   <tr>
                     <td>Year</td>
-                    <td></td>
+                    <td>Senior</td>
                   </tr>
 
                   <tr>
                     <td>Hometown</td>
-                    <td></td>
+                    <td>Ottawa, Illinois</td>
                   </tr>
 
                   <tr>
                     <td>Contact Email</td>
-                    <td><a href="mailto:"></a></td>
+                    <td><a href="mailto:jackmiller1992@gmail.com">jackmiller1992@gmail.com</a></td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p></p>
+                <p>Jack is a senior in Mechanical Engineering at UIUC. He is the chief engineer and suspension leader for the team and is responsible for overseeing design decisions. He hopes to work in aerospace or motorsports upon graduation.</p>
               </div>
             </div>
           </div>
@@ -233,7 +233,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Keith Harris</strong> &minus; Chassis Team Leader
+              <strong>Keith Harris</strong> &minus; Chassis Team Leader / Driver
             </div>
 
             <div class="panel-body">
@@ -250,23 +250,23 @@
 
                   <tr>
                     <td>Year</td>
-                    <td></td>
+                    <td>Sophomore</td>
                   </tr>
 
                   <tr>
                     <td>Hometown</td>
-                    <td></td>
+                    <td>Deerfield, Illinois</td>
                   </tr>
 
                   <tr>
                     <td>Contact Email</td>
-                    <td><a href="mailto:"></a></td>
+                    <td><a href="mailto:keith.harris1313@gmail.com">keith.harris1313@gmail.com</a></td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p></p>
+                <p>Keith is a sophomore in Mechanical Engineering, and leads the Chassis and Integration Team. This year, he is designing and building the main frame, overseeing the completion of part of the pneumatic paddle-shifting system, among other projects. After school, he hopes to work in the motorsports industry. Keith also enjoys racing, and has been karting for the past 11 years at the national level.</p>
               </div>
             </div>
           </div>
@@ -450,7 +450,7 @@
           <div class="col-md-4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <strong>Ed Husak</strong> &minus; Finances / Vice President
+                <strong>Ed Husak</strong> &minus; Vice President / Chassis Team Member
               </div>
 
               <div class="panel-body">
@@ -467,23 +467,23 @@
 
                     <tr>
                       <td>Year</td>
-                      <td></td>
+                      <td>Junior</td>
                     </tr>
 
                     <tr>
                       <td>Hometown</td>
-                      <td></td>
+                      <td>Lake in the Hills, Illinois</td>
                     </tr>
 
                     <tr>
                       <td>Contact Email</td>
-                      <td><a href="mailto:"></a></td>
+                      <td><a href="mailto:ehusak2@illinois.edu">ehusak2@illinois.edu</a></td>
                     </tr>
                   </tbody>
                 </table>
 
                 <div class="well">
-                  <p></p>
+                  <p>Ed is a junior studying General Engineering with a concentration in Automotive Technology. As Vice President, Ed handles many organizational tasks within Illini Motorsports such as travel, logistics, budget analysis, and university and sponsor relations. Ed has loved cars and been a gearhead his whole life. Ed hopes to work in the automotive industry upon graduation.</p>
                 </div>
               </div>
             </div>
@@ -492,12 +492,12 @@
           <div class="col-md-4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <strong></strong> &minus;
+                <strong>Alex Allmandinger</strong> &minus; Aerodynamics Team Member
               </div>
 
               <div class="panel-body">
                 <div class="profile-image">
-                  <img src="">
+                  <img src="//fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/c44.44.552.552/s160x160/555209_3611252413192_148360088_n.jpg">
                 </div>
 
                 <table class="table table-hover">
@@ -509,23 +509,28 @@
 
                     <tr>
                       <td>Year</td>
-                      <td></td>
+                      <td>Sophomore</td>
                     </tr>
 
                     <tr>
                       <td>Hometown</td>
-                      <td></td>
+                      <td>Crystal Lake, Illinois</td>
+                    </tr>
+
+                    <tr>
+                      <td>Resume</td>
+                      <td><a target="_blank" href="./img/team/resume/alex-allmandinger.pdf">View Resume</a></td>
                     </tr>
 
                     <tr>
                       <td>Contact Email</td>
-                      <td><a href="mailto:"></a></td>
+                      <td><a href="mailto:allmand2@illinois.edu">allmand2@illinois.edu</a></td>
                     </tr>
                   </tbody>
                 </table>
 
                 <div class="well">
-                  <p></p>
+                  <p>Alex is a sophomore in Mechanical Engineering, with experience in construction and mining industries, as well as the automotive industry. He is currently leading the development of the Drag Reduction System.</p>
                 </div>
               </div>
             </div>
