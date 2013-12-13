@@ -93,7 +93,7 @@
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-4 col-md-offset-0 col-sm-offset-2 col-xs-6">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
             <a href="//www.nscorp.com" target="_blank">
               <img src="./img/logos/silver/norfolksouthern.jpg">
             </a>
@@ -102,6 +102,18 @@
           <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
             <a href="//www.toray.us" target="_blank">
               <img src="./img/logos/silver/toray.jpg">
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-md-offset-3 col-sm-4 col-xs-6">
+            <a href="//www.imcousa.com" target="_blank">
+              <img src="./img/logos/silver/imcocarbidetools.jpg">
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-4 col-xs-6">
+            <a href="//www.btdmfg.com" target="_blank">
+              <img src="./img/logos/silver/btd.jpg">
             </a>
           </div>
         </div>
@@ -114,12 +126,6 @@
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
             <a href="//www.textreme.com" target="_blank">
               <img src="./img/logos/bronze/textreme.jpg">
-            </a>
-          </div>
-
-          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-            <a href="//www.imcousa.com" target="_blank">
-              <img src="./img/logos/bronze/imcocarbidetools.jpg">
             </a>
           </div>
 
@@ -183,7 +189,7 @@
             </a>
           </div>
 
-          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6 col-md-offset-2 col-lg-offset-2">
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
             <a href="//www.isthmuseng.com" target="_blank">
               <img src="./img/logos/bronze/isthmus.jpg">
             </a>
