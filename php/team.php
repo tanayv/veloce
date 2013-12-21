@@ -21,7 +21,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Michael Bastanipour</strong> &minus; Team Captain / President
+              <strong>Michael Bastanipour</strong>
             </div>
 
             <div class="panel-body">
@@ -32,7 +32,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Team Captain & President</th>
                     <th>
                   </thead>
 
@@ -41,25 +41,25 @@
                     <td>Junior</td>
                   </tr>
 
-                  <tr>
+                  <!-- <tr>
                     <td>Hometown</td>
                     <td></td>
-                  </tr>
+                  </tr> !-->
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:bastani2@illinois.edu">bastani2@illinois.edu</a></td>
+                    <td>NetID</td>
+                    <td>bastani2</td>
                   </tr>
 
                   <tr>
                     <td>Phone Number</td>
-                    <td><a href="tel:18479178420">1-847-917-8420</a></td>
+                    <td><a href="tel:18479178420">(847) 917-8420</a></td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Major: Mechanical Engineering<br>2011-2012: Engine/Electronics<br>2012-2013: Electronics Team Leader<br>2013-2014 Team Captain</p>
+                <p>Mike is a junior majoring in mechanical engineering. During his freshman year, he was involved with the engine and electronics subteams. As a sophomore, he moved up to captain the electronics subteam. This year, he is team captian.
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Jack Miller</strong> &minus; Chief Engineer / Suspension Leader
+              <strong>Jack Miller</strong>
             </div>
 
             <div class="panel-body">
@@ -76,12 +76,14 @@
                 <img src="./img/team/photos/miller.jpg">
               </div>
 
+
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Chief Engineer & Suspension Leader</th>
                     <th>
                   </thead>
+                </tbody>
 
                   <tr>
                     <td>Year</td>
@@ -94,14 +96,14 @@
                   </tr>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:jackmiller1992@gmail.com">jackmiller1992@gmail.com</a></td>
+                    <td>NetID</td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Jack is a senior in Mechanical Engineering at UIUC. He is the chief engineer and suspension leader for the team and is responsible for overseeing design decisions. He hopes to work in aerospace or motorsports upon graduation.</p>
+                <p>Jack is a senior in mechanical engineering. He is the chief engineer and suspension leader for the team and is responsible for overseeing design decisions. He hopes to work in aerospace or motorsports upon graduation.</p>
               </div>
             </div>
           </div>
@@ -110,7 +112,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Professor Michael Philpott</strong> &minus; Faculty Advisor
+              <strong>Professor Michael Philpott</strong>
             </div>
 
             <div class="panel-body">
@@ -121,19 +123,31 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Faculty Advisor</th>
                     <th>
                   </thead>
+                </tbody>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:mphilpot@illinois.edu">mphilpot@illinois.edu</a></td>
+                    <td>Office</td>
+                    <td>2007 Mechanical Engineering Lab</td>
                   </tr>
+
+                  <tr>
+                    <td>Research</td>
+                    <td>Nanomechanics & Nanomanufacturing</td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td>mphilpot</td>
+                  </tr>
+
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Professor Philpott is the team's faculty advisor. He contributes years of experience to the team and helps to make important decisions. His research focuses on Nanomechanics and Nanomanufacturing.</p>
+                <p>As the faculty advisor, Professor Philpott oversees all of the Illini Motorsports teams, including Baja and Formula Electric. He also leads the one credit hour ME 199 that meets on Mondays at 4pm in DCL. </p>
               </div>
             </div>
           </div>
@@ -144,7 +158,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Nicholas Kuhajda</strong> &minus; Engine Team Leader
+              <strong>Nicholas Kuhajda</strong>
             </div>
 
             <div class="panel-body">
@@ -155,7 +169,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Engine Team Leader</th>
                     <th>
                   </thead>
 
@@ -170,14 +184,14 @@
                   </tr>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:nicholas.kuhajda@gmail.com">nicholas.kuhajda@gmail.com</a></td>
+                    <td>NetID</td>
+                    <td>kuhajda1</td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Nicholas Kuhajda is a senior in the Mechanical Engineering program here at the University of Illinois. He is now in his second year as Engine Team Leader, and is responsible for coordinating the design, integration, and calibration of the engine subsystem, along with leading dry sump and pneumatic system design projects. After graduation in May 2014, Nicholas will be heading to Chrysler Group to work full time while pursuing his Master's Degree in Mechanical Engineering in the CIE (Chrysler Institute of Engineering) program. In the future, Nick hopes to start a business in the field of Motorsports or Formula 1.</p>
+                <p>Nicholas is majoring in mechanical engineering and is now in his second year as engine team leader. He is responsible for coordinating the design, integration, and calibration of the engine subsystem, along with leading dry sump and pneumatic system design projects. After graduation, Nicholas will be working for the Chrysler Group while pursuing his Master's Degree in the Chrysler Institute of Engineering.</p>
               </div>
             </div>
           </div>
@@ -186,7 +200,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>George Schwieters</strong> &minus; Electronics Team Leader
+              <strong>George Schwieters</strong>
             </div>
 
             <div class="panel-body">
@@ -197,7 +211,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Electronics Team Leader</th>
                     <th>
                   </thead>
 
@@ -212,14 +226,14 @@
                   </tr>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:schwiet2@illinois.edu">schwiet2@illinois.edu</a></td>
+                    <td>NetID</td>
+                    <td>schwiet2</td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p>As the leader of the Electronics Team, George takes a large interest in PCB design and embedded systems. Outside of Formula SAE, George enjoys maintaining and modifying cars, drag racing, and autocrossing. In his free time George also takes a large interst in playing guitar, snowboarding, and longboarding.</p>
+                <p>George is majoring in electrical engineering and is the leader of the electronics subteam. George takes a large interest in PCB design and embedded systems. Outside of Formula SAE, he enjoys maintaining and modifying cars, drag racing, and autocrossing. He also has large interests in guitars, snowboards, and longboards.</p>
               </div>
             </div>
           </div>
@@ -228,7 +242,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Keith Harris</strong> &minus; Chassis Team Leader / Driver
+              <strong>Keith Harris</strong>
             </div>
 
             <div class="panel-body">
@@ -239,7 +253,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Chassis Team Leader & Driver</th>
                     <th>
                   </thead>
 
@@ -254,14 +268,14 @@
                   </tr>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:keith.harris1313@gmail.com">keith.harris1313@gmail.com</a></td>
+                    <td>NetID</td>
+                    <td>kgharri2</td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Keith is a sophomore in Mechanical Engineering, and leads the Chassis and Integration Team. This year, he is designing and building the main frame, overseeing the completion of part of the pneumatic paddle-shifting system, among other projects. After school, he hopes to work in the motorsports industry. Keith also enjoys racing, and has been karting for the past 11 years at the national level.</p>
+                <p>Keith is a sophomore in mechanical engineering, and he leads the chassis and integration team. This year, he is designing and building the main frame and overseeing the completion of part of the pneumatic paddle-shifting system, among other projects. After school, he hopes to work in the motorsports industry. Keith also enjoys racing and has been karting for the past 11 years at the national level.</p>
               </div>
             </div>
           </div>
@@ -272,7 +286,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Matthew Dempsey</strong> &minus; Aerodynamics Team Leader
+              <strong>Matthew Dempsey</strong>
             </div>
 
             <div class="panel-body">
@@ -283,7 +297,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Aerodynamics Team Leader</th>
                     <th>
                   </thead>
 
@@ -298,8 +312,8 @@
                   </tr>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:"></a></td>
+                    <td>NetID</td>
+                    <td>dempsey7</td>
                   </tr>
                 </tbody>
               </table>
@@ -314,7 +328,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Jon Sullivan</strong> &minus; Drivetrain Team Leader
+              <strong>Jon Sullivan</strong>
             </div>
 
             <div class="panel-body">
@@ -325,7 +339,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Drivetrain Team Leader</th>
                     <th>
                   </thead>
 
@@ -340,18 +354,15 @@
                   </tr>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:jsullvn2@illinois.edu">jsullvn2@illinois.edu</a></td>
+                    <td>NetID</td>
+                    <td>jsullvn2</td>
                   </tr>
 
-                  <tr>
-                    <td>Phone Number</td>
-                    <td><a href="tel:12245878179">1-224-587-8179</a>
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Jon Sullivan is a senior at UIUC who is majoring in Mechanical Engineering. Past car fabrication and engine work eventually led to interest in FSAE. After working on the Drivetrain Team he was asked to lead it and thankfully has had no free time since. In the future he hopes to either work in the automotive industry or start his own company.</p>
+                <p>Jon is majoring in mechanical engineering. His past car fabrication and engine work eventually led to his interest in FSAE. After working on the drivetrain team for a year, he became captain and has had no free time since. In the future he hopes to either work in the automotive industry or start his own company.</p>
               </div>
             </div>
           </div>
@@ -360,7 +371,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>David Caruthers</strong> &minus; Aerodynamics Wizard
+              <strong>David Caruthers</strong>
             </div>
 
             <div class="panel-body">
@@ -371,7 +382,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Aerodynamics Wizard</th>
                     <th>
                   </thead>
 
@@ -386,8 +397,8 @@
                   </tr>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:"></a></td>
+                    <td>NetID</td>
+                    <td>caruthe1</td>
                   </tr>
                 </tbody>
               </table>
@@ -404,7 +415,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Adrian Liro</strong> &minus; Social Chair / Recruiting
+              <strong>Adrian Liro</strong>
             </div>
 
             <div class="panel-body">
@@ -415,7 +426,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Social Chair & Recruiting</th>
                     <th>
                   </thead>
 
@@ -430,8 +441,8 @@
                   </tr>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:"></a></td>
+                    <td>NetID</td>
+                    <td>liro2</td>
                   </tr>
                 </tbody>
               </table>
@@ -446,7 +457,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Ed Husak</strong> &minus; Vice President / Chassis Member
+              <strong>Ed Husak</strong>
             </div>
 
             <div class="panel-body">
@@ -457,7 +468,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Vice President & Chassis Member</th>
                     <th>
                   </thead>
 
@@ -472,14 +483,14 @@
                   </tr>
 
                   <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:ehusak2@illinois.edu">ehusak2@illinois.edu</a></td>
+                    <td>NetID</td>
+                    <td>ehusak2</td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Ed is a junior studying General Engineering with a concentration in Automotive Technology. As Vice President, Ed handles many organizational tasks within Illini Motorsports such as travel, logistics, budget analysis, and university and sponsor relations. Ed has loved cars and been a gearhead his whole life. Ed hopes to work in the automotive industry upon graduation.</p>
+                <p>Ed is a junior studying general engineering with a concentration in automotive technology. As Vice President, Ed handles many organizational tasks within Illini Motorsports such as travel, logistics, budget analysis, and university and sponsor relations. Ed has loved cars and been a gearhead his whole life. Ed hopes to work in the automotive industry upon graduation.</p>
               </div>
             </div>
           </div>
@@ -488,7 +499,7 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Alex Allmandinger</strong> &minus; Aerodynamics Member
+              <strong>Alex Allmandinger</strong>
             </div>
 
             <div class="panel-body">
@@ -499,7 +510,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Biography</th>
+                    <th>Aerodynamics Member</th>
                     <th>
                   </thead>
 
@@ -514,19 +525,14 @@
                   </tr>
 
                   <tr>
-                    <td>Resume</td>
-                    <td><a target="_blank" href="./img/team/resume/alex-allmandinger.pdf">View Resume</a></td>
-                  </tr>
-
-                  <tr>
-                    <td>Contact Email</td>
-                    <td><a href="mailto:allmand2@illinois.edu">allmand2@illinois.edu</a></td>
+                    <td>NetID</td>
+                    <td>allmand2</td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Alex is a sophomore in Mechanical Engineering, with experience in construction and mining industries, as well as the automotive industry. He is currently leading the development of the Drag Reduction System.</p>
+                <p>Alex is a sophomore in mechanical engineering with experience in construction and mining industries, as well as in the automotive industry. He is currently leading the development of the drag reduction system.</p>
               </div>
             </div>
           </div>
