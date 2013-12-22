@@ -32,8 +32,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Team Captain & President</th>
-                    <th>
+                    <th colspan="2">Team Captain &amp; President</th>
                   </thead>
 
                   <tr>
@@ -76,14 +75,11 @@
                 <img src="./img/team/photos/miller.jpg">
               </div>
 
-
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Chief Engineer & Suspension Leader</th>
-                    <th>
+                    <th colspan="2">Chief Engineer &amp; Suspension Leader</th>
                   </thead>
-                </tbody>
 
                   <tr>
                     <td>Year</td>
@@ -123,10 +119,8 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Faculty Advisor</th>
-                    <th>
+                    <th colspan="2">Faculty Advisor</th>
                   </thead>
-                </tbody>
 
                   <tr>
                     <td>Office</td>
@@ -135,7 +129,7 @@
 
                   <tr>
                     <td>Research</td>
-                    <td>Nanomechanics & Nanomanufacturing</td>
+                    <td>Nanomechanics &amp; Nanomanufacturing</td>
                   </tr>
 
                   <tr>
@@ -169,8 +163,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Engine Team Leader</th>
-                    <th>
+                    <th colspan="2">Engine Team Leader</th>
                   </thead>
 
                   <tr>
@@ -211,8 +204,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Electronics Team Leader</th>
-                    <th>
+                    <th colspan="2">Electronics Team Leader</th>
                   </thead>
 
                   <tr>
@@ -253,8 +245,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Chassis Team Leader & Driver</th>
-                    <th>
+                    <th colspan="2">Chassis Team Leader &amp; Driver</th>
                   </thead>
 
                   <tr>
@@ -297,8 +288,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Aerodynamics Team Leader</th>
-                    <th>
+                    <th colspan="2">Aerodynamics Team Leader</th>
                   </thead>
 
                   <tr>
@@ -339,8 +329,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Drivetrain Team Leader</th>
-                    <th>
+                    <th colspan="2">Drivetrain Team Leader</th>
                   </thead>
 
                   <tr>
@@ -382,8 +371,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Aerodynamics Wizard</th>
-                    <th>
+                    <th colspan="2">Aerodynamics Wizard</th>
                   </thead>
 
                   <tr>
@@ -426,8 +414,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Social Chair & Recruiting</th>
-                    <th>
+                    <th colspan="2">Social Chair &amp; Recruiting</th>
                   </thead>
 
                   <tr>
@@ -468,8 +455,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Vice President & Chassis Member</th>
-                    <th>
+                    <th colspan="2">Vice President &amp; Chassis Member</th>
                   </thead>
 
                   <tr>
@@ -510,8 +496,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th>Aerodynamics Member</th>
-                    <th>
+                    <th colspan="2">Aerodynamics Member</th>
                   </thead>
 
                   <tr>
