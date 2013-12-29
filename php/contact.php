@@ -3,6 +3,14 @@
   * PHP - Contact
   * Authors - Andrew Mass, Nick Kortendick
   */
+
+  //NetIDs to update year by year
+  $engineLead = kuhajda1;
+  $suspensionLead = amass2; //I don't know Jack's yet. So instead of hardcoding a Gmail in I put yours for now. 
+  $electronicsLead = schwiet2;
+  $chassisLead = kgharri2;
+  $aerodynamicsLead = dempsey7;
+  $drivetrainLead = jsullvn2;
   ?>
 
 <!DOCTYPE html>
@@ -38,6 +46,7 @@
 
         //Check to make sure that a contact name has been entered
         $authorName = (filter_var($_POST['name'], FILTER_SANITIZE_STRING));
+        $authorName = ucfirst(strtolower($authorName));
 
         if ($authorName == "")
         {
@@ -51,6 +60,7 @@
         }
 
         $authorLastName = (filter_var($_POST['Lname'], FILTER_SANITIZE_STRING));
+        $authorLastName = str_replace('\' ', '\'', ucwords(str_replace('\'', '\' ', strtolower($authorLastName))));
 
         if ($authorLastName == "")
         {
@@ -75,6 +85,7 @@
         $msgSubjectSponsor = (isset($_POST['sponsorship']));
         $msgSubjectWebsite = (isset($_POST['website']));
         $msgSubjectOther = (isset($_POST['other']));
+        $msgSubjectOrganization = (isset($_POST['recruiting']));
         $msgSubject = "";
 
         if($msgSubjectJoin == TRUE)
@@ -86,6 +97,12 @@
           else
             $msgSubject .= "Sponsorship ";
 
+        if($msgSubjectOrganization == TRUE)
+          if($msgSubject != "")
+            $msgSubject .= ", recruiting ";
+          else
+            $msgSubject .= "Recruiting ";
+
         if($msgSubjectWebsite == TRUE)
           if($msgSubject != "")
             $msgSubject .= ", website issue ";
@@ -94,11 +111,11 @@
 
         if($msgSubjectOther)
           if($msgSubject != "")
-            $msgSubject .= "& other";
+            $msgSubject .= "& " + $_POST[otherSubjectInput];
           else
-          $msgSubject .= "Other";
+          $msgSubject .= $_POST[otherSubjectInput];
 
-        if ($msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE && $msgSubjectWebsite == FALSE && $msgSubjectOther == FALSE)
+        if ($msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE && $msgSubjectWebsite == FALSE && $msgSubjectOther == FALSE && $msgSubjectOrganization == FALSE)
         {
           $subjectError = true;
           $hasError = true;
@@ -126,13 +143,55 @@
         $authorPhone = $_POST['phone'];
         $authorUserAgent = $_SERVER['HTTP_USER_AGENT'];
 
+
         // if all the fields have been entered correctly and there are no recaptcha errors build an email message
         if (($resp->is_valid) && (!isset($hasError)))
         {
-          $emailTo = 'fsae@nickkortendick.com, illinimotorsports@gmail.com';
+          $emailTo = 'illinimotorsports@gmail.com';
+            if(isset($_POST['engine']))
+              $emailTo .= ',' . $engineLead . '@illinois.edu';
+            if(isset($_POST['suspension']))
+              $emailTo .= ',' . $suspensionLead . '@illinois.edu';
+            if(isset($_POST['electronics']))
+              $emailTo .= ',' . $electronicsLead . '@illinois.edu';
+            if(isset($_POST['chassis']))
+              $emailTo .= ',' . $chassisLead . '@illinois.edu';
+            if(isset($_POST['aerodynamics']))
+              $emailTo .= ',' . $aerodynamicsLead . '@illinois.edu';
+            if(isset($_POST['drivetrain']))
+              $emailTo .= ',' . $drivetrainLead . '@illinois.edu';
           $subject = 'New message from ' . $authorName . ' ' . $authorLastName . ' on Motorsports.illinois.edu: ' . $msgSubject; // This is how the subject of the email will look like
-          $body = $authorName . ' ' . $authorLastName . " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone . "\n IP Address: " . $authorIP . "\n User Agent: " . $authorUserAgent . "\n Message: " . $msgContent;
-          $headers = 'From: <'.$formEmail.'>' . "\r\n" . 'Reply-To: ' . $formEmail . "\r\n" . 'Return-Path: ' . $formEmail; // Email headers
+          $body = $authorName . ' ' . $authorLastName;
+          if($_POST['companyInput'] != '')
+            $body .= ' of ' . $_POST['companyInput'];
+          $body .= " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone . "\n IP Address: " . $authorIP . "\n User Agent: " . $authorUserAgent;
+         
+          if(isset($_POST['joining']))
+            $body .= "\n Subteam(s) Selected: ";
+
+          if(isset($_POST['engine']))
+            $body .= " engine ";
+
+          if(isset($_POST['suspension']))
+            $body .= " suspension ";
+
+          if(isset($_POST['electronics']))
+            $body .= " electronics ";
+
+          if(isset($_POST['chassis']))
+            $body .= " chassis ";
+
+          if(isset($_POST['aerodynamics']))
+            $body .= " aerodynamics ";
+
+          if(isset($_POST['drivetrain']))
+            $body .= " drivetrain ";
+
+          if($_POST['companyInput'] != '')
+            $body .= "\n Representing: " . $_POST['companyInput'];
+
+          $body .= "\n Message: " . $msgContent;
+          $headers = 'From: <' . $formEmail . '>' . "\r\n" . 'Reply-To: ' . $formEmail . "\r\n" . 'Return-Path: ' . $formEmail . "\r\n" . 'CC: ' . 'fsae@nickkortendick.com'; // Email headers
 
           mail($emailTo, $subject, $body, $headers);
 
@@ -219,8 +278,16 @@
            </label>
 
             <div class="col-lg-10">
-              <input type="text" class="form-control" name="email" id="email" value="<?php if(isset($_POST['email']) && $emailSent == FALSE)  echo $_POST['email'];?>">
+              <input type="email" class="form-control" name="email" id="email" value="<?php if(isset($_POST['email']) && $emailSent == FALSE)  echo $_POST['email'];?>">
               <?php if($emailError){echo'<span class="help-block"> Please enter a valid email address </span>';} ?>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-lg-2 control-label" for="input04">Your Phone Number</label>
+
+          <div class="col-lg-10">
+            <input type="tel" class="form-control" name="phone" id="phone" value="<?php if(isset($_POST['phone'])&& $emailSent == FALSE)  echo $_POST['phone'];?>">
           </div>
         </div>
 
@@ -238,6 +305,10 @@
             </label>
 
             <label class="checkbox-inline">
+             <input type="checkbox" id="recruiting" name="recruiting" value="recruiting" <?php if(isset($_POST['recruiting'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Corporate Recruiting
+            </label>
+
+            <label class="checkbox-inline">
               <input type="checkbox" id="website" name="website" value="website" <?php if(isset($_POST['website'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Website issue
             </label>
 
@@ -249,11 +320,44 @@
           </div>
         </div>
 
-        <div class="form-group">
-          <label class="col-lg-2 control-label" for="input04">Your Phone Number</label>
+        <div class="form-group" id="otherSubject" <?php if(isset($_POST['other'])&& $emailSent == FALSE) echo 'style="display:block"'; else echo 'style="display:none"'; ?>>
+          <label class="col-lg-2 control-label"></label>
 
           <div class="col-lg-10">
-            <input type="text" class="form-control" name="phone" id="phone" value="<?php if(isset($_POST['phone'])&& $emailSent == FALSE)  echo $_POST['phone'];?>">
+            <input type="text" class="form-control" id="otherSubjectInput" name="otherSubjectInput" <?php if(isset($_POST['other'])&& $emailSent == FALSE) {echo 'value = "'; echo $_POST['otherSubjectInput']; echo '"';}?>>
+          </div>
+        </div>
+
+        <div class="form-group" id="subteam" <?php if(isset($_POST['joining']) && $emailSent == FALSE) echo 'style="display:block"'; else echo 'style="display:none"'; ?>>
+          <label class="col-lg-2 control-label" for="input3a">Subteam</label>
+
+          <div class="col-lg-10">
+            <label class="checkbox-inline">
+              <input type="checkbox" id="engine" name="engine" value="engine" <?php if(isset($_POST['engine'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Engine
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="chassis" name="chassis" value="chassis" <?php if(isset($_POST['chassis'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Chassis
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="electronics" name="electronics" value="electronics" <?php if(isset($_POST['electronics'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Electronic
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="drivetrain" name="drivetrain" value="drivetrain" <?php if(isset($_POST['drivetrain'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Drivetrain
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="aerodynamics" name="aerodynamics" value="aerodynamics" <?php if(isset($_POST['aerodynamics'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Aerodynamics
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" id="suspension" name="suspension" value="suspension" <?php if(isset($_POST['suspension'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Suspension
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group" <?php if((isset($_POST['sponsorship']) || isset($_POST['recruiting']))&& $emailSent == FALSE) echo 'style="display:block"'; else echo 'style="display:none"'; ?> id="company">
+          <label class="col-lg-2 control-label" for="input3b">Organization</label>
+
+          <div class="col-lg-10">
+            <input type="text" class="form-control" id="companyInput" name="companyInput" value="<?php if(isset($_POST['companyInput']) && $emailSent == FALSE)  echo $_POST['companyInput'];?>">
           </div>
         </div>
 
@@ -295,6 +399,26 @@
         </div>
       </form>
     </div>
+
+    <script type="text/javascript"> 
+      $("#joining").click(function(){
+      $("#joining").is(':checked') ? $("#subteam").slideDown() : $("#subteam").slideUp();});
+
+      $("#sponsorship").click(function(){
+      if($("#sponsorship").is(':checked'))
+        $("#company").slideDown();
+      else if(!$("#recruiting").is(':checked'))
+        $("#company").slideUp();});
+
+      $("#recruiting").click(function(){
+      if($("#recruiting").is(':checked'))
+        $("#company").slideDown();
+      else if(!$("#sponsorship").is(':checked'))
+        $("#company").slideUp();});
+
+      $("#other").click(function(){
+      $("#other").is(':checked') ? $("#otherSubject").slideDown() : $("#otherSubject").slideUp();});
+    </script>
 
     <?php include './footer.php'; ?>
   </body>
