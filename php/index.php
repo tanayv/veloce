@@ -12,10 +12,19 @@
   </head>
 
   <body class="home">
+
+    <div id="splash">
+    </div>
+
+    <div id="splashContent">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-xs-12">
+          <img src="/img/orangelogo.png">
+        </div>
+      </div>
+    </div>
+
     <?php include './header.php'; ?>
-
-    <img id="hero-main" src="./img/hero-overlay.jpg">
-
     <div class="content container">
       <div id="main-content" class="row">
         <div class="col-md-8">

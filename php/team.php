@@ -47,7 +47,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td>bastani2</td>
+                    <td><a href="./contact.php">bastani2</a></td>
                   </tr>
 
                   <tr>
@@ -93,7 +93,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td></td>
+                    <td><a href="./contact.php?suspension=y">XXXXX</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -178,7 +178,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td>kuhajda1</td>
+                    <td><a href="./contact.php?engine=y">kuhajda1</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -219,7 +219,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td>schwiet2</td>
+                    <td><a href="./contact.php?electronics=y">schwiet2</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -260,7 +260,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td>kgharri2</td>
+                    <td><a href="./contact.php?chassis=y">kgharri2</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -303,7 +303,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td>dempsey7</td>
+                    <td><a href="./contact.php?aerodynamics=y">dempsey7</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -344,7 +344,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td>jsullvn2</td>
+                    <td><a href="./contact.php?drivetrain=y">jsullvn2</a></td>
                   </tr>
 
                 </tbody>

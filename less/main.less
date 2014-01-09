@@ -11,7 +11,6 @@
 body {
   position: relative;
   height: 100%;
-  padding-top: @navbar-height + 50px;
   padding-bottom: 30px;
 }
 
@@ -47,8 +46,25 @@ h4 {
   }
 }
 
-#hero-main {
-  margin-top: -60px;
+#splash{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url("./img/hero-main-nologo.jpg");
+  -webkit-filter: blur(5px) grayscale(1.0);
+  -moz-filter: blur(5px) grayscale(0.8);
+  -o-filter: blur(5px) grayscale(0.8);
+  -ms-filter: blur(5px) grayscale(0.8);
+  background-size: cover;
+  height:600px;
+  margin-bottom: -10px;
+  z-index: -1;
+
+}
+
+#splashContent{
+  z-index: 999;
+  position: absolute;
+  top:100px;
 }
 
 #likebox-wrapper {
@@ -57,8 +73,14 @@ h4 {
 
 .navbar {
   border: none;
-  max-width: 1200px;
-  border-radius: 5px;
+  margin: 0px !important;
+  border-radius: 0px;
+  background-color: black;
+
+  .container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 
   li.active {
     height: @navbar-height;
@@ -102,6 +124,12 @@ h4 {
   hr {
     border-color: @accent-orange;
   }
+
+  #header-logo
+  {
+    display:none;
+  }
+
 }
 
 .partners {

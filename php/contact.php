@@ -333,22 +333,22 @@
 
           <div class="col-lg-10">
             <label class="checkbox-inline">
-              <input type="checkbox" id="engine" name="engine" value="engine" <?php if(isset($_POST['engine'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Engine
+              <input <?php if(isset($_GET['engine'])) echo 'disabled' ?> type="checkbox" id="engine" name="engine" value="engine" <?php if((isset($_POST['engine']) || isset($_GET['engine']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Engine
             </label>
             <label class="checkbox-inline">
-              <input type="checkbox" id="chassis" name="chassis" value="chassis" <?php if(isset($_POST['chassis'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Chassis
+              <input <?php if(isset($_GET['chassis'])) echo 'disabled' ?> type="checkbox" id="chassis" name="chassis" value="chassis" <?php if((isset($_POST['chassis']) || isset($_GET['chassis']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Chassis
             </label>
             <label class="checkbox-inline">
-              <input type="checkbox" id="electronics" name="electronics" value="electronics" <?php if(isset($_POST['electronics'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Electronic
+              <input <?php if(isset($_GET['electronics'])) echo 'disabled' ?> type="checkbox" id="electronics" name="electronics" value="electronics" <?php if((isset($_POST['electronics']) || isset($_GET['electronics']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Electronic
             </label>
             <label class="checkbox-inline">
-              <input type="checkbox" id="drivetrain" name="drivetrain" value="drivetrain" <?php if(isset($_POST['drivetrain'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Drivetrain
+              <input <?php if(isset($_GET['drivetrain'])) echo 'disabled' ?> type="checkbox" id="drivetrain" name="drivetrain" value="drivetrain" <?php if((isset($_POST['drivetrain']) || isset($_GET['drivetrain']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Drivetrain
             </label>
             <label class="checkbox-inline">
-              <input type="checkbox" id="aerodynamics" name="aerodynamics" value="aerodynamics" <?php if(isset($_POST['aerodynamics'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Aerodynamics
+              <input <?php if(isset($_GET['aerodynamics'])) echo 'disabled' ?> type="checkbox" id="aerodynamics" name="aerodynamics" value="aerodynamics" <?php if((isset($_POST['aerodynamics']) || isset($_GET['aerodynamics']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Aerodynamics
             </label>
             <label class="checkbox-inline">
-              <input type="checkbox" id="suspension" name="suspension" value="suspension" <?php if(isset($_POST['suspension'])&& $emailSent == FALSE)  echo ('checked="checked"');?>>Suspension
+              <input <?php if(isset($_GET['suspension'])) echo 'disabled' ?> type="checkbox" id="suspension" name="suspension" value="suspension" <?php if((isset($_POST['suspension']) || isset($_GET['suspension']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Suspension
             </label>
           </div>
         </div>
