@@ -71,7 +71,7 @@ h4 {
     z-index: -2;
   }
 
-  #splashContent{
+  .splashContent{
     z-index: 999;
     display: block;
     position: absolute;
@@ -83,6 +83,12 @@ h4 {
     max-height: 75%;
     max-width: 90%;
     width: initial;
+  }
+  #desktop{
+    display: block;
+  }
+  #mobile{
+    display:none;
   }
 }
 
@@ -366,6 +372,7 @@ h4 {
       max-height: none;
       max-width: none;
     }
+
   }
 
   .partner img {
@@ -394,5 +401,15 @@ h4 {
 
   .home .navbar li{
     display: inline;
+  }
+
+  #splashContainer{
+    #desktop{
+      display: none;
+    }
+
+    #mobile{
+      display: block;
+    }
   }
 }

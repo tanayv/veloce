@@ -17,7 +17,8 @@
       <div id="splash">
       </div>
 
-        <img id="splashContent" src="./img/orangelogo.png">
+        <img class="splashContent" id="desktop" src="./img/orangelogo.png">
+        <img class="splashContent" id="mobile" src="./img/orangelogoleft.png">
     </div>
 
     <?php include './header.php'; ?>
