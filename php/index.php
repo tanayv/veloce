@@ -17,11 +17,7 @@
     </div>
 
     <div id="splashContent">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 col-xs-12">
-          <img src="/img/orangelogo.png">
-        </div>
-      </div>
+      <img src="./img/orangelogo.png">
     </div>
 
     <?php include './header.php'; ?>

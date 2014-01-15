@@ -8,10 +8,14 @@
   width: inherit;
 }
 
+html{
+  height:100%;
+  width: 100%;
+}
+
 body {
   position: relative;
   height: 100%;
-  padding-bottom: 30px;
 }
 
 h4 {
@@ -55,8 +59,7 @@ h4 {
   -o-filter: blur(5px) grayscale(0.8);
   -ms-filter: blur(5px) grayscale(0.8);
   background-size: cover;
-  height:600px;
-  margin-bottom: -10px;
+  height:100%;
   z-index: -1;
 
 }
@@ -64,7 +67,17 @@ h4 {
 #splashContent{
   z-index: 999;
   position: absolute;
-  top:100px;
+  top:15%;
+  width: 100%;
+
+  img{
+    max-height: 75%;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    width: initial;
+    display: block;
+  }
 }
 
 #likebox-wrapper {
@@ -114,12 +127,13 @@ h4 {
 
   .navbar{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     -webkit-font-smoothing: antialiased !important;
 
     .container{
       margin-top: 25px;
       margin-bottom: 25px;
+      max-width: 100%;
     }
 
     .navbar-nav{
@@ -133,16 +147,16 @@ h4 {
       float: none;
 
       a{
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 17px;
+        padding-right: 17px;
       }
 
     }
 
-  }
+    .navbar-right{
+      display: none;
+    }
 
-  .navbar-right{
-    display: none;
   }
 
   #main-content {
@@ -262,7 +276,7 @@ h4 {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
