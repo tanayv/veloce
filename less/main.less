@@ -55,12 +55,12 @@ h4 {
   background-repeat: no-repeat;
   background-image: url("./img/hero-main-nologo.jpg");
   -webkit-filter: blur(5px) grayscale(1.0);
-  -moz-filter: blur(5px) grayscale(0.8);
-  -o-filter: blur(5px) grayscale(0.8);
-  -ms-filter: blur(5px) grayscale(0.8);
+  -moz-filter: blur(5px) grayscale(1.0);
+  -o-filter: blur(5px) grayscale(1.0);
+  -ms-filter: blur(5px) grayscale(1.0);
   background-size: cover;
-  height:100%;
-  z-index: -1;
+  height: calc(~'100% - 100px');
+  z-index: -2;
 
 }
 
@@ -71,7 +71,7 @@ h4 {
   width: 100%;
 
   img{
-    max-height: 75%;
+    max-height: calc(~'75% - 100px');;
     max-width: 90%;
     margin: 0 auto;
     text-align: center;
