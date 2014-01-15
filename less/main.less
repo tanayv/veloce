@@ -26,6 +26,7 @@ h4 {
 
 .content.container {
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 #top-sponsors {
@@ -381,5 +382,22 @@ h4 {
     #chief {
       width: 100%;
     }
+  }
+}
+
+@media screen and (max-width: @screen-sm) {
+
+  .home .navbar li{
+    display: inline;
+  }
+
+  #splashContent{
+    top:25%;
+  }
+}
+
+@media screen and (max-width: @screen-sm) {
+  #splashContent{
+    top:30%;
   }
 }
