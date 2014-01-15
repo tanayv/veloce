@@ -21,7 +21,7 @@ Veloce.applyActive = function() {
 $(function() {
   Veloce.applyActive();
 
-  $(window).scroll(function() {
-    Veloce.scrollNavbar();
-  });
+  //$(window).scroll(function() {
+  //  Veloce.scrollNavbar();
+  //});
 });

@@ -13,11 +13,11 @@
 
   <body class="home">
 
-    <div id="splash">
-    </div>
+    <div id="splashContainer">
+      <div id="splash">
+      </div>
 
-    <div id="splashContent">
-      <img src="./img/orangelogo.png">
+        <img id="splashContent" src="./img/orangelogo.png">
     </div>
 
     <?php include './header.php'; ?>

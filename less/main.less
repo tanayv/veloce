@@ -51,33 +51,38 @@ h4 {
   }
 }
 
-#splash{
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: url("./img/hero-main-nologo.jpg");
-  -webkit-filter: blur(5px) grayscale(1.0);
-  -moz-filter: blur(5px) grayscale(1.0);
-  -o-filter: blur(5px) grayscale(1.0);
-  -ms-filter: blur(5px) grayscale(1.0);
-  background-size: cover;
+#splashContainer{
   height: calc(~'100% - 100px');
-  z-index: -2;
-
-}
-
-#splashContent{
-  z-index: 999;
-  position: absolute;
-  top:15%;
   width: 100%;
+  position: relative;
 
-  img{
-    max-height: calc(~'75% - 100px');;
-    max-width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    width: initial;
+  #splash{
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("./img/hero-main-nologo.jpg");
+    -webkit-filter: blur(5px) grayscale(1.0);
+    -moz-filter: blur(5px) grayscale(1.0);
+    -o-filter: blur(5px) grayscale(1.0);
+    -ms-filter: blur(5px) grayscale(1.0);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+  }
+
+  #splashContent{
+    z-index: 999;
     display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 75%;
+    max-width: 90%;
+    width: initial;
   }
 }
 
@@ -389,15 +394,5 @@ h4 {
 
   .home .navbar li{
     display: inline;
-  }
-
-  #splashContent{
-    top:25%;
-  }
-}
-
-@media screen and (max-width: @screen-sm) {
-  #splashContent{
-    top:30%;
   }
 }
