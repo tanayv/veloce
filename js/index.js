@@ -6,8 +6,14 @@
 function Veloce() {}
 
 Veloce.applyActive = function() {
-  $('.navbar li.active').removeClass('active');
-  $('a[href$="' + '.' + window.location.pathname + '"]').parent().addClass('active');
+  //$('.navbar li.active').removeClass('active');
+  //$('a[href$="' + '.' + window.location.pathname + '"]').parent().addClass('active');
+  $(".nav li").removeClass("active");
+  var filename = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
+  filename=filename.substring(0, filename.length-4);
+  $("#" + filename).addClass("active");
+  if(filename == "")
+  $("#home").addClass("active");
 };
 
 //Veloce.scrollNavbar = function() {
