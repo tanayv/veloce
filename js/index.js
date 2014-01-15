@@ -16,18 +16,34 @@ Veloce.applyActive = function() {
   $("#home").addClass("active");
 };
 
-//Veloce.scrollNavbar = function() {
-//  if(document.body.clientWidth > 992){
-//    var adjust = 15 - ($(window).scrollTop() / 10);
-//    adjust = (adjust <= 0) ? 0 : adjust;
-//    $('.navbar').css('margin-top', adjust);
-//  }
-//}
+Veloce.affixNavbar = function() {
+  $('#header').affix({
+    offset: {
+      top: $('#splash-container').outerHeight()
+    }
+  });
+};
+
+Veloce.applyReplacementMargin = function() {
+  if($('#header').hasClass('affix')) {
+    $('#content-wrapper').css('margin-top', 115);
+  }
+  else {
+    $('#content-wrapper').css('margin-top', 0);
+  }
+};
 
 $(function() {
   Veloce.applyActive();
+  Veloce.affixNavbar();
+  Veloce.applyReplacementMargin();
 
-  //$(window).scroll(function() {
-  //  Veloce.scrollNavbar();
-  //});
+  $(window).scroll(function() {
+    Veloce.applyReplacementMargin();
+  });
+
+  $(window).resize(function() {
+    Veloce.affixNavbar();
+    Veloce.applyReplacementMargin();
+  });
 });
