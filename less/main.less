@@ -3,7 +3,7 @@
  * Authors - Andrew Mass, Nick Kortendick
  */
 
-html{
+html {
   height:100%;
   width: 100%;
 }
@@ -125,8 +125,18 @@ h4 {
     }
   }
 
+  button.navbar-toggle {
+    margin: 0 auto;
+    float: inherit;
+  }
+
   &.affix {
     .navbar-fixed-top();
+
+    .container {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
   }
 }
 
@@ -142,38 +152,48 @@ h4 {
     padding: 5px;
   }
 
-  .navbar{
+  .navbar {
     text-align: center;
     font-size: 25px;
     -webkit-font-smoothing: antialiased !important;
 
-    .container{
+    .container {
+      .transition(all @transition-time);
       margin-top: 25px;
       margin-bottom: 25px;
       max-width: 100%;
     }
 
-    .navbar-nav{
+    .navbar-nav {
       float: none;
       margin-left: auto;
       margin-right: auto;
     }
 
-    li{
+    li {
       display: inline-block;
       float: none;
 
-      a{
+      a {
         padding-left: 17px;
         padding-right: 17px;
       }
 
     }
 
-    .navbar-right{
+    .navbar-right {
       display: none;
     }
 
+    &.affix .container {
+      .transition(all @transition-time);
+      margin-top: 5px;
+      margin-bottom: 5px;
+
+      li.active a {
+        padding-bottom: 8px;
+      }
+    }
   }
 
   #main-content {
@@ -188,7 +208,6 @@ h4 {
   {
     display:none;
   }
-
 }
 
 .partners {
@@ -297,8 +316,8 @@ h4 {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 35px;
-  background-color: @grayDark;
+  height: 50px;
+  background-color: black;
   line-height: 1;
 
   a {
@@ -306,7 +325,7 @@ h4 {
   }
 
   p {
-    margin-top: 5px;
+    margin-top: 13px;
     margin-bottom: 0;
   }
 
@@ -377,7 +396,6 @@ h4 {
       max-height: none;
       max-width: none;
     }
-
   }
 
   .partner img {
@@ -404,11 +422,20 @@ h4 {
 
 @media screen and (max-width: @screen-sm) {
 
-  .home .navbar li {
-    display: inline;
+  .home .navbar {
+
+    .container {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      display: inline;
+    }
   }
 
   #splash-container {
+    height: calc(~'100% - 56px');
 
     #desktop {
       display: none;
@@ -417,5 +444,10 @@ h4 {
     #mobile {
       display: block;
     }
+  }
+
+  .footer .col-xs-3 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

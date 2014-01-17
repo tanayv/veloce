@@ -6,22 +6,24 @@
 function Veloce() {}
 
 Veloce.applyActive = function() {
-  //$('.navbar li.active').removeClass('active');
-  //$('a[href$="' + '.' + window.location.pathname + '"]').parent().addClass('active');
-  $(".nav li").removeClass("active");
-  var filename = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
-  filename=filename.substring(0, filename.length-4);
-  $("#" + filename).addClass("active");
-  if(filename == "")
-  $("#home").addClass("active");
+  $('.nav li').removeClass('active');
+  var filename = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
+  filename = filename.substring(0, filename.length - 4);
+  $('#' + filename).addClass('active');
+  if(filename == '') {
+    $('#home').addClass('active');
+  }
 };
 
 Veloce.affixNavbar = function() {
-  $('#header').affix({
-    offset: {
-      top: $('#splash-container').outerHeight()
-    }
-  });
+  // Only affix the navbar if on the home page and not on small screens.
+  if($('body').hasClass('home') && $('#desktop').css('display') === 'block') {
+    $('#header').affix({
+      offset: {
+        top: $('#splash-container').outerHeight()
+      }
+    });
+  }
 };
 
 Veloce.applyReplacementMargin = function() {
