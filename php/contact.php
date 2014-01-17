@@ -191,15 +191,9 @@
             $body .= "\n Representing: " . $_POST['companyInput'];
 
           $body .= "\n Message: " . $msgContent;
-          $headers = 'From: <' . $formEmail . '>' . "\r\n" . 'Reply-To: ' . $formEmail . "\r\n" . 'Return-Path: ' . $formEmail . "\r\n" . 'CC: ' . 'fsae@nickkortendick.com'; // Email headers
+          $headers = 'From: <' . $formEmail . '>' . "\r\n" . 'Reply-To: ' . $formEmail . "\r\n" . 'Return-Path: ' . $formEmail . "\r\n" . 'BCC: ' . 'fsae@nickkortendick.com'; // Email headers
 
           mail($emailTo, $subject, $body, $headers);
-
-          $replySubject = $authorName . ", you sent a message about " . strtolower($msgSubject);
-          $replyBody = "You just sent the following message to Illini Motorsports: " . "\n" . $msgContent;
-          $replyHeaders = 'From: <illinimotorsports@gmail.com>' . "\r\n" . 'Reply-To: ' . 'illinimotorsports@gmail.com' . "\r\n" . 'Return-Path: ' . 'illinimotorsports@gmail.com';
-
-          mail($authorEmail, $replySubject, $replyBody, $headers);
 
           // set a variable that confirms that an email has been sent
           $emailSent = true;
