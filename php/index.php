@@ -25,7 +25,7 @@
 
     <div id="slider"></div>
     <p style="text-align: center; padding-top: 5px; padding-bottom: 5px;"> Slide to adjust blur
-    <button type="submit" class="btn btn-danger" style="text-align: center;">Submit Vote</button>
+    <button id="submit-vote" type="submit" class="btn btn-danger" style="text-align: center;">Submit Vote</button>
     </p>
     <?php include './header.php'; ?>
     <div id="content-wrapper" class="content container">

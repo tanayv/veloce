@@ -5,6 +5,12 @@
 
 function Veloce() {}
 
+Veloce.track = function(args) {
+  _gaq.push(args);
+};
+
+Veloce.hasClicked = false;
+
 Veloce.applyActive = function() {
   $('.nav li').removeClass('active');
   var filename = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
@@ -40,9 +46,7 @@ Veloce.slider = function(){
   $( "#slider" ).slider({ value: 50 });
   $("#slider").on( "slidechange", function() {
     var value = $( "#slider" ).slider( "option", "value" );
-    console.log(value);
     value=value/7;
-    //$("#splash").css({'webkitFilter': value + 'px'});
     $('#splash').css('-webkit-filter', 'blur(' + value + 'px) grayscale(1.0)');
     $('#splash').css('-moz-filter', 'blur(' + value + 'px) grayscale(1.0)');
     $('#splash').css('-o-filter', 'blur(' + value + 'px) grayscale(1.0)');
@@ -64,5 +68,13 @@ $(function() {
   $(window).resize(function() {
     Veloce.affixNavbar();
     Veloce.applyReplacementMargin();
+  });
+
+  $('#submit-vote').click(function() {
+    if(!Veloce.hasClicked) {
+      var value = $( "#slider" ).slider( "option", "value" ) / 7;
+      Veloce.track(['_trackEvent', 'Blur-Vote', 'Actual Vote', 'Vote Value', value]);
+      Veloce.hasClicked = true;
+    }
   });
 });
