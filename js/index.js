@@ -35,9 +35,26 @@ Veloce.applyReplacementMargin = function() {
   }
 };
 
+Veloce.slider = function(){
+  $( "#slider" ).slider();
+  $( "#slider" ).slider({ value: 50 });
+  $("#slider").on( "slidechange", function() {
+    var value = $( "#slider" ).slider( "option", "value" );
+    console.log(value);
+    value=value/7;
+    //$("#splash").css({'webkitFilter': value + 'px'});
+    $('#splash').css('-webkit-filter', 'blur(' + value + 'px) grayscale(1.0)');
+    $('#splash').css('-moz-filter', 'blur(' + value + 'px) grayscale(1.0)');
+    $('#splash').css('-o-filter', 'blur(' + value + 'px) grayscale(1.0)');
+    $('#splash').css('-ms-filter', 'blur(' + value + 'px) grayscale(1.0)');
+    $('#splash').css('filter', 'blur(' + value + 'px) grayscale(1.0)');
+  });
+};
+
 $(function() {
   Veloce.applyActive();
   Veloce.affixNavbar();
+  Veloce.slider();
   Veloce.applyReplacementMargin();
 
   $(window).scroll(function() {

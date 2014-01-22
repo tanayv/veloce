@@ -9,6 +9,10 @@
 <html>
   <head>
     <?php include './head.php'; ?>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script>
+    </script>
   </head>
 
   <body class="home">
@@ -19,6 +23,10 @@
       <img class="splash-content" id="mobile" src="./img/orangelogoleft.png">
     </div>
 
+    <div id="slider"></div>
+    <p style="text-align: center; padding-top: 5px; padding-bottom: 5px;"> Slide to adjust blur
+    <button type="submit" class="btn btn-danger" style="text-align: center;">Submit Vote</button>
+    </p>
     <?php include './header.php'; ?>
     <div id="content-wrapper" class="content container">
       <div id="main-content" class="row">
