@@ -7,22 +7,22 @@ if [ ! -d "./dist" ]; then
   exit
 fi
 
-rm -rf dist.zip
+rm -f dist.zip
 zip -r dist.zip dist/
-scp -i ~/.ssh/id_fsae dist.zip motorsports@web.engr.illinois.edu:~/public_html/
-rm -rf dist.zip
+scp -i ~/.ssh/id_fsae dist.zip motorsports@web.engr.illinois.edu:~/public_html/preview
+rm -f dist.zip
 
-ssh -i ~/.ssh/id_fsae motorsports@web.engr.illinois.edu <<EOF
+ssh -i ~/.ssh/id_fsae motorsports@web.engr.illinois.edu << 'EOF'
 
-cd ~/public_html
-rm -rf *.php all.min.js style.css font/ img/ cgi-bin/
+  cd ~/public_html/preview
+  rm -rf *.php all.min.js style.css font/ img/ cgi-bin/
 
-unzip dist.zip
-rm -rf dist.zip
-mv dist/* .
-rm -rf dist/
-chmod g-w *.php
+  unzip dist.zip
+  rm -f dist.zip
+  mv dist/* .
+  rm -rf dist/
+  chmod g-w *.php
 
-exit
+  exit
 
 EOF

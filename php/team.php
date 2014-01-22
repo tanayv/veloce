@@ -93,7 +93,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?suspension=y">XXXXX</a></td>
+                    <td><a href="./contact.php?suspension=y">mille201</a></td>
                   </tr>
                 </tbody>
               </table>

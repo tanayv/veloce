@@ -1,5 +1,5 @@
 <?php
-  /**
+ /**
   * PHP - Index
   * Authors - Andrew Mass, Nick Kortendick
   */
@@ -10,14 +10,26 @@
 <html>
   <head>
     <?php include './head.php'; ?>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script>
+    </script>
   </head>
 
   <body class="home">
+    <div id="splash-container">
+      <div id="splash"></div>
+
+      <img class="splash-content" id="desktop" src="./img/orangelogo.png">
+      <img class="splash-content" id="mobile" src="./img/orangelogoleft.png">
+    </div>
+
+    <div id="slider"></div>
+    <p style="text-align: center; padding-top: 5px; padding-bottom: 5px;"> Slide to adjust blur
+    <button id="submit-vote" type="submit" class="btn btn-danger" style="text-align: center;">Submit Vote</button>
+    </p>
     <?php include './header.php'; ?>
-
-    <img id="hero-main" src="./img/hero-overlay.jpg">
-
-    <div class="content container">
+    <div id="content-wrapper" class="content container">
       <div id="main-content" class="row">
         <div class="col-md-8">
           <h3>About Us</h3>

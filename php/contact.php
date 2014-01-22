@@ -6,7 +6,7 @@
 
   //NetIDs to update year by year
   $engineLead = kuhajda1;
-  $suspensionLead = amass2; //I don't know Jack's yet. So instead of hardcoding a Gmail in I put yours for now. 
+  $suspensionLead = mille201; //I don't know Jack's yet. So instead of hardcoding a Gmail in I put yours for now.
   $electronicsLead = schwiet2;
   $chassisLead = kgharri2;
   $aerodynamicsLead = dempsey7;
@@ -165,7 +165,7 @@
           if($_POST['companyInput'] != '')
             $body .= ' of ' . $_POST['companyInput'];
           $body .= " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone . "\n IP Address: " . $authorIP . "\n User Agent: " . $authorUserAgent;
-         
+
           if(isset($_POST['joining']))
             $body .= "\n Subteam(s) Selected: ";
 
@@ -394,7 +394,7 @@
       </form>
     </div>
 
-    <script type="text/javascript"> 
+    <script type="text/javascript">
       $("#joining").click(function(){
       $("#joining").is(':checked') ? $("#subteam").slideDown() : $("#subteam").slideUp();});
 
