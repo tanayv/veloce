@@ -41,24 +41,9 @@ Veloce.applyReplacementMargin = function() {
   }
 };
 
-Veloce.slider = function(){
-  $( "#slider" ).slider();
-  $( "#slider" ).slider({ value: 50 });
-  $("#slider").on( "slidechange", function() {
-    var value = $( "#slider" ).slider( "option", "value" );
-    value=value/7;
-    $('#splash').css('-webkit-filter', 'blur(' + value + 'px) grayscale(1.0)');
-    $('#splash').css('-moz-filter', 'blur(' + value + 'px) grayscale(1.0)');
-    $('#splash').css('-o-filter', 'blur(' + value + 'px) grayscale(1.0)');
-    $('#splash').css('-ms-filter', 'blur(' + value + 'px) grayscale(1.0)');
-    $('#splash').css('filter', 'blur(' + value + 'px) grayscale(1.0)');
-  });
-};
-
 $(function() {
   Veloce.applyActive();
   Veloce.affixNavbar();
-  Veloce.slider();
   Veloce.applyReplacementMargin();
 
   $(window).scroll(function() {
@@ -68,13 +53,5 @@ $(function() {
   $(window).resize(function() {
     Veloce.affixNavbar();
     Veloce.applyReplacementMargin();
-  });
-
-  $('#submit-vote').click(function() {
-    if(!Veloce.hasClicked) {
-      var value = $( "#slider" ).slider( "option", "value" ) / 7;
-      Veloce.track(['_trackEvent', 'Blur-Vote', 'Actual Vote', 'Vote Value', value]);
-      Veloce.hasClicked = true;
-    }
   });
 });
