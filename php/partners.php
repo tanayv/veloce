@@ -226,7 +226,7 @@
           </div>
 
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-            <a href="//www.amsoil.com" target="_blank">
+            <a href="//www.thundersynthetics.com" target="_blank">
               <img src="./img/logos/honorary/amsoil.jpg">
             </a>
           </div>
