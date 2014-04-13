@@ -9,12 +9,12 @@ fi
 
 rm -f dist.zip
 zip -r dist.zip dist/
-scp -i ~/.ssh/id_fsae dist.zip motorsports@web.engr.illinois.edu:~/public_html/preview
+scp -i ~/.ssh/id_fsae dist.zip motorsports@web.engr.illinois.edu:~/public_html/
 rm -f dist.zip
 
 ssh -i ~/.ssh/id_fsae motorsports@web.engr.illinois.edu << 'EOF'
 
-  cd ~/public_html/preview
+  cd ~/public_html/
   rm -rf *.php all.min.js style.css font/ img/ cgi-bin/
 
   unzip dist.zip
