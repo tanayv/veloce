@@ -3,16 +3,18 @@
  * Authors - Andrew Mass, Nick Kortendick
  */
 
-#header-logo {
-  margin: 5px 20px 5px 10px;
-  width: inherit;
+html {
+  height:100%;
+  width: 100%;
 }
 
 body {
-  position: relative;
   height: 100%;
-  padding-top: @navbar-height + 50px;
-  padding-bottom: 30px;
+}
+
+#header-logo {
+  margin: 5px 20px 5px 10px;
+  width: inherit;
 }
 
 h4 {
@@ -23,6 +25,7 @@ h4 {
 
 .content.container {
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 #top-sponsors {
@@ -47,8 +50,44 @@ h4 {
   }
 }
 
-#hero-main {
-  margin-top: -60px;
+#splash-container {
+  height: calc(~'100% - 100px');
+  width: 100%;
+  position: relative;
+
+  #splash {
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("./img/hero-main-nologo.jpg");
+
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+  }
+
+  .splash-content {
+    z-index: 999;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 75%;
+    max-width: 90%;
+    width: initial;
+  }
+
+  #desktop {
+    display: block;
+  }
+
+  #mobile {
+    display:none;
+  }
 }
 
 #likebox-wrapper {
@@ -57,8 +96,9 @@ h4 {
 
 .navbar {
   border: none;
-  max-width: 1200px;
-  border-radius: 5px;
+  margin: 0px !important;
+  border-radius: 0px;
+  background-color: black;
 
   li.active {
     height: @navbar-height;
@@ -81,6 +121,20 @@ h4 {
       text-align: center;
     }
   }
+
+  button.navbar-toggle {
+    margin: 0 auto;
+    float: inherit;
+  }
+
+  &.affix {
+    .navbar-fixed-top();
+
+    .container {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
 }
 
 .home {
@@ -95,12 +149,61 @@ h4 {
     padding: 5px;
   }
 
+  .navbar {
+    text-align: center;
+    font-size: 25px;
+    -webkit-font-smoothing: antialiased !important;
+
+    .container {
+      .transition(all @transition-time);
+      margin-top: 25px;
+      margin-bottom: 25px;
+      max-width: 100%;
+    }
+
+    .navbar-nav {
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    li {
+      display: inline-block;
+      float: none;
+
+      a {
+        padding-left: 17px;
+        padding-right: 17px;
+      }
+
+    }
+
+    .navbar-right {
+      display: none;
+    }
+
+    &.affix .container {
+      .transition(all @transition-time);
+      margin-top: 5px;
+      margin-bottom: 5px;
+
+      li.active a {
+        padding-bottom: 8px;
+      }
+    }
+  }
+
   #main-content {
     position: relative;
   }
 
   hr {
     border-color: @accent-orange;
+  }
+
+  #header-logo
+  {
+    display:none;
   }
 }
 
@@ -206,12 +309,12 @@ h4 {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 35px;
-  background-color: @grayDark;
+  height: 50px;
+  background-color: black;
   line-height: 1;
 
   a {
@@ -219,7 +322,7 @@ h4 {
   }
 
   p {
-    margin-top: 5px;
+    margin-top: 13px;
     margin-bottom: 0;
   }
 
@@ -311,5 +414,37 @@ h4 {
     #chief {
       width: 100%;
     }
+  }
+}
+
+@media screen and (max-width: @screen-sm) {
+
+  .home .navbar {
+
+    .container {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      display: inline;
+    }
+  }
+
+  #splash-container {
+    height: calc(~'100% - 56px');
+
+    #desktop {
+      display: none;
+    }
+
+    #mobile {
+      display: block;
+    }
+  }
+
+  .footer .col-xs-3 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

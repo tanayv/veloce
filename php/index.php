@@ -1,8 +1,9 @@
 <?php
-  /**
+ /**
   * PHP - Index
   * Authors - Andrew Mass, Nick Kortendick
   */
+
 ?>
 
 <!DOCTYPE html>
@@ -12,11 +13,15 @@
   </head>
 
   <body class="home">
+    <div id="splash-container">
+      <div id="splash"></div>
+
+      <img class="splash-content" id="desktop" src="./img/orangelogo.png">
+      <img class="splash-content" id="mobile" src="./img/orangelogoleft.png">
+    </div>
+
     <?php include './header.php'; ?>
-
-    <img id="hero-main" src="./img/hero-overlay.jpg">
-
-    <div class="content container">
+    <div id="content-wrapper" class="content container">
       <div id="main-content" class="row">
         <div class="col-md-8">
           <h3>About Us</h3>

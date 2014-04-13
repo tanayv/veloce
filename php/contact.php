@@ -5,13 +5,24 @@
   */
 
   //NetIDs to update year by year
-  $engineLead = kuhajda1;
-  $suspensionLead = amass2; //I don't know Jack's yet. So instead of hardcoding a Gmail in I put yours for now. 
-  $electronicsLead = schwiet2;
-  $chassisLead = kgharri2;
-  $aerodynamicsLead = dempsey7;
-  $drivetrainLead = jsullvn2;
-  ?>
+  $engineLead = "kuhajda1";
+  $suspensionLead = "mille201";
+  $electronicsLead = "schwiet2";
+  $chassisLead = "kgharri2";
+  $aerodynamicsLead = "dempsey7";
+  $drivetrainLead = "jsullvn2";
+
+  // Initialze error booleans to FALSE to avoid undefined variable warnings.
+  $msgSubjectJoin = FALSE;
+  $msgSubjectSponsor = FALSE;
+  $authorError = FALSE;
+  $authorLastError = FALSE;
+  $authorFirstError = FALSE;
+  $emailError = FALSE;
+  $subjectError = FALSE;
+  $commentError = FALSE;
+  $captchaErrorMsg = FALSE;
+?>
 
 <!DOCTYPE html>
 <html>
@@ -119,7 +130,6 @@
         {
           $subjectError = true;
           $hasError = true;
-        //echo("SUBJECT ERROR ");
         }
         else
         {
@@ -132,7 +142,6 @@
         {
           $commentError = true;
           $hasError = true;
-        //echo("MESSAGE ERROR ");
         }
         else
         {
@@ -142,7 +151,6 @@
         $authorIP = getenv("REMOTE_ADDR");
         $authorPhone = $_POST['phone'];
         $authorUserAgent = $_SERVER['HTTP_USER_AGENT'];
-
 
         // if all the fields have been entered correctly and there are no recaptcha errors build an email message
         if (($resp->is_valid) && (!isset($hasError)))
@@ -160,12 +168,15 @@
               $emailTo .= ',' . $aerodynamicsLead . '@illinois.edu';
             if(isset($_POST['drivetrain']))
               $emailTo .= ',' . $drivetrainLead . '@illinois.edu';
+            if($msgSubjectWebsite)
+              $emailTo .= ',' . 'amass2@illinois.edu' . ',' . 'kortend2@illinois.edu';
           $subject = 'New message from ' . $authorName . ' ' . $authorLastName . ' on Motorsports.illinois.edu: ' . $msgSubject; // This is how the subject of the email will look like
           $body = $authorName . ' ' . $authorLastName;
           if($_POST['companyInput'] != '')
             $body .= ' of ' . $_POST['companyInput'];
-          $body .= " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone . "\n IP Address: " . $authorIP . "\n User Agent: " . $authorUserAgent;
-         
+          //$body .= " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone . "\n IP Address: " . $authorIP . "\n User Agent: " . $authorUserAgent;
+          $body .= " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone;
+
           if(isset($_POST['joining']))
             $body .= "\n Subteam(s) Selected: ";
 
@@ -394,7 +405,7 @@
       </form>
     </div>
 
-    <script type="text/javascript"> 
+    <script type="text/javascript">
       $("#joining").click(function(){
       $("#joining").is(':checked') ? $("#subteam").slideDown() : $("#subteam").slideUp();});
 

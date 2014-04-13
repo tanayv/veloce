@@ -93,7 +93,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?suspension=y">XXXXX</a></td>
+                    <td><a href="./contact.php?suspension=y">mille201</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -293,12 +293,12 @@
 
                   <tr>
                     <td>Year</td>
-                    <td></td>
+                    <td>Senior</td>
                   </tr>
 
                   <tr>
                     <td>Hometown</td>
-                    <td></td>
+                    <td>Orland Park, Illinois</td>
                   </tr>
 
                   <tr>
@@ -309,7 +309,7 @@
               </table>
 
               <div class="well">
-                <p></p>
+                <p>Matt is a senior in aerospace engineering. He has been a member of the team for the past 2 1/2 years, worked primarily with carbon fiber manufacturing and 5-axis machining. Working with David, he is in charge of designing and manufacturing the wings as well as most of the car's external body work. This summer, he will be working as an intern at SpaceX.</p>
               </div>
             </div>
           </div>
@@ -376,23 +376,23 @@
 
                   <tr>
                     <td>Year</td>
-                    <td></td>
+                    <td>Super Senior</td>
                   </tr>
 
                   <tr>
                     <td>Hometown</td>
-                    <td></td>
+                    <td>Bangkok, Thailand</td>
                   </tr>
 
                   <tr>
                     <td>NetID</td>
-                    <td>caruthe1</td>
+                    <td><a href="./contact.php?aerodynamics=y">caruthe1</a></td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p></p>
+                <p>David likes to tan on the beach while drinking an Appletini.</p>
               </div>
             </div>
           </div>
@@ -419,12 +419,12 @@
 
                   <tr>
                     <td>Year</td>
-                    <td></td>
+                    <td>High School Freshman</td>
                   </tr>
 
                   <tr>
                     <td>Hometown</td>
-                    <td></td>
+                    <td>Antananarivo, Madagascar</td>
                   </tr>
 
                   <tr>
@@ -435,7 +435,7 @@
               </table>
 
               <div class="well">
-                <p></p>
+                <p>Adrian has a pet penguin which he feeds everyday. On the second Thursday of the month he takes his penguin to the penguin park in Rantoul. When he isn't practicing his curling skills with his penguin, he likes to eat pizza topped with squirrel meat.</p>
               </div>
             </div>
           </div>
@@ -482,7 +482,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
               <strong>Alex Allmandinger</strong>
@@ -522,6 +522,7 @@
             </div>
           </div>
         </div>
+      !-->
       </div>
     </div>
 

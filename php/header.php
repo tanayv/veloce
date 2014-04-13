@@ -5,7 +5,7 @@
    */
 ?>
 
-<div class="navbar navbar-inverse navbar-fixed-top" id="header">
+<div class="navbar navbar-inverse" id="header">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -23,7 +23,7 @@
 
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active">
+        <li id="home" class="active">
           <a href="./">Home</a>
         </li>
 
@@ -35,23 +35,23 @@
           <a href="./updates.php">Updates</a>
         </li>-->
 
-        <li>
+        <li id="partners">
           <a href="./partners.php">Partners</a>
         </li>
 
-        <li>
+        <li id="cars">
           <a href="./cars.php">Cars</a>
         </li>
 
-        <!--<li>
-          <a href="./team.php">Our Team</a>
-        </li>-->
-
         <li>
-          <a href="./join.php">Join the Team</a>
+          <a href="./team.php">Our Team</a>
         </li>
 
-        <li>
+        <li id="join">
+          <a href="./join.php">Join Us</a>
+        </li>
+
+        <li id="contact">
           <a href="./contact.php">Contact Us</a>
         </li>
       </ul>
