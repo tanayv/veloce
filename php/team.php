@@ -435,7 +435,7 @@
               </table>
 
               <div class="well">
-                <p>Adrian has a pet penguin which he feeds everyday. On the second Thursday of the month he takes his penguin to the penguin park in Rantoul.</p>
+                <p>Adrian has a pet penguin which he feeds everyday. On the second Thursday of the month he takes his penguin to the penguin park in Rantoul. When he isn't practicing his curling skills with his penguin, he likes to eat pizza topped with squirrel meat.</p>
               </div>
             </div>
           </div>
