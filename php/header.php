@@ -43,7 +43,7 @@
           <a href="./cars.php">Cars</a>
         </li>
 
-        <li>
+        <li id="team">
           <a href="./team.php">Our Team</a>
         </li>
 

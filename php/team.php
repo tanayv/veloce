@@ -6,12 +6,12 @@
 ?>
 
 <!DOCTYPE html>
-<html class="team">
+<html>
   <head>
     <?php include './head.php'; ?>
   </head>
 
-  <body>
+  <body class="team">
     <?php include './header.php'; ?>
 
     <div class="content container">
