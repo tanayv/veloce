@@ -52,7 +52,7 @@
         </li>
 
         <li id="give">
-          <a href="./give.php">Give Today</a>
+          <a href="./give.php">Donate</a>
         </li>
 
         <li id="contact">

@@ -290,6 +290,11 @@
               <img src="./img/logos/honorary/schroth.jpg">
             </a>
           </div>
+          <div class="col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5 col-sm-3 col-xs-4 col-xs-offset-4">
+            <a href="//auto-loans.wellsfargo.com" target="_blank">
+              <img src="./img/logos/honorary/wellsfargoautofinance.jpg">
+            </a>
+          </div>
         </div>
       </div>
     </div>
