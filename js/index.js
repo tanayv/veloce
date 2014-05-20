@@ -21,37 +21,6 @@ Veloce.applyActive = function() {
   }
 };
 
-Veloce.affixNavbar = function() {
-  // Only affix the navbar if on the home page and not on small screens.
-  if($('body').hasClass('home') && $('#desktop').css('display') === 'block') {
-    $('#header').affix({
-      offset: {
-        top: $('#splash-container').outerHeight()
-      }
-    });
-  }
-};
-
-Veloce.applyReplacementMargin = function() {
-  if($('#header').hasClass('affix')) {
-    $('#content-wrapper').css('margin-top', 115);
-  }
-  else {
-    $('#content-wrapper').css('margin-top', 0);
-  }
-};
-
 $(function() {
   Veloce.applyActive();
-  Veloce.affixNavbar();
-  Veloce.applyReplacementMargin();
-
-  $(window).scroll(function() {
-    Veloce.applyReplacementMargin();
-  });
-
-  $(window).resize(function() {
-    Veloce.affixNavbar();
-    Veloce.applyReplacementMargin();
-  });
 });

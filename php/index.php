@@ -36,12 +36,12 @@
             <a href="./join.php">Join the Team</a>
           </h4>
 
-          <img src="./img/rendered.jpg">
+          <img src="./img/rendered_trio.jpg">
         </div>
 
         <div class="col-md-4">
           <div id="likebox-wrapper">
-            <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fillinimotorsports&amp;width=400&amp;height=593&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=true&amp;show_border=true&amp;appId=143039425897009" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:593px; margin-top: 30px;" allowTransparency="true"></iframe>
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fillinimotorsports&amp;width=400&amp;height=556&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=true&amp;show_border=true&amp;appId=143039425897009" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:593px; margin-top: 30px;" allowTransparency="true"></iframe>
           </div>
         </div>
       </div>

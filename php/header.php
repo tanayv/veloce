@@ -27,14 +27,6 @@
           <a href="./">Home</a>
         </li>
 
-        <!--<li>
-          <a href="./about.php">About</a>
-        </li>-->
-
-        <!--<li>
-          <a href="./updates.php">Updates</a>
-        </li>-->
-
         <li id="partners">
           <a href="./partners.php">Partners</a>
         </li>

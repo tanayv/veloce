@@ -4,7 +4,7 @@
   * Authors - Andrew Mass, Nick Kortendick
   */
 
-  //NetIDs to update year by year
+  // NetIDs to update year by year.
   $engineLead = "kuhajda1";
   $suspensionLead = "mille201";
   $electronicsLead = "schwiet2";
