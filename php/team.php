@@ -40,11 +40,6 @@
                     <td>Junior</td>
                   </tr>
 
-                  <!-- <tr>
-                    <td>Hometown</td>
-                    <td></td>
-                  </tr> !-->
-
                   <tr>
                     <td>NetID</td>
                     <td><a href="./contact.php">bastani2</a></td>
@@ -376,13 +371,13 @@
 
                   <tr>
                     <td>Year</td>
-                    <td>Super Senior</td>
+                    <td>Senior</td>
                   </tr>
 
-                  <tr>
+                  <!-- <tr>
                     <td>Hometown</td>
-                    <td>Bangkok, Thailand</td>
-                  </tr>
+                    <td></td>
+                  </tr> -->
 
                   <tr>
                     <td>NetID</td>
@@ -392,7 +387,7 @@
               </table>
 
               <div class="well">
-                <p>David likes to tan on the beach while drinking an Appletini.</p>
+                <p>Colloquially known as the Grand Duke of Downforce, David works with Matt to lead the Aerodynamics subsystem. David worked hard to design a completely new aero package, including front and rear wings optimized for the speeds seen in Formula SAE events.</p>
               </div>
             </div>
           </div>
@@ -419,13 +414,13 @@
 
                   <tr>
                     <td>Year</td>
-                    <td>High School Freshman</td>
+                    <td>Junior</td>
                   </tr>
 
-                  <tr>
+                  <!-- <tr>
                     <td>Hometown</td>
-                    <td>Antananarivo, Madagascar</td>
-                  </tr>
+                    <td></td>
+                  </tr> -->
 
                   <tr>
                     <td>NetID</td>
@@ -435,7 +430,7 @@
               </table>
 
               <div class="well">
-                <p>Adrian has a pet penguin which he feeds everyday. On the second Thursday of the month he takes his penguin to the penguin park in Rantoul. When he isn't practicing his curling skills with his penguin, he likes to eat pizza topped with squirrel meat.</p>
+                <p>Adrian's duties include setting up events for recruiting new members and planning group celebrations. He also designs, machines, and manufactures various parts for the car.</p>
               </div>
             </div>
           </div>
@@ -482,7 +477,7 @@
           </div>
         </div>
 
-        <!-- <div class="col-md-4">
+        <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
               <strong>Alex Allmandinger</strong>
@@ -522,7 +517,6 @@
             </div>
           </div>
         </div>
-      !-->
       </div>
     </div>
 
