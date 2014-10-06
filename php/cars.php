@@ -47,7 +47,7 @@
 
                       <tr>
                         <td>FSAE Lincoln 2014</td>
-                        <td>To Be Determined</td>
+                        <td>33rd Overall</td>
                       </tr>
                     </tbody>
                   </table>

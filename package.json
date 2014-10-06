@@ -2,30 +2,29 @@
   "name": "Veloce",
   "description": "Official website for Illini Motorsports.",
   "contributors": [
-    "Andrew Mass <amass1212@gmail.com> (http://mass.gigastormdevelopers.com)",
+    "Andrew Mass <amass1212@gmail.com> (http://mass.red)",
     "Nick Kortendick <nickofbh@gmail.com> (http://nickkortendick.com)"
   ],
   "homepage": "http://motorsports.illinois.edu",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "repository": {
     "type": "git",
     "url": "http://github.com/nickofbh/veloce.git"
   },
   "bugs": {
     "url": "http://github.com/nickofbh/veloce/issues",
-    "email": "nickofbh@gmail.com"
+    "email": "amass1212@gmail.com"
   },
-  "version": "0.1.0",
   "devDependencies": {
-    "grunt": "0.4.5",
-    "grunt-contrib-clean": "0.5.0",
-    "grunt-contrib-concat": "0.4.0",
-    "grunt-contrib-copy": "0.5.0",
-    "grunt-contrib-htmlmin": "0.3.0",
-    "grunt-contrib-less": "0.11.0",
-    "grunt-contrib-uglify": "0.4.0",
-    "grunt-contrib-watch": "0.6.1",
-    "grunt-php": "0.3.3"
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-copy": "~0.6.0",
+    "grunt-contrib-htmlmin": "~0.3.0",
+    "grunt-contrib-less": "~0.11.4",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-php": "~0.3.3"
   }
 }

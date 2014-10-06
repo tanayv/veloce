@@ -15,6 +15,512 @@
     <?php include './header.php'; ?>
 
     <div class="content container">
+      <h1>2014-2015 Team Leaders</h1>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Michael Bastanipour</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/bastanipour.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Team Captain &amp; President</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td>Senior</td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td><a href="./contact.php">bastani2</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Phone Number</td>
+                    <td><a href="tel:18479178420">(847) 917-8420</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p>Mike is a senior majoring in mechanical engineering. During his freshman year, he was involved with the engine and electronics subteams. As a sophomore, he moved up to captain the electronics subteam. He was last year's team captain and is the filling the same role this year.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Keith Harris</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/harris.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Suspension & Testing Team Leader &amp; Driver</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td>Junior</td>
+                  </tr>
+
+                  <tr>
+                    <td>Hometown</td>
+                    <td>Deerfield, Illinois</td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td><a href="./contact.php?suspension=y">kgharri2</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p>Keith is a junior in mechanical engineering, and he leads the suspension team. This year, he is designing and building the main frame and overseeing the completion of part of the pneumatic paddle-shifting system, among other projects. After school, he hopes to work in the motorsports industry. Keith also enjoys racing and has been karting for the past 11 years at the national level.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Professor Michael Philpott</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/philpott.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Faculty Advisor</th>
+                  </thead>
+
+                  <tr>
+                    <td>Office</td>
+                    <td>2007 Mechanical Engineering Lab</td>
+                  </tr>
+
+                  <tr>
+                    <td>Research</td>
+                    <td>Nanomechanics &amp; Nanomanufacturing</td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td>mphilpot</td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p>As the faculty advisor, Professor Philpott oversees all of the Illini Motorsports teams, including Baja and Formula Electric. He also leads the one credit hour ME 199 that meets on Mondays at 4pm in DCL. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>George Schwieters</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/schwieters.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Electronics Team Leader</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td>Senior</td>
+                  </tr>
+
+                  <tr>
+                    <td>Hometown</td>
+                    <td>Dellwood, Minnesota</td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td><a href="./contact.php?electronics=y">schwiet2</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p>George is majoring in electrical engineering and is the leader of the electronics subteam. George takes a large interest in PCB design and embedded systems. Outside of Formula SAE, he enjoys maintaining and modifying cars, drag racing, and autocrossing. He also has large interests in guitars, snowboards, and longboards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Jon Sullivan</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/sullivan.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Drivetrain Team Leader</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td>Senior</td>
+                  </tr>
+
+                  <tr>
+                    <td>Hometown</td>
+                    <td>Barrington, Illinois</td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td><a href="./contact.php?drivetrain=y">jsullvn2</a></td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p>Jon is majoring in mechanical engineering. His past car fabrication and engine work eventually led to his interest in FSAE. After working on the drivetrain team for a year, he became captain and has had no free time since. In the future he hopes to either work in the automotive industry or start his own company.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Adrian Liro</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/liro.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Social Chair &amp; Recruiting</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td>Senior</td>
+                  </tr>
+
+                  <!-- <tr>
+                    <td>Hometown</td>
+                    <td></td>
+                  </tr> -->
+
+                  <tr>
+                    <td>NetID</td>
+                    <td>liro2</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p>Adrian's duties include setting up events for recruiting new members and planning group celebrations. He also designs, machines, and manufactures various parts for the car.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Ed Husak</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/husak.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Vice President &amp; Chassis Member</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td>Senior</td>
+                  </tr>
+
+                  <tr>
+                    <td>Hometown</td>
+                    <td>Lake in the Hills, Illinois</td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td>ehusak2</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p>Ed is a senior studying general engineering with a concentration in automotive technology. As Vice President, Ed handles many organizational tasks within Illini Motorsports such as travel, logistics, budget analysis, and university and sponsor relations. Ed has loved cars and been a gearhead his whole life. Ed hopes to work in the automotive industry upon graduation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>John Guidone</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Chassis Team Leader</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Hometown</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td><a href="./contact.php?chassis=y"></a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Peter Sliwka</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Engine Team Co-Leader</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td>Senior</td>
+                  </tr>
+
+                  <tr>
+                    <td>Hometown</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td><a href="./contact.php?engine=y"></a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Rob Clark</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Engine Team Co-Leader</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td>Senior</td>
+                  </tr>
+
+                  <tr>
+                    <td>Hometown</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td><a href="./contact.php?engine=y"></a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Alex Allmandinger</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/allmandinger.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2">Aerodynamics Team Leader</th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td>Junior</td>
+                  </tr>
+
+                  <tr>
+                    <td>Hometown</td>
+                    <td>Crystal Lake, Illinois</td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td><a href="./contact.php?aerodynamics=y">allmand2</a></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p>Alex is a junior in mechanical engineering with experience in construction and mining industries, as well as in the automotive industry. He is currently leading the development of the drag reduction system.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Alex Keim</strong>
+            </div>
+
+            <div class="panel-body">
+              <div class="profile-image">
+                <img src="./img/team/photos/.jpg">
+              </div>
+
+              <table class="table table-hover">
+                <tbody>
+                  <thead>
+                    <th colspan="2"></th>
+                  </thead>
+
+                  <tr>
+                    <td>Year</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Hometown</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>NetID</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="well">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content container">
       <h1>2013-2014 Team Leaders</h1>
 
       <div class="row">
@@ -88,7 +594,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?suspension=y">mille201</a></td>
+                    <td>mille201</td>
                   </tr>
                 </tbody>
               </table>
@@ -173,7 +679,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?engine=y">kuhajda1</a></td>
+                    <td>kuhajda1</td>
                   </tr>
                 </tbody>
               </table>
@@ -214,7 +720,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?electronics=y">schwiet2</a></td>
+                    <td>schwiet2</td>
                   </tr>
                 </tbody>
               </table>
@@ -255,7 +761,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?chassis=y">kgharri2</a></td>
+                    <td>kgharri2</td>
                   </tr>
                 </tbody>
               </table>
@@ -298,7 +804,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?aerodynamics=y">dempsey7</a></td>
+                    <td>dempsey7</td>
                   </tr>
                 </tbody>
               </table>
@@ -339,7 +845,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?drivetrain=y">jsullvn2</a></td>
+                    <td>jsullvn2</td>
                   </tr>
 
                 </tbody>
@@ -381,7 +887,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?aerodynamics=y">caruthe1</a></td>
+                    <td>caruthe1</td>
                   </tr>
                 </tbody>
               </table>
