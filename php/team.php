@@ -26,7 +26,7 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <img src="./img/team/photos/bastanipour.jpg">
+                <!--<img src="./img/team/photos/bastanipour.jpg">-->
               </div>
 
               <table class="table table-hover">
@@ -53,7 +53,7 @@
               </table>
 
               <div class="well">
-                <p>Mike is a senior majoring in mechanical engineering. During his freshman year, he was involved with the engine and electronics subteams. As a sophomore, he moved up to captain the electronics subteam. He was last year's team captain and is the filling the same role this year.
+                <!--<p>Mike is a senior majoring in mechanical engineering. During his freshman year, he was involved with the engine and electronics subteams. As a sophomore, he moved up to captain the electronics subteam. He was last year's team captain and is the filling the same role this year.-->
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <img src="./img/team/photos/harris.jpg">
+                <!--<img src="./img/team/photos/harris.jpg">-->
               </div>
 
               <table class="table table-hover">
@@ -94,7 +94,7 @@
               </table>
 
               <div class="well">
-                <p>Keith is a junior in mechanical engineering, and he leads the suspension team. This year, he is designing and building the main frame and overseeing the completion of part of the pneumatic paddle-shifting system, among other projects. After school, he hopes to work in the motorsports industry. Keith also enjoys racing and has been karting for the past 11 years at the national level.</p>
+                <!--<p>Keith is a junior in mechanical engineering, and he leads the suspension team. This year, he is designing and building the main frame and overseeing the completion of part of the pneumatic paddle-shifting system, among other projects. After school, he hopes to work in the motorsports industry. Keith also enjoys racing and has been karting for the past 11 years at the national level.</p>-->
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th colspan="2">Drivetrain Team Leader</th>
+                    <th colspan="2">Chief Engineer & Drivetrain Team Leader</th>
                   </thead>
 
                   <tr>
@@ -216,12 +216,11 @@
                     <td>NetID</td>
                     <td><a href="./contact.php?drivetrain=y">jsullvn2</a></td>
                   </tr>
-
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Jon is majoring in mechanical engineering. His past car fabrication and engine work eventually led to his interest in FSAE. After working on the drivetrain team for a year, he became captain and has had no free time since. In the future he hopes to either work in the automotive industry or start his own company.</p>
+                <p>Jon is majoring in mechanical engineering after an unexpected switch out of IB/economics. His past car fabrication and engine work eventually led to his interest in FSAE. His main focuses have been the implementation of a new Wavetrac differential, a new type of CVT, and naps. He is currently looking forward to graduating and working at Ford R&A and having more time for the aforementioned naps.</p>
               </div>
             </div>
           </div>
@@ -235,7 +234,7 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <img src="./img/team/photos/liro.jpg">
+                <!--<img src="./img/team/photos/liro.jpg">-->
               </div>
 
               <table class="table table-hover">
@@ -249,10 +248,10 @@
                     <td>Senior</td>
                   </tr>
 
-                  <!-- <tr>
+                  <tr>
                     <td>Hometown</td>
-                    <td></td>
-                  </tr> -->
+                    <!--<td></td>-->
+                  </tr>
 
                   <tr>
                     <td>NetID</td>
@@ -262,7 +261,7 @@
               </table>
 
               <div class="well">
-                <p>Adrian's duties include setting up events for recruiting new members and planning group celebrations. He also designs, machines, and manufactures various parts for the car.</p>
+                <!--<p>Adrian's duties include setting up events for recruiting new members and planning group celebrations. He also designs, machines, and manufactures various parts for the car.</p>-->
               </div>
             </div>
           </div>
@@ -278,7 +277,7 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <img src="./img/team/photos/husak.jpg">
+                <!--<img src="./img/team/photos/husak.jpg">-->
               </div>
 
               <table class="table table-hover">
@@ -305,7 +304,7 @@
               </table>
 
               <div class="well">
-                <p>Ed is a senior studying general engineering with a concentration in automotive technology. As Vice President, Ed handles many organizational tasks within Illini Motorsports such as travel, logistics, budget analysis, and university and sponsor relations. Ed has loved cars and been a gearhead his whole life. Ed hopes to work in the automotive industry upon graduation.</p>
+                <!--<p>Ed is a senior studying general engineering with a concentration in automotive technology. As Vice President, Ed handles many organizational tasks within Illini Motorsports such as travel, logistics, budget analysis, and university and sponsor relations. Ed has loved cars and been a gearhead his whole life. Ed hopes to work in the automotive industry upon graduation.</p>-->
               </div>
             </div>
           </div>
@@ -319,7 +318,7 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <img src="./img/team/photos/.jpg">
+                <img src="./img/team/photos/guidone.jpg">
               </div>
 
               <table class="table table-hover">
@@ -330,23 +329,23 @@
 
                   <tr>
                     <td>Year</td>
-                    <td></td>
+                    <td>Junior</td>
                   </tr>
 
                   <tr>
                     <td>Hometown</td>
-                    <td></td>
+                    <td>Chicago, IL</td>
                   </tr>
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?chassis=y"></a></td>
+                    <td><a href="./contact.php?chassis=y">guidone2</a></td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p></p>
+              <p>John is a Junior in Mechanical Engineering and has been involved with the Chassis Team ever since freshman year.  This year John is leading the Chassis and Integration Team and is also helping design and implement a pneumatic paddle shifting system.  Guidone hopes to eventually work for a Nascar race team and is known on the Formula team as "Jeff Gordon". John has a passion for any type of racing and will be interning at Chrysler in summer 2015.</p>
               </div>
             </div>
           </div>
@@ -360,13 +359,13 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <img src="./img/team/photos/.jpg">
+                <img src="./img/team/photos/sliwka.jpg">
               </div>
 
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th colspan="2">Engine Team Co-Leader</th>
+                    <th colspan="2">Engine Team Leader</th>
                   </thead>
 
                   <tr>
@@ -376,18 +375,18 @@
 
                   <tr>
                     <td>Hometown</td>
-                    <td></td>
+                    <td>Des Plaines, IL</td>
                   </tr>
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?engine=y"></a></td>
+                    <td><a href="./contact.php?engine=y">sliwka2</a></td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <p></p>
+              <p>Peter is a senior at UIUC and is majoring in mechanical engineering. He is responsible for overseeing the design and integration of the engine and its components, as well as calibrating the vehicle. After school, he hopes to work for Ford Motor Company in their product development college graduate program.</p>
               </div>
             </div>
           </div>
@@ -403,13 +402,13 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <img src="./img/team/photos/.jpg">
+                <!--<img src="./img/team/photos/.jpg">-->
               </div>
 
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th colspan="2">Engine Team Co-Leader</th>
+                    <th colspan="2">Engine Team Leader</th>
                   </thead>
 
                   <tr>
@@ -419,7 +418,7 @@
 
                   <tr>
                     <td>Hometown</td>
-                    <td></td>
+                    <!--<td></td>-->
                   </tr>
 
                   <tr>
@@ -430,7 +429,7 @@
               </table>
 
               <div class="well">
-                <p></p>
+                <!--<p></p>-->
               </div>
             </div>
           </div>
@@ -471,48 +470,7 @@
               </table>
 
               <div class="well">
-                <p>Alex is a junior in mechanical engineering with experience in construction and mining industries, as well as in the automotive industry. He is currently leading the development of the drag reduction system.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <strong>Alex Keim</strong>
-            </div>
-
-            <div class="panel-body">
-              <div class="profile-image">
-                <img src="./img/team/photos/.jpg">
-              </div>
-
-              <table class="table table-hover">
-                <tbody>
-                  <thead>
-                    <th colspan="2"></th>
-                  </thead>
-
-                  <tr>
-                    <td>Year</td>
-                    <td></td>
-                  </tr>
-
-                  <tr>
-                    <td>Hometown</td>
-                    <td></td>
-                  </tr>
-
-                  <tr>
-                    <td>NetID</td>
-                    <td></td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="well">
-                <p></p>
+                <p>Alex is a Junior in Mechanical Engineering at the University of Illinois. His background includes work with both structural and aerodynamic design for Illini Motorsports, as well as leading composite manufacturing. Away from the team, Alex enjoys working in the auto industry, as well as following racing and soccer, among other sports.</p>
               </div>
             </div>
           </div>
@@ -978,47 +936,6 @@
 
               <div class="well">
                 <p>Ed is a junior studying general engineering with a concentration in automotive technology. As Vice President, Ed handles many organizational tasks within Illini Motorsports such as travel, logistics, budget analysis, and university and sponsor relations. Ed has loved cars and been a gearhead his whole life. Ed hopes to work in the automotive industry upon graduation.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <strong>Alex Allmandinger</strong>
-            </div>
-
-            <div class="panel-body">
-              <div class="profile-image">
-                <img src="./img/team/photos/allmandinger.jpg">
-              </div>
-
-              <table class="table table-hover">
-                <tbody>
-                  <thead>
-                    <th colspan="2">Aerodynamics Member</th>
-                  </thead>
-
-                  <tr>
-                    <td>Year</td>
-                    <td>Sophomore</td>
-                  </tr>
-
-                  <tr>
-                    <td>Hometown</td>
-                    <td>Crystal Lake, Illinois</td>
-                  </tr>
-
-                  <tr>
-                    <td>NetID</td>
-                    <td>allmand2</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="well">
-                <p>Alex is a sophomore in mechanical engineering with experience in construction and mining industries, as well as in the automotive industry. He is currently leading the development of the drag reduction system.</p>
               </div>
             </div>
           </div>
