@@ -67,13 +67,13 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <!--<img src="./img/team/photos/harris.jpg">-->
+                <img src="./img/team/photos/harris.jpg">
               </div>
 
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th colspan="2">Suspension & Testing Team Leader &amp; Driver</th>
+                    <th colspan="2">Suspension Team Leader &amp; Main Driver</th>
                   </thead>
 
                   <tr>
@@ -83,7 +83,7 @@
 
                   <tr>
                     <td>Hometown</td>
-                    <td>Deerfield, Illinois</td>
+                    <td>Champaign, Illinois</td>
                   </tr>
 
                   <tr>
@@ -94,7 +94,7 @@
               </table>
 
               <div class="well">
-                <!--<p>Keith is a junior in mechanical engineering, and he leads the suspension team. This year, he is designing and building the main frame and overseeing the completion of part of the pneumatic paddle-shifting system, among other projects. After school, he hopes to work in the motorsports industry. Keith also enjoys racing and has been karting for the past 11 years at the national level.</p>-->
+                <p>Keith is a junior in mechanical engineering, and he leads the suspension and testing teams. This year, he is designing a highly adjustable suspension system, as well as implementing new test procedures and data analysis. After school, he hopes to work in the motorsports or automotive industry. Keith also enjoys racing and has been karting for the past 11 years at the national level.</p>
               </div>
             </div>
           </div>
@@ -272,23 +272,23 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Ed Husak</strong>
+              <strong>Edward Husak</strong>
             </div>
 
             <div class="panel-body">
               <div class="profile-image">
-                <!--<img src="./img/team/photos/husak.jpg">-->
+                <img src="./img/team/photos/husak.jpg">
               </div>
 
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th colspan="2">Vice President &amp; Chassis Member</th>
+                    <th colspan="2">Vice President, Chassis Team Member, Social Chair, Treasurer</th>
                   </thead>
 
                   <tr>
                     <td>Year</td>
-                    <td>Senior</td>
+                    <td>Junior</td>
                   </tr>
 
                   <tr>
@@ -304,7 +304,7 @@
               </table>
 
               <div class="well">
-                <!--<p>Ed is a senior studying general engineering with a concentration in automotive technology. As Vice President, Ed handles many organizational tasks within Illini Motorsports such as travel, logistics, budget analysis, and university and sponsor relations. Ed has loved cars and been a gearhead his whole life. Ed hopes to work in the automotive industry upon graduation.</p>-->
+                <p>Ed is a junior studying Agricultural and Bio engineering with a emphasis in automotive technology. As Vice President, Ed handles many organizational tasks within Illini Motorsports such as travel, logistics, budget analysis, and university and sponsor relations. Ed has loved cars and been a gearhead his whole life. Ed hopes to work in the automotive industry upon graduation.</p>
               </div>
             </div>
           </div>
@@ -402,7 +402,7 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <!--<img src="./img/team/photos/.jpg">-->
+                <img src="./img/team/photos/clark.jpg">
               </div>
 
               <table class="table table-hover">
@@ -418,18 +418,18 @@
 
                   <tr>
                     <td>Hometown</td>
-                    <!--<td></td>-->
+                    <td>Libertyville, IL</td>
                   </tr>
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?engine=y"></a></td>
+                    <td><a href="./contact.php?engine=y">rmclark4</a></td>
                   </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <!--<p></p>-->
+                <p>Rob is a senior Mech. Engineering major who enjoys building engines and old muscle cars in his free time.  He also enjoys golfing, shooting pool, and shooting guns.</p>
               </div>
             </div>
           </div>
