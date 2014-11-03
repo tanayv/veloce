@@ -234,13 +234,13 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <!--<img src="./img/team/photos/liro.jpg">-->
+                <img src="./img/team/photos/liro.jpg">
               </div>
 
               <table class="table table-hover">
                 <tbody>
                   <thead>
-                    <th colspan="2">Social Chair &amp; Recruiting</th>
+                    <th colspan="2">Manufacturing Chief Engineer</th>
                   </thead>
 
                   <tr>
@@ -250,7 +250,7 @@
 
                   <tr>
                     <td>Hometown</td>
-                    <!--<td></td>-->
+                    <td>Glenview, Illinois</td>
                   </tr>
 
                   <tr>
@@ -261,7 +261,7 @@
               </table>
 
               <div class="well">
-                <!--<p>Adrian's duties include setting up events for recruiting new members and planning group celebrations. He also designs, machines, and manufactures various parts for the car.</p>-->
+                <p>Adrian is a senior in mechanical engineering. He is the chief engineer in charge of manufacturing and responsible for manufacturing design decisions. After graduation, Adrian will be working for the Chrysler Group while pursuing his Master's Degree in the Chrysler Institute of Engineering.</p>
               </div>
             </div>
           </div>
@@ -334,7 +334,7 @@
 
                   <tr>
                     <td>Hometown</td>
-                    <td>Chicago, IL</td>
+                    <td>Chicago, Illinois</td>
                   </tr>
 
                   <tr>
@@ -375,7 +375,7 @@
 
                   <tr>
                     <td>Hometown</td>
-                    <td>Des Plaines, IL</td>
+                    <td>Des Plaines, Illinois</td>
                   </tr>
 
                   <tr>
@@ -418,7 +418,7 @@
 
                   <tr>
                     <td>Hometown</td>
-                    <td>Libertyville, IL</td>
+                    <td>Libertyville, Illinois</td>
                   </tr>
 
                   <tr>
