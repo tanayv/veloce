@@ -26,7 +26,7 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <!--<img src="./img/team/photos/bastanipour.jpg">-->
+                <img src="./img/team/photos/bastanipour.jpg">
               </div>
 
               <table class="table table-hover">
@@ -41,19 +41,20 @@
                   </tr>
 
                   <tr>
+                    <td>Hometown</td>
+                    <td>Glenview, Illinois</td>
+                  </tr>
+
+                  <tr>
                     <td>NetID</td>
                     <td><a href="./contact.php">bastani2</a></td>
                   </tr>
 
-                  <tr>
-                    <td>Phone Number</td>
-                    <td><a href="tel:18479178420">(847) 917-8420</a></td>
-                  </tr>
                 </tbody>
               </table>
 
               <div class="well">
-                <!--<p>Mike is a senior majoring in mechanical engineering. During his freshman year, he was involved with the engine and electronics subteams. As a sophomore, he moved up to captain the electronics subteam. He was last year's team captain and is the filling the same role this year.-->
+                <p>Michael is a senior in Mechanical Engineering. He is the returning team captain and working on his fourth year with the team. Michael works on the electronics subsystem of the car along with his roll as team captain.</p>
               </div>
             </div>
           </div>
