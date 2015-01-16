@@ -5,6 +5,7 @@
   */
 ?>
 
+
 <div id="top-sponsors" class="content container">
   <hr>
 
@@ -30,6 +31,18 @@
     <div class="col-xs-6 col-sm-3 partner">
       <a target="_blank" href="//www.generalplastics.com">
         <img src="./img/logos/gold/generalplastics.jpg">
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-sm-3 col-sm-offset-3 partner">
+      <a href="//www.toray.us" target="_blank">
+        <img src="./img/logos/gold/toray.jpg">
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-sm-3 partner">
+      <a href="//www.vector.com" target="_blank">
+        <img src="./img/logos/gold/vector.jpg">
       </a>
     </div>
   </div>

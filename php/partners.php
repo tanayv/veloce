@@ -50,6 +50,18 @@
               <img src="./img/logos/gold/generalplastics.jpg">
             </a>
           </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <a href="//www.toray.us" target="_blank">
+              <img src="./img/logos/gold/toray.jpg">
+            </a>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <a href="//www.vector.com" target="_blank">
+              <img src="./img/logos/gold/vector.jpg">
+            </a>
+          </div>
         </div>
 
         <hr>
@@ -76,8 +88,8 @@
           </div>
 
           <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-            <a href="//www.bosch.com" target="_blank">
-              <img src="./img/logos/silver/bosch.jpg">
+            <a href="//www.ford.com" target="_blank">
+              <img src="./img/logos/silver/ford.jpg">
             </a>
           </div>
 
@@ -94,26 +106,26 @@
           </div>
 
           <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-            <a href="//www.nscorp.com" target="_blank">
-              <img src="./img/logos/silver/norfolksouthern.jpg">
+            <a href="//www.btdmfg.com" target="_blank">
+              <img src="./img/logos/silver/btd.jpg">
             </a>
           </div>
 
           <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-            <a href="//www.toray.us" target="_blank">
-              <img src="./img/logos/silver/toray.jpg">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-3 col-md-offset-3 col-sm-4 col-xs-6">
             <a href="//www.imcousa.com" target="_blank">
               <img src="./img/logos/silver/imcocarbidetools.jpg">
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-md-offset-0 col-sm-4 col-sm-offset-4 col-xs-6">
-            <a href="//www.btdmfg.com" target="_blank">
-              <img src="./img/logos/silver/btd.jpg">
+          <div class="col-lg-3 col-md-3 col-md-offset-3 col-sm-4 col-xs-6">
+            <a href="//www.r-hpc.com/home/" target="_blank">
+              <img src="./img/logos/silver/rsystems.jpg">
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+            <a href="//www.chrysler.com" target="_blank">
+              <img src="./img/logos/silver/chrysler.jpg">
             </a>
           </div>
         </div>
@@ -130,8 +142,8 @@
           </div>
 
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-            <a href="//www.ford.com" target="_blank">
-              <img src="./img/logos/bronze/ford.jpg">
+            <a href="//www.nscorp.com" target="_blank">
+              <img src="./img/logos/bronze/norfolksouthern.jpg">
             </a>
           </div>
 
@@ -190,12 +202,6 @@
           </div>
 
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
-            <a href="//www.isthmuseng.com" target="_blank">
-              <img src="./img/logos/bronze/isthmus.jpg">
-            </a>
-          </div>
-
-          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
             <a href="//www.plascore.com" target="_blank">
               <img src="./img/logos/bronze/plascore.jpg">
             </a>
@@ -210,6 +216,30 @@
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
             <a href="//www.spacex.com" target="_blank">
               <img src="./img/logos/bronze/spacex.jpg">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="//us.misumi-ec.com" target="_blank">
+              <img src="./img/logos/bronze/misumi.jpg">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="//www.phillips66.com" target="_blank">
+              <img src="./img/logos/bronze/phillips66.jpg">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="//www.lockheedmartin.com" target="_blank">
+              <img src="./img/logos/bronze/lockheedmartin.jpg">
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="//www.shape-master.com" target="_blank">
+              <img src="./img/logos/bronze/shapemaster.jpg">
             </a>
           </div>
         </div>
@@ -288,11 +318,6 @@
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.schrothracing.com" target="_blank">
               <img src="./img/logos/honorary/schroth.jpg">
-            </a>
-          </div>
-          <div class="col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5 col-sm-3 col-xs-4 col-xs-offset-4">
-            <a href="//auto-loans.wellsfargo.com" target="_blank">
-              <img src="./img/logos/honorary/wellsfargoautofinance.jpg">
             </a>
           </div>
         </div>
