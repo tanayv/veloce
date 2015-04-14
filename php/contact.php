@@ -1,9 +1,4 @@
 <?php
-  /**
-  * PHP - Contact
-  * Authors - Andrew Mass, Nick Kortendick
-  */
-
   // NetIDs to update year by year.
   $engineLead = "sliwka2";
   $suspensionLead = "kgharri2";

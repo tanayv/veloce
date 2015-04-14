@@ -1,10 +1,3 @@
-<?php
-  /**
-  * PHP - Team
-  * Authors - Andrew Mass, Nick Kortendick
-  */
-?>
-
 <!DOCTYPE html>
 <html>
   <head>

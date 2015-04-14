@@ -1,10 +1,3 @@
-<?php
-  /**
-   * PHP - Header
-   * Authors - Andrew Mass, Nick Kortendick
-   */
-?>
-
 <div class="navbar navbar-inverse" id="header">
   <div class="container">
     <div class="navbar-header">

@@ -1,10 +1,3 @@
-<?php
-  /**
-   * PHP - Head
-   * Authors - Andrew Mass, Nick Kortendick
-  */
-?>
-
 <title>Illini Motorsports</title>
 
 <meta name="description" content="The Official Page for the University of Illinois' Formula SAE Team.">

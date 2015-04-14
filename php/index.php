@@ -1,11 +1,3 @@
-<?php
- /**
-  * PHP - Index
-  * Authors - Andrew Mass, Nick Kortendick
-  */
-
-?>
-
 <!DOCTYPE html>
 <html>
   <head>

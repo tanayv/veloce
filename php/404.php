@@ -1,10 +1,3 @@
-<?php
-  /**
-  * PHP - 404
-  * Authors - Andrew Mass, Nick Kortendick
-  */
-?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,7 +8,7 @@
     <?php include './header.php'; ?>
 
     <div class="content container">
-      <h3> Oops. You shouldn't have ended up here. </h3>
+      <h3>Oops. You shouldn't have ended up here.</h3>
 
       Sorry, about that. Click <a href="./contact.php">here</a> to report the issue.
     </div>

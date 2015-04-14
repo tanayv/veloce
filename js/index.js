@@ -1,8 +1,3 @@
-/**
- * Javascript - Index
- * Authors - Andrew Mass, Nick Kortendick
- */
-
 function Veloce() {}
 
 Veloce.track = function(args) {

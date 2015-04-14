@@ -1,11 +1,3 @@
-<?php
-  /**
-  * PHP - Top Sponsors
-  * Authors - Andrew Mass, Nick Kortendick
-  */
-?>
-
-
 <div id="top-sponsors" class="content container">
   <hr>
 
