@@ -24,10 +24,13 @@
     <?php include './head.php'; ?>
   </head>
 
-  <body>
+  <body class="contact">
     <?php include './header.php'; ?>
 
+
     <div class="content container">
+      <h1>Contact the Team</h1>
+
       <?php
       //If the form is submitted:
       if(isset($_POST['submit'])){
@@ -105,7 +108,7 @@
           }
         }
 
-        if ($msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE && $msgSubjectWebsite == FALSE 
+        if ($msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE && $msgSubjectWebsite == FALSE
             && $msgSubjectOther == FALSE && $msgSubjectOrganization == FALSE) {
           $subjectError = true;
           $hasError = true;
