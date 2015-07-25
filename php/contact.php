@@ -1,11 +1,11 @@
 <?php
   // NetIDs to update year by year.
-  $engineLead = "sliwka2";
+  $engineLead = "sudhakr2";
   $suspensionLead = "kgharri2";
-  $electronicsLead = "schwiet2";
+  $electronicsLead = "amass2";
   $chassisLead = "guidone2";
-  $aerodynamicsLead = "allmand2";
-  $drivetrainLead = "jsullvn2";
+  $aerodynamicsLead = "narahma2";
+  $drivetrainLead = "akirchn2";
 
   // Initialze error booleans to FALSE to avoid undefined variable warnings.
   $msgSubjectJoin = FALSE;
@@ -16,7 +16,6 @@
   $emailError = FALSE;
   $subjectError = FALSE;
   $commentError = FALSE;
-  $captchaErrorMsg = FALSE;
 ?>
 
 <!DOCTYPE html>
@@ -28,39 +27,19 @@
   <body>
     <?php include './header.php'; ?>
 
-    <script type="text/javascript">
-      var RecaptchaOptions = {
-      theme : 'clean'
-      };
-    </script>
-
     <div class="content container">
       <?php
       //If the form is submitted:
       if(isset($_POST['submit'])){
-        //load recaptcha file
-        require_once('./recaptchalib.php');
-
-        //enter your recaptcha private key
-        $privatekey = "6LfbA-kSAAAAACpfwyENAR5CUssf5r9pWzcsG1p7";
-
-        //check recaptcha fields
-        $resp = recaptcha_check_answer ($privatekey,
-        $_SERVER["REMOTE_ADDR"],
-        $_POST["recaptcha_challenge_field"],
-        $_POST["recaptcha_response_field"]);
 
         //Check to make sure that a contact name has been entered
         $authorName = (filter_var($_POST['name'], FILTER_SANITIZE_STRING));
         $authorName = ucfirst(strtolower($authorName));
 
-        if ($authorName == "")
-        {
+        if ($authorName == "") {
           $authorError = true;
           $hasError = true;
-        }
-        else
-        {
+        } else {
           $authorError = false;
           $formAuthor = $authorName;
         }
@@ -68,21 +47,17 @@
         $authorLastName = (filter_var($_POST['Lname'], FILTER_SANITIZE_STRING));
         $authorLastName = str_replace('\' ', '\'', ucwords(str_replace('\'', '\' ', strtolower($authorLastName))));
 
-        if ($authorLastName == "")
-        {
+        if ($authorLastName == "") {
           $authorLastError = true;
           $hasError = true;
         }
 
         //Check to make sure sure that a valid email address is submitted
         $authorEmail = (filter_var($_POST['email'], FILTER_SANITIZE_EMAIL));
-        if (!(filter_var($authorEmail, FILTER_VALIDATE_EMAIL))){
+        if (!(filter_var($authorEmail, FILTER_VALIDATE_EMAIL))) {
           $emailError = true;
           $hasError = true;
-        //echo("EMAIL ERROR ");
-        }
-        else
-        {
+        } else {
           $formEmail = $authorEmail;
         };
 
@@ -94,164 +69,169 @@
         $msgSubjectOrganization = (isset($_POST['recruiting']));
         $msgSubject = "";
 
-        if($msgSubjectJoin == TRUE)
+        if($msgSubjectJoin == TRUE) {
           $msgSubject .= "Joining the team ";
+        }
 
-        if($msgSubjectSponsor == TRUE)
-          if($msgSubject != "")
+        if($msgSubjectSponsor == TRUE) {
+          if($msgSubject != "") {
             $msgSubject .= ", sponsorship ";
-          else
+          } else {
             $msgSubject .= "Sponsorship ";
+          }
+        }
 
-        if($msgSubjectOrganization == TRUE)
-          if($msgSubject != "")
+        if($msgSubjectOrganization == TRUE) {
+          if($msgSubject != "") {
             $msgSubject .= ", recruiting ";
-          else
+          } else {
             $msgSubject .= "Recruiting ";
+          }
+        }
 
-        if($msgSubjectWebsite == TRUE)
-          if($msgSubject != "")
+        if($msgSubjectWebsite == TRUE) {
+          if($msgSubject != "") {
             $msgSubject .= ", website issue ";
-          else
-          $msgSubject .= "Website issue ";
+          } else {
+            $msgSubject .= "Website issue ";
+          }
+        }
 
-        if($msgSubjectOther)
-          if($msgSubject != "")
+        if($msgSubjectOther) {
+          if($msgSubject != "") {
             $msgSubject .= "& " + $_POST[otherSubjectInput];
-          else
-          $msgSubject .= $_POST[otherSubjectInput];
+          } else {
+            $msgSubject .= $_POST[otherSubjectInput];
+          }
+        }
 
-        if ($msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE && $msgSubjectWebsite == FALSE && $msgSubjectOther == FALSE && $msgSubjectOrganization == FALSE)
-        {
+        if ($msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE && $msgSubjectWebsite == FALSE 
+            && $msgSubjectOther == FALSE && $msgSubjectOrganization == FALSE) {
           $subjectError = true;
           $hasError = true;
-        }
-        else
-        {
+        } else {
           $formSubject = $msgSubject;
         };
 
         //Check to make sure content has been entered
         $msgContent = (filter_var($_POST['message'], FILTER_SANITIZE_STRING));
-        if ($msgContent == "")
-        {
+        if ($msgContent == "") {
           $commentError = true;
           $hasError = true;
-        }
-        else
-        {
+        } else {
           $formContent = $msgContent;
         };
 
-        $authorIP = getenv("REMOTE_ADDR");
         $authorPhone = $_POST['phone'];
-        $authorUserAgent = $_SERVER['HTTP_USER_AGENT'];
 
-        // if all the fields have been entered correctly and there are no recaptcha errors build an email message
-        if (($resp->is_valid) && (!isset($hasError)))
-        {
+        // if all the fields have been entered correctly build an email message
+        if (!isset($hasError)) {
           $emailTo = 'illinimotorsports@gmail.com';
-            if(isset($_POST['engine']))
-              $emailTo .= ',' . $engineLead . '@illinois.edu';
-            if(isset($_POST['suspension']))
-              $emailTo .= ',' . $suspensionLead . '@illinois.edu';
-            if(isset($_POST['electronics']))
-              $emailTo .= ',' . $electronicsLead . '@illinois.edu';
-            if(isset($_POST['chassis']))
-              $emailTo .= ',' . $chassisLead . '@illinois.edu';
-            if(isset($_POST['aerodynamics']))
-              $emailTo .= ',' . $aerodynamicsLead . '@illinois.edu';
-            if(isset($_POST['drivetrain']))
-              $emailTo .= ',' . $drivetrainLead . '@illinois.edu';
-            if($msgSubjectWebsite)
-              $emailTo .= ',' . 'amass2@illinois.edu' . ',' . 'kortend2@illinois.edu';
-          $subject = 'New message from ' . $authorName . ' ' . $authorLastName . ' on Motorsports.illinois.edu: ' . $msgSubject; // This is how the subject of the email will look like
+          if(isset($_POST['engine'])) {
+            $emailTo .= ',' . $engineLead . '@illinois.edu';
+          }
+          if(isset($_POST['suspension'])) {
+            $emailTo .= ',' . $suspensionLead . '@illinois.edu';
+          }
+          if(isset($_POST['electronics'])) {
+            $emailTo .= ',' . $electronicsLead . '@illinois.edu';
+          }
+          if(isset($_POST['chassis'])) {
+            $emailTo .= ',' . $chassisLead . '@illinois.edu';
+          }
+          if(isset($_POST['aerodynamics'])) {
+            $emailTo .= ',' . $aerodynamicsLead . '@illinois.edu';
+          }
+          if(isset($_POST['drivetrain'])) {
+            $emailTo .= ',' . $drivetrainLead . '@illinois.edu';
+          }
+          if($msgSubjectWebsite) {
+            $emailTo .= ',' . 'amass2@illinois.edu';
+          }
+
+          $subject = 'New message from ' . $authorName . ' ' . $authorLastName . ' on Motorsports.illinois.edu: ' . $msgSubject; // This is what the subject of the email will look like
           $body = $authorName . ' ' . $authorLastName;
-          if($_POST['companyInput'] != '')
+
+          if($_POST['companyInput'] != '') {
             $body .= ' of ' . $_POST['companyInput'];
-          //$body .= " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone . "\n IP Address: " . $authorIP . "\n User Agent: " . $authorUserAgent;
+          }
+
           $body .= " has sent you a new message on motorsports.illinois.edu! \n Return Email Address: " . $authorEmail . "\n Return Phone Number: " . $authorPhone;
 
-          if(isset($_POST['joining']))
+          if(isset($_POST['joining'])) {
             $body .= "\n Subteam(s) Selected: ";
+          }
 
-          if(isset($_POST['engine']))
+          if(isset($_POST['engine'])) {
             $body .= " engine ";
+          }
 
-          if(isset($_POST['suspension']))
+          if(isset($_POST['suspension'])) {
             $body .= " suspension ";
+          }
 
-          if(isset($_POST['electronics']))
+          if(isset($_POST['electronics'])) {
             $body .= " electronics ";
+          }
 
-          if(isset($_POST['chassis']))
+          if(isset($_POST['chassis'])) {
             $body .= " chassis ";
+          }
 
-          if(isset($_POST['aerodynamics']))
+          if(isset($_POST['aerodynamics'])) {
             $body .= " aerodynamics ";
+          }
 
-          if(isset($_POST['drivetrain']))
+          if(isset($_POST['drivetrain'])) {
             $body .= " drivetrain ";
+          }
 
-          if($_POST['companyInput'] != '')
+          if($_POST['companyInput'] != '') {
             $body .= "\n Representing: " . $_POST['companyInput'];
+          }
 
           $body .= "\n Message: " . $msgContent;
           $headers = 'From: <' . $formEmail . '>' . "\r\n" . 'Reply-To: ' . $formEmail . "\r\n" . 'Return-Path: ' . $formEmail . "\r\n" . 'BCC: ' . 'fsae@nickkortendick.com'; // Email headers
 
           mail($emailTo, $subject, $body, $headers);
 
-          // set a variable that confirms that an email has been sent
+          // Set a variable that confirms that an email has been sent
           $emailSent = true;
-        }
-
-        // if there are errors in captcha fields set an error variable
-        if (!($resp->is_valid))
-        {
-          $captchaErrorMsg = true;
         }
       }
       ?>
 
-      <?php if($msgSubjectJoin == TRUE && isset($emailSent) && $emailSent == true)
-      {
+      <?php if($msgSubjectJoin == TRUE && isset($emailSent) && $emailSent == true) {
         echo('<div class="alert alert-success"><h3>Success! Make sure to join the Google group by clicking <a href="//groups.google.com/forum/#!forum/illinimotorsports">here</a>!</h3></div>');
       }
-      if($msgSubjectSponsor == TRUE && isset($emailSent) && $emailSent == true)
-      {
+
+      if($msgSubjectSponsor == TRUE && isset($emailSent) && $emailSent == true) {
         echo('<div class="alert alert-success"><h3>Thank you for your interest in sponsoring Illini Motorsports. A representative will contact you shortly!</h3></div>');
       }
       ?>
 
       <?php // if the page the variable "email sent" is set to true show confirmation instead of the form
-      if(isset($emailSent) && $emailSent == true)
-      {
-        if( $msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE)
-        echo('<div class="alert alert-success">         <p>
+      if(isset($emailSent) && $emailSent == true) {
+        if( $msgSubjectJoin == FALSE && $msgSubjectSponsor == FALSE) {
+          echo('<div class="alert alert-success">         <p>
               <h5>Success! </h5> Thank you for your query. A copy has been sent to the email address you provided.
               </p> </div>');
-      }
-      else if(isset($_POST['submit']))
-        echo('<div class="alert alert-danger">        <p>
+        }
+      } else if(isset($_POST['submit'])) {
+          echo('<div class="alert alert-danger">        <p>
               <h5> Oops! </h5> There\'s a problem. Fix up your errors and try again.
               </p> </div>');
+      }
       ?>
 
-
       <form id="contactForm" role="form" method="post" class="form-horizontal">
-        <div class="form-group
-          <?php if($authorError || $authorLastError)
-          {
-          echo 'has-error';
-          }
-          ?>">
+        <div class="form-group <?php if($authorError || $authorLastError) { echo 'has-error'; } ?>">
 
           <label class="col-lg-2 control-label" for="input1">Your Name*</label>
 
           <div class="col-lg-4">
             <input type="text" class="form-control" placeholder="First" name="name" id="name" value="<?php if(isset($_POST['name']) && $emailSent == FALSE)  echo $_POST['name'];?>">
-            <?php if($authorError || $authorFirstError)
-              {
+            <?php if($authorError || $authorFirstError) {
                 echo'<span class="help-block"> Please enter a first name </span>';
               }
             ?>
@@ -259,20 +239,14 @@
 
           <div class="col-lg-6">
             <input type="text" class="form-control" placeholder="Last" name="Lname" id="Lname" value="<?php if(isset($_POST['Lname']) && $emailSent == FALSE) echo $_POST['Lname'];?>">
-          <?php if($authorError || $authorLastError)
-            {
+            <?php if($authorError || $authorLastError) {
               echo'<span class="help-block"> Please enter a last name </span>';
             }
           ?>
           </div>
         </div>
 
-        <div class="form-group
-        <?php if($emailError)
-          {
-          echo 'has-error';
-          }
-          ?>">
+        <div class="form-group <?php if($emailError) { echo 'has-error'; } ?>">
 
            <label class="col-lg-2 control-label" for="input2">Your Email Address*
            </label>
@@ -339,7 +313,7 @@
               <input <?php if(isset($_GET['chassis'])) echo 'disabled' ?> type="checkbox" id="chassis" name="chassis" value="chassis" <?php if((isset($_POST['chassis']) || isset($_GET['chassis']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Chassis
             </label>
             <label class="checkbox-inline">
-              <input <?php if(isset($_GET['electronics'])) echo 'disabled' ?> type="checkbox" id="electronics" name="electronics" value="electronics" <?php if((isset($_POST['electronics']) || isset($_GET['electronics']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Electronic
+              <input <?php if(isset($_GET['electronics'])) echo 'disabled' ?> type="checkbox" id="electronics" name="electronics" value="electronics" <?php if((isset($_POST['electronics']) || isset($_GET['electronics']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Electronics
             </label>
             <label class="checkbox-inline">
               <input <?php if(isset($_GET['drivetrain'])) echo 'disabled' ?> type="checkbox" id="drivetrain" name="drivetrain" value="drivetrain" <?php if((isset($_POST['drivetrain']) || isset($_GET['drivetrain']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Drivetrain
@@ -370,25 +344,6 @@
             <?php if($commentError){echo'<span class="help-block">Please enter a message.</span>';}?>
           </div>
         </div>
-
-        <div class="form-group">
-          <label class="col-lg-2 control-label" for="captcha">Verification*</label>
-
-          <div class="col-lg-10">
-            <?php
-              require_once('./recaptchalib.php');
-              $publickey = "6LfbA-kSAAAAAI3fQVtljpWpIPI3sRPuIX3YdEVV"; // you got this from the signup page
-              echo recaptcha_get_html($publickey);
-
-              if($captchaErrorMsg)
-              {
-                echo'<span class="help-block has-error"> <p style="color:#b94a48">Incorrect Captcha </p></span>';
-              }
-            ?>
-          </div>
-        </div>
-
-        <hr>
 
         <div class="form-group" style="color:black">
           <div class="col-md-offset-2 col-lg-10">
