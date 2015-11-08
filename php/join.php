@@ -61,17 +61,7 @@
 
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>2 &minus; Send us your contact information</strong>
-            </div>
-
-            <div class="panel-body">
-              <p>That's as simple as going <a href="./contact.php">here</a>!</p>
-            </div>
-          </div>
-
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <strong>3 &minus; Attend the meetings</strong>
+              <strong>2 &minus; Attend the meetings</strong>
             </div>
 
             <div class="panel-body">
