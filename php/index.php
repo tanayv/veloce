@@ -28,6 +28,12 @@
             <a href="./join.php">Join the Team</a>
           </h4>
 
+          <h4>
+            Support our new Crowdfunding campaign.
+
+            <a href="https://www.gofundme.com/fundillini">Donate to the team!</a></p>
+          </h4>
+
           <img src="./img/rendered_five.jpg">
         </div>
 
