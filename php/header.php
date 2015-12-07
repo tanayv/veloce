@@ -63,6 +63,12 @@
             <i class="icon-youtube"></i>
           </a>
         </li>
+
+        <li class="social-icon">
+          <a href="//www.instagram.com/illinoisfsae" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
