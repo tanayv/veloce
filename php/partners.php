@@ -110,15 +110,9 @@
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <div class="col-md-offset-3 col-lg-3 col-md-3 col-sm-4 col-xs-6">
             <a href="//www.r-hpc.com/home/" target="_blank">
               <img src="./img/logos/silver/rsystems.jpg">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-            <a href="//www.chrysler.com" target="_blank">
-              <img src="./img/logos/silver/chrysler.jpg">
             </a>
           </div>
 
