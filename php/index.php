@@ -16,6 +16,13 @@
     <div id="content-wrapper" class="content container">
       <div id="main-content" class="row">
         <div class="col-md-8">
+
+        <h4>
+            Support our new Crowdfunding campaign.
+
+            <a href="https://www.gofundme.com/fundillini">Donate to the team!</a>
+          </h4>
+
           <h3>About Us</h3>
 
           <p>The collegiate chapter of the Society of Automotive Engineers (SAE) at the University of Illinois aims to provide its members with numerous educational, professional, and social opportunities related to vehicular design. As part of this initiative, UIUC fields the Formula SAE team.</p>
@@ -28,12 +35,7 @@
             <a href="./join.php">Join the Team</a>
           </h4>
 
-          <h4>
-            Support our new Crowdfunding campaign.
-
-            <a href="https://www.gofundme.com/fundillini">Donate to the team!</a></p>
-          </h4>
-
+          
           <img src="./img/rendered_five.jpg">
         </div>
 
