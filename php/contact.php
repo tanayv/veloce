@@ -1,11 +1,12 @@
 <?php
   // NetIDs to update year by year.
   $engineLead = "sudhakr2";
-  $suspensionLead = "kgharri2";
+  $suspensionLead = "atgray2";
   $electronicsLead = "amass2";
   $chassisLead = "guidone2";
   $aerodynamicsLead = "narahma2";
   $drivetrainLead = "akirchn2";
+  $compositesLead = "aklepa4";
 
   // Initialze error booleans to FALSE to avoid undefined variable warnings.
   $msgSubjectJoin = FALSE;
@@ -148,6 +149,9 @@
           if(isset($_POST['drivetrain'])) {
             $emailTo .= ',' . $drivetrainLead . '@illinois.edu';
           }
+          if(isset($_POST['composites'])) {
+            $emailTo .= ',' . $compositesLead . '@illinois.edu';
+          }
           if($msgSubjectWebsite) {
             $emailTo .= ',' . 'amass2@illinois.edu';
           }
@@ -187,6 +191,10 @@
 
           if(isset($_POST['drivetrain'])) {
             $body .= " drivetrain ";
+          }
+
+          if(isset($_POST['composites'])) {
+            $body .= " composites ";
           }
 
           if($_POST['companyInput'] != '') {
@@ -320,6 +328,9 @@
             </label>
             <label class="checkbox-inline">
               <input <?php if(isset($_GET['drivetrain'])) echo 'disabled' ?> type="checkbox" id="drivetrain" name="drivetrain" value="drivetrain" <?php if((isset($_POST['drivetrain']) || isset($_GET['drivetrain']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Drivetrain
+            </label>
+            <label class="checkbox-inline">
+              <input <?php if(isset($_GET['composites'])) echo 'disabled' ?> type="checkbox" id="composites" name="composites" value="composites" <?php if((isset($_POST['composites']) || isset($_GET['composites']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Composites
             </label>
             <label class="checkbox-inline">
               <input <?php if(isset($_GET['aerodynamics'])) echo 'disabled' ?> type="checkbox" id="aerodynamics" name="aerodynamics" value="aerodynamics" <?php if((isset($_POST['aerodynamics']) || isset($_GET['aerodynamics']))&& $emailSent == FALSE)  echo ('checked="checked"');?>>Aerodynamics

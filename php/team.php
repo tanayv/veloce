@@ -295,7 +295,7 @@
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?composities=y">aklepa4</a></td>
+                    <td><a href="./contact.php?composites=y">aklepa4</a></td>
                   </tr>
 
                 </tbody>
