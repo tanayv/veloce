@@ -63,6 +63,12 @@
             <i class="icon-youtube"></i>
           </a>
         </li>
+
+        <li class="social-icon">
+          <a href="//www.linkedin.com/company/illini-motorsports" target="_blank">
+            <i class="icon-linkedin"></i>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
