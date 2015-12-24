@@ -12,15 +12,9 @@
         <h1>Orange and Blue Partners</h1>
 
         <div class="row orange-and-blue partner">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <a href="//www.ingersoll.com" target="_blank">
               <img src="./img/logos/orangeandblue/ingersoll.jpg">
-            </a>
-          </div>
-
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <a href="//engineering.illinois.edu/" target="_blank">
-              <img src="./img/logos/orangeandblue/edc.jpg">
             </a>
           </div>
         </div>
@@ -55,6 +49,18 @@
               <img src="./img/logos/gold/vector.jpg">
             </a>
           </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <a href="//www.ford.com" target="_blank">
+              <img src="./img/logos/gold/ford.jpg">
+            </a>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <a href="//www.ptc.com" target="_blank">
+              <img src="./img/logos/gold/ptc.jpg">
+            </a>
+          </div>
         </div>
 
         <hr>
@@ -77,12 +83,6 @@
           <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
             <a href="//www.precast.com" target="_blank">
               <img src="./img/logos/silver/precisioncastparts.jpg">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-            <a href="//www.ford.com" target="_blank">
-              <img src="./img/logos/silver/ford.jpg">
             </a>
           </div>
 
@@ -110,15 +110,21 @@
             </a>
           </div>
 
-          <div class="col-md-offset-3 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
             <a href="//www.r-hpc.com/home/" target="_blank">
               <img src="./img/logos/silver/rsystems.jpg">
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+          <div class="col-md-offset-3 col-lg-3 col-md-3 col-sm-4 col-xs-6">
             <a href="//www.3ds.com" target="_blank">
               <img src="./img/logos/silver/3ds-dassault.jpg">
+            </a>
+          </div>
+
+          <div class="col-md-offset-0 col-sm-offset-4 col-lg-3 col-md-3 col-sm-4 col-xs-6">
+            <a href="//engineering.illinois.edu/" target="_blank">
+              <img src="./img/logos/silver/edc.jpg">
             </a>
           </div>
         </div>
@@ -275,12 +281,6 @@
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.cmpanodizing.com/aboutCMPANODIZING.htm" target="_blank">
               <img src="./img/logos/honorary/cmp.jpg">
-            </a>
-          </div>
-
-          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-            <a href="//www.ptc.com" target="_blank">
-              <img src="./img/logos/honorary/ptc.jpg">
             </a>
           </div>
 

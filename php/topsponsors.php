@@ -9,12 +9,6 @@
     </div>
 
     <div class="col-xs-6 col-sm-3 partner">
-      <a target="_blank" href="//engineering.illinois.edu/">
-        <img src="./img/logos/orangeandblue/edc.jpg">
-      </a>
-    </div>
-
-    <div class="col-xs-6 col-sm-3 partner">
       <a target="_blank" href="//www.3m.com">
         <img src="./img/logos/gold/3m.jpg">
       </a>
@@ -26,7 +20,7 @@
       </a>
     </div>
 
-    <div class="col-xs-6 col-sm-3 col-sm-offset-3 partner">
+    <div class="col-xs-6 col-sm-3 partner">
       <a href="//www.toray.us" target="_blank">
         <img src="./img/logos/gold/toray.jpg">
       </a>
@@ -35,6 +29,18 @@
     <div class="col-xs-6 col-sm-3 partner">
       <a href="//www.vector.com" target="_blank">
         <img src="./img/logos/gold/vector.jpg">
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-sm-3 partner">
+      <a href="//www.ford.com" target="_blank">
+        <img src="./img/logos/gold/ford.jpg">
+      </a>
+    </div>
+
+    <div class="col-xs-6 col-sm-3 partner">
+      <a href="//www.ptc.com" target="_blank">
+        <img src="./img/logos/gold/ptc.jpg">
       </a>
     </div>
   </div>
