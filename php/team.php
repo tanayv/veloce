@@ -88,7 +88,7 @@
               </table>
 
               <div class="well">
-                <p></p>
+                <p>Keith is a senior in mechanical engineering, and is the team's Chief Engineer. After school, he hopes to work in the motorsports or automotive industry. Keith also enjoys racing and has been karting for the past 11 years at the national level.</p>
               </div>
             </div>
           </div>
@@ -349,7 +349,6 @@
           </div>
         </div>
 
- <!--
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -358,7 +357,7 @@
 
             <div class="panel-body">
               <div class="profile-image">
-                <img src="./img/team/photos/person.jpg">
+                <img src="./img/team/photos/2016/rahman.jpg">
               </div>
 
               <table class="table table-hover">
@@ -369,30 +368,28 @@
 
                   <tr>
                     <td>Year</td>
-                    <td>Year</td>
+                    <td>Senior</td>
                   </tr>
 
                   <tr>
                     <td>Hometown</td>
-                    <td>Town, State</td>
+                    <td>Worcestor, MA</td>
                   </tr>
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php">netid</a></td>
+                    <td><a href="./contact.php?aerodynamics=y">narahma2</a></td>
                   </tr>
-
                 </tbody>
               </table>
 
               <div class="well">
-                <p></p>
+                <p>Naveed is a Senior in Mechanical Engineering and is currently the leader of the Aerodynamics subsystem, having been on the same subsystem since his sophomore year. His love of tackling real world challenges and disdain of sleep has led him to the Formula team, where he thrives in fulfilling both goals. When he's not sanding or tinkering with the pretty picture generator (PPG aka CFD), he can usually be found avidly yelling at his TV during Patriots games or playing video games. After graduating, he hopes to pursue graduate studies in Mechanical Engineering and eventually go onto work in the automotive industry.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
- -->
 
 <!--
       <div class="row">
