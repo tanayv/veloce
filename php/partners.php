@@ -312,6 +312,12 @@
               <img src="./img/logos/honorary/schroth.jpg">
             </a>
           </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+            <a href="//www.autoaccessoriesgarage.com" target="_blank">
+              <img src="./img/logos/honorary/auto-accessories-garage.jpg">
+            </a>
+          </div>
         </div>
       </div>
 

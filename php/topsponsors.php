@@ -43,6 +43,12 @@
         <img src="./img/logos/gold/ptc.jpg">
       </a>
     </div>
+
+    <div class="col-xs-6 col-sm-3 partner">
+      <a href="//www.vi-grade.com" target="_blank">
+        <img src="./img/logos/gold/vi-grade.jpg">
+      </a>
+    </div>
   </div>
 
   <h4>
