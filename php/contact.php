@@ -1,11 +1,11 @@
 <?php
   // NetIDs to update year by year.
-  $engineLead = "sudhakr2";
-  $suspensionLead = "atgray2";
+  $engineLead = "shindel2";
+  $suspensionLead = "nblopez";
   $electronicsLead = "amass2";
-  $chassisLead = "guidone2";
-  $aerodynamicsLead = "narahma2";
-  $drivetrainLead = "akirchn2";
+  $chassisLead = "schckmt2";
+  $aerodynamicsLead = "thunga2";
+  $drivetrainLead = "bjwllms2";
   $compositesLead = "aklepa4";
 
   // Initialze error booleans to FALSE to avoid undefined variable warnings.
