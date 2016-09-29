@@ -46,7 +46,7 @@
 
                     <!--<li><a target="_blank" href="//groups.google.com/group/illinimotorsportsdrivetrain">Drivetrain</a></li>-->
 
-                    <!--<li><a target="_blank" href="//groups.google.com/group/illinimotorsportsaero">Aerodynamics</a></li>-->
+                    <li><a target="_blank" href="//groups.google.com/group/illinimotorsportsaero">Aerodynamics</a></li>
 
                     <!--<li><a target="_blank" href="//groups.google.com/group/illinimotorsportssuspension">Suspension</a></li>-->
                   </ul>
