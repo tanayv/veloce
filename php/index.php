@@ -8,20 +8,14 @@
     <div id="splash-container">
       <div id="splash"></div>
 
-      <img class="splash-content" id="desktop" src="./img/orangelogo.png">
-      <img class="splash-content" id="mobile" src="./img/orangelogoleft.png">
+      <img class="splash-content" id="desktop" src="./img/orangelogo_outline.png">
+      <img class="splash-content" id="mobile" src="./img/orangelogoleft_outline.png">
     </div>
 
     <?php include './header.php'; ?>
     <div id="content-wrapper" class="content container">
       <div id="main-content" class="row">
         <div class="col-md-8">
-
-        <h4>
-            Support our new Crowdfunding campaign.
-
-            <a href="https://www.gofundme.com/fundillini">Donate to the team!</a>
-          </h4>
 
           <h3>About Us</h3>
 
@@ -35,7 +29,6 @@
             <a href="./join.php">Join the Team</a>
           </h4>
 
-          
           <img src="./img/rendered_five.jpg">
         </div>
 
