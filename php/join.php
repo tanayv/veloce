@@ -72,7 +72,7 @@
                   <tr>
                     <td>General Team Meeting</td>
                     <td>Tuesday @ 7pm</td>
-                    <td>101 Transportation Building</td>
+                    <td>ESPL</td>
                   </tr>
 
                   <tr>
