@@ -421,7 +421,7 @@
               </table>
 
               <div class="well">
-                <p>Alex is a senior at UIUC studying Mechanical Engineering and minoring in Computer Science. He has a sharp interest in understanding how Creo works, and likes figuring out how to improve assembly modeling across the car.  When he isn't behind a 3D mouse or camera, he likes cycling and listening to electronic music.</p>
+                <p>Alex is a senior at UIUC studying mechanical engineering and minoring in computer science. He has a sharp interest in understanding how Creo works, and likes figuring out how to improve assembly modeling across the car.  When he isn't behind a 3D mouse or camera, he likes cycling and listening to electronic music.</p>
               </div>
             </div>
           </div>
@@ -463,7 +463,7 @@
               </table>
 
               <div class="well">
-                <p>David Thunga is a senior in mechanical engineering at UIUC.  When he's not eating or sleeping he enjoys playing guitar, going to the gym, and spending time with his family.  After graduation, he plans to pursue a Master's Degree in Aerospace Engineering.</p>
+                <p>David Thunga is a senior in mechanical engineering at UIUC.  When he's not eating or sleeping he enjoys playing guitar, going to the gym, and spending time with his family.  After graduation, he plans to pursue a Master's Degree in aerospace engineering.</p>
               </div>
             </div>
           </div>
@@ -505,7 +505,7 @@
               </table>
 
               <div class="well">
-                <p></p>
+                <p>Noah is a junior in mechanical engineering, and is this year's Suspension lead after two years as a suspension member. Beyond Formula, Noah is a nationally ranked Short Track Speedskater and can be found riding his bike year round.</p>
               </div>
             </div>
           </div>
