@@ -76,12 +76,6 @@
                   </tr>
 
                   <tr>
-                    <td>General CAD Meeting</td>
-                    <td>Friday @ 5pm</td>
-                    <td>ESPL</td>
-                  </tr>
-
-                  <tr>
                     <td>Electronics Subsystem Meeting</td>
                     <td>Monday @ 7pm</td>
                     <td>ESPL</td>
