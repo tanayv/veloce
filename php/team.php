@@ -472,12 +472,12 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>Noah Lopez</strong>
+              <strong>Isaac Neale</strong>
             </div>
 
             <div class="panel-body">
               <div class="profile-image">
-                <img src="./img/team/photos/2017/lopez.jpg">
+                <img src="./img/team/photos/2017/neale.jpg">
               </div>
 
               <table class="table table-hover">
@@ -488,24 +488,24 @@
 
                   <tr>
                     <td>Year</td>
-                    <td>Junior</td>
+                    <td>Senior</td>
                   </tr>
 
                   <tr>
                     <td>Hometown</td>
-                    <td>Urbana, Illinois</td>
+                    <td>Wanaka, New Zealand</td>
                   </tr>
 
                   <tr>
                     <td>NetID</td>
-                    <td><a href="./contact.php?suspension=y">nblopez</a></td>
+                    <td><a href="./contact.php?suspension=y">ineale2</a></td>
                   </tr>
 
                 </tbody>
               </table>
 
               <div class="well">
-                <p>Noah is a junior in mechanical engineering, and is this year's Suspension lead after two years as a suspension member. Beyond Formula, Noah is a nationally ranked Short Track Speedskater and can be found riding his bike year round.</p>
+                <p>Isaac Neale is a senior in mechanical engineering and is this years suspension subsystem leader, after joining the team as a chassis and suspension member. After graduation he will be working as a controls engineer at Boeing.</p>
               </div>
             </div>
           </div>
