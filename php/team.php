@@ -1078,47 +1078,6 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>George Schwieters</strong>
-            </div>
-
-            <div class="panel-body">
-              <div class="profile-image">
-                <img src="./img/team/photos/schwieters.jpg">
-              </div>
-
-              <table class="table table-hover">
-                <tbody>
-                  <thead>
-                    <th colspan="2">Electronics Team Leader</th>
-                  </thead>
-
-                  <tr>
-                    <td>Year</td>
-                    <td>Senior</td>
-                  </tr>
-
-                  <tr>
-                    <td>Hometown</td>
-                    <td>Dellwood, Minnesota</td>
-                  </tr>
-
-                  <tr>
-                    <td>NetID</td>
-                    <td><a href="./contact.php?electronics=y">schwiet2</a></td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="well">
-                <p>George is majoring in electrical engineering and is the leader of the electronics subteam. George takes a large interest in PCB design and embedded systems. Outside of Formula SAE, he enjoys maintaining and modifying cars, drag racing, and autocrossing. He also has large interests in guitars, snowboards, and longboards.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
               <strong>Jon Sullivan</strong>
             </div>
 
@@ -1197,9 +1156,7 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -1240,7 +1197,9 @@
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -1322,9 +1281,7 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -1365,7 +1322,9 @@
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -1583,47 +1542,6 @@
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <strong>George Schwieters</strong>
-            </div>
-
-            <div class="panel-body">
-              <div class="profile-image">
-                <img src="./img/team/photos/schwieters.jpg">
-              </div>
-
-              <table class="table table-hover">
-                <tbody>
-                  <thead>
-                    <th colspan="2">Electronics Team Leader</th>
-                  </thead>
-
-                  <tr>
-                    <td>Year</td>
-                    <td>Junior</td>
-                  </tr>
-
-                  <tr>
-                    <td>Hometown</td>
-                    <td>Dellwood, Minnesota</td>
-                  </tr>
-
-                  <tr>
-                    <td>NetID</td>
-                    <td>schwiet2</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <div class="well">
-                <p>George is majoring in electrical engineering and is the leader of the electronics subteam. George takes a large interest in PCB design and embedded systems. Outside of Formula SAE, he enjoys maintaining and modifying cars, drag racing, and autocrossing. He also has large interests in guitars, snowboards, and longboards.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
               <strong>Keith Harris</strong>
             </div>
 
@@ -1661,9 +1579,7 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -1704,7 +1620,9 @@
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -1787,9 +1705,7 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -1830,7 +1746,9 @@
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
