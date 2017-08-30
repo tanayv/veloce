@@ -1,6 +1,6 @@
 <?php
   // NetIDs to update year by year.
-  $engineLead = "shindel2";
+  $engineLead = "rsreid2";
   $suspensionLead = "nblopez";
   $electronicsLead = "amass2";
   $chassisLead = "schckmt2";

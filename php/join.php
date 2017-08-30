@@ -72,7 +72,7 @@
                   <tr>
                     <td>General Team Meeting</td>
                     <td>Tuesday @ 7pm</td>
-                    <td>ESPL</td>
+                    <td>MSEB 100</td>
                   </tr>
 
                   <tr>
@@ -89,7 +89,7 @@
 
                   <tr>
                     <td>Suspension Subsystem Meeting</td>
-                    <td>Tuesday @ 8pm</td>
+                    <td>Wednesday @ 8pm</td>
                     <td>ESPL</td>
                   </tr>
 

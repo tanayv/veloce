@@ -8,19 +8,454 @@
   <?php include './header.php'; ?>
 
   <div class="content container">
-    <div class="panel-group" id="accordion">
+    <div class="panel-group" id="accordion-team">
 
       <div class="panel panel-default">
 
-        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2016-2017">
+        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2017-2018">
           <h4 class="panel-title">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2016-2017">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2017-2018">
+              2017-2018
+            </a>
+          </h4>
+        </div>
+
+        <div id="collapse-2017-2018" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Anthony Klepacki</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2018/tony.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Team Captain</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>First Year Masters</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Chicago, Illinois</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?composites=y">aklepa4</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Anthony is the team captain and a first year masters student in Mechanical Engineering. After completing his undergraduate degree in aerospace engineering at UIUC his focus is primarily on structural analysis and advanced composite materials. He would like to use the knowledge and skills he learns at school and on the team to pursue a career in the automotive industry and motorsports.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Mrunal Sarvaiya</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2018/mrunal.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">President</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Mumbai, India</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php">sarvaiy2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Mrunal is the Team President and a senior is Mechanical Engineering. He is responsible for managing the team budget, maintaining relationships with sponsors and organizing external events for the team. Apart from Formula, he likes to cook and eat spicy food. After graduation, he hopes to pursue a Masters in Mechanical Engineering with a focus in Controls.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Professor Michael Philpott</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/philpott.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Faculty Advisor</th>
+                        </thead>
+
+                        <tr>
+                          <td>Office</td>
+                          <td>2007 Mechanical Engineering Lab</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td>mphilpot</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>As the faculty advisor, Professor Philpott oversees all of the SAE teams, including Illini Motorsports, Baja, and Formula Electric. He also leads the one credit hour ME 199 that meets every Monday at 4pm.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Professor Bruce Flachsbart</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/flachsbart.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Faculty Advisor &amp; ESPL Director</th>
+                        </thead>
+
+                        <tr>
+                          <td>Office</td>
+                          <td>264 Mechanical Engineering Bldg</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td>mems</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Professor Flachsbart acts as a faculty advisor and oversees the Engineering Student Project Laboratories where Illini Motorsports designs and builds the vehicle each year. Professor Flachsbart also helps the team with university affairs and acts as a liaison between the team and the College of Engineering.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Jake Leonard</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2018/jake.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Electronics Subsystem Lead</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Wilmette, Illinois</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?electronics=y">jleonrd2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>
+                        I am not Andy.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Ben Williams</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2018/ben.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Drivetrain Subsystem Leader</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Belleville, Illinois</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?drivetrain=y">bjwllms2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Ben is a senior in Mechanical Engineering returning for a second year of leading the drivetrain subsystem. Within the team Ben's primary areas of interest are design and testing of the brakes system and analysis and manufacturing of machined components. Outside of Formula Ben enjoys golfing, cooking, and going to the gym. He hopes to apply his experience from the team to a career in the automotive industry.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>James Schackmuth</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2018/james.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Chassis Subsystem Leader</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Orland Park, Illinois</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?chassis=y">schckmt2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>James is a senior in Mechanical Engineering returning for a second year of leading the Chassis subsystem. Within the team, James's primary areas of interest are design and testing of the chassis and analysis and manufacturing of welded components. Outside of Formula, James enjoys golfing, cooking, and not going to the gym. He hopes to apply his experience from the team to a career in the automotive industry.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Remington Reid</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2018/remi.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Engine Subsystem Lead</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Junior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Cary, Illinois</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?engine=y">rsreid2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Hi I'm Remi and do Remi stuff.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Matthew Zalewski</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2018/matt.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Aerodynamics Subsystem Lead</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Libertyville, Illinois</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?aerodynamics=y">mzalews2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Matthew is a Junior studying Mechanical Engineering. In addition to fluids, Matthew also has an interest in robotics and heat transfer. Outside of studying and Formula, he enjoys lifting at the gym with friends and eating Thai food on Green Street.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Brian Smith</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2018/bran.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Suspension Subsystem Lead</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Junior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Mars or something</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?suspension=y">...</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>I don't even know what I do.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+
+        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2016-2017">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2016-2017">
               2016-2017
             </a>
           </h4>
         </div>
 
-        <div id="collapse-2016-2017" class="panel-collapse collapse in">
+        <div id="collapse-2016-2017" class="panel-collapse collapse">
           <div class="panel-body">
             <div class="row">
               <div class="col-md-4">
@@ -529,9 +964,9 @@
 
       <div class="panel panel-default">
 
-        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2015-2016">
+        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2015-2016">
           <h4 class="panel-title">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2015-2016">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2015-2016">
               2015-2016
             </a>
           </h4>
@@ -924,9 +1359,9 @@
 
       <div class="panel panel-default">
 
-        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2014-2015">
+        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2014-2015">
           <h4 class="panel-title">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2014-2015">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2014-2015">
               2014-2015
             </a>
           </h4>
@@ -1358,9 +1793,9 @@
       </div>
 
       <div class="panel panel-default">
-        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2013-2014">
+        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2013-2014">
           <h4 class="panel-title">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse-2013-2014">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2013-2014">
               2013-2014
             </a>
           </h4>
