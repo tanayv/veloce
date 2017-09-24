@@ -72,7 +72,7 @@
                   <tr>
                     <td>General Team Meeting</td>
                     <td>Tuesday @ 7pm</td>
-                    <td>MSEB 100</td>
+                    <td>MEB 253</td>
                   </tr>
 
                   <tr>
@@ -114,6 +114,11 @@
                   <tr>
                     <td>Engine Subsystem Meeting</td>
                     <td>Thursday @ 7pm</td>
+                    <td>ESPL</td>
+                  </tr>
+                  <tr>
+                    <td>Business and Media Meeting</td>
+                    <td>Contact Mrunal</td>
                     <td>ESPL</td>
                   </tr>
                 </tbody>

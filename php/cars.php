@@ -120,7 +120,7 @@
                             Engine
                           </td>
                           <td>
-                            Honda CBR600 F4i
+                          Yamaha YZF-R6
                           </td>
                         </tr>
                         <tr>
@@ -199,7 +199,7 @@
                           </td>
                           <td>
                             Double unequal length A-arms, Ohlins
-                            TTX25 dampers
+                            TTX25 MkII dampers
                           </td>
                         </tr>
                         <tr>
@@ -207,7 +207,7 @@
                             Tire
                           </td>
                           <td>
-                            20.5x7x13 Hoosier R25B
+                          20.0x7.0-13 Goodyear D2704
                           </td>
                         </tr>
                         <tr>
@@ -224,7 +224,7 @@
                             Weight
                           </td>
                           <td>
-                            620 lbs with 150lb driver
+                            590 lbs with 150lb driver
                           </td>
                         </tr>
                         <tr>
