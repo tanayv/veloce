@@ -5,6 +5,7 @@
   </head>
 
   <body class="home">
+    
     <div id="splash-container">
       <div id="splash"></div>
 
@@ -33,9 +34,72 @@
         </div>
 
         <div class="col-md-5">
-          <div id="likebox-wrapper">
-            <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fillinimotorsports&amp;width=400&amp;height=569&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=true&amp;show_border=true&amp;appId=143039425897009" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:593px; margin-top: 30px;" allowTransparency="true"></iframe>
-          </div>
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <strong>Attend our meetings</strong>
+            </div>
+
+            <div class="panel-body">
+              <table class="table table-hover">
+                <thead>
+                  <th>Meetings</th>
+                  <th>Time</th>
+                  <th>Location</th>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>General Team Meeting</td>
+                    <td>Tuesday @ 7pm</td>
+                    <td>MSEB 100</td>
+                  </tr>
+
+                  <tr>
+                    <td>Electronics Subsystem Meeting</td>
+                    <td>Monday @ 7pm</td>
+                    <td>ESPL</td>
+                  </tr>
+
+                  <tr>
+                    <td>Chassis Subsystem Meeting</td>
+                    <td>Tuesday @ 6pm</td>
+                    <td>ESPL</td>
+                  </tr>
+
+                  <tr>
+                    <td>Suspension Subsystem Meeting</td>
+                    <td>Wednesday @ 8pm</td>
+                    <td>ESPL</td>
+                  </tr>
+
+                  <tr>
+                    <td>Composites Subsystem Meeting</td>
+                    <td>Wednesday @ 6pm</td>
+                    <td>ESPL</td>
+                  </tr>
+
+                  <tr>
+                    <td>Aerodynamics Subsystem Meeting</td>
+                    <td>Wednesday @ 7pm</td>
+                    <td>ESPL</td>
+                  </tr>
+
+                  <tr>
+                    <td>Drivetrain Subsystem Meeting</td>
+                    <td>Thursday @ 6pm</td>
+                    <td>ESPL</td>
+                  </tr>
+
+                  <tr>
+                    <td>Engine Subsystem Meeting</td>
+                    <td>Thursday @ 7pm</td>
+                    <td>ESPL</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1525.682779810416!2d-88.2239047301758!3d40.1118561518791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd76b4f8cbb67%3A0x87077bee4a408c8c!2sEngineering+Student+Project+Laboratory!5e0!3m2!1sen!2sus!4v1472591423903" width="100%" height="400px" frameborder="0" style="border: 2px solid gray" allowfullscreen></iframe>
+            </div>
         </div>
       </div>
     </div>

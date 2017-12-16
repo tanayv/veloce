@@ -36,9 +36,7 @@
           <a href="./join.php">Join Us</a>
         </li>
 
-        <li id="give">
-          <a href="./give.php">Donate</a>
-        </li>
+        
 
         <li id="contact">
           <a href="./contact.php">Contact Us</a>
