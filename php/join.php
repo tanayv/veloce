@@ -38,7 +38,7 @@
                   Subsystems:
 
                   <ul>
-                    <li><a target="_blank" href="//groups.google.com/group/illinimotorsportsengine">Engine</a></li>
+                    <li><a target="_blank" href="//groups.google.com/forum/#!forum/illini-motorsports-engine">Engine</a></li>
 
                     <!--<li><a target="_blank" href="//groups.google.com/group/illinimotorsportschassis">Chassis</a></li>-->
 
@@ -71,12 +71,12 @@
                 <tbody>
                   <tr>
                     <td>General Team Meeting</td>
-                    <td>Tuesday @ 7pm</td>
-                    <td>MEB 253</td>
+                    <td>Wednesday @ 7pm</td>
+                    <td>Talbot 103</td>
                   </tr>
-
+                  
                   <tr>
-                    <td>Electronics Subsystem Meeting</td>
+                    <td>Suspension Subsystem Meeting</td>
                     <td>Monday @ 7pm</td>
                     <td>ESPL</td>
                   </tr>
@@ -88,25 +88,25 @@
                   </tr>
 
                   <tr>
-                    <td>Suspension Subsystem Meeting</td>
-                    <td>Wednesday @ 8pm</td>
-                    <td>ESPL</td>
-                  </tr>
-
-                  <tr>
-                    <td>Composites Subsystem Meeting</td>
-                    <td>Wednesday @ 6pm</td>
+                    <td>Drivetrain Subsystem Meeting</td>
+                    <td>Tuesday @ 7pm</td>
                     <td>ESPL</td>
                   </tr>
 
                   <tr>
                     <td>Aerodynamics Subsystem Meeting</td>
-                    <td>Wednesday @ 7pm</td>
+                    <td>Tuesday @ 8pm</td>
                     <td>ESPL</td>
                   </tr>
 
                   <tr>
-                    <td>Drivetrain Subsystem Meeting</td>
+                    <td>Composites Subsystem Meeting</td>
+                    <td>Wednesday @ 8pm</td>
+                    <td>ESPL</td>
+                  </tr>
+
+                  <tr>
+                    <td>Electronics Subsystem Meeting</td>
                     <td>Thursday @ 6pm</td>
                     <td>ESPL</td>
                   </tr>
@@ -118,7 +118,7 @@
                   </tr>
                   <tr>
                     <td>Business and Media Meeting</td>
-                    <td>Contact Mrunal</td>
+                    <td>Saturday @ 2pm (Biweekly)</td>
                     <td>ESPL</td>
                   </tr>
                 </tbody>

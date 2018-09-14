@@ -8,7 +8,8 @@
     <div id="splash-container">
       <div id="splash"></div>
 
-      <img class="splash-content" id="desktop" src="./img/orangelogo_outline.png">
+      <img class="splash-content" id="desktop" src="./img/orangelogo.png">
+      
       <img class="splash-content" id="mobile" src="./img/orangelogoleft_outline.png">
     </div>
 

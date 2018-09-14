@@ -12,6 +12,443 @@
 
       <div class="panel panel-default">
 
+        <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2018-2019">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2018-2019">
+              2018-2019
+            </a>
+          </h4>
+        </div>
+
+        <div id="collapse-2018-2019" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Alan Papalia</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2019/apapi.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Team Captain and Chassis Subsystem Lead</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Louisville, Kentucky</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?chassis=y">papalia2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Born on a small farm outside the city, Alan grew up in the hardworking shoes of a farmer's son. Always dreaming of something greater, his dreams became a reality the day he arrived in Champaign. Fast-forward three years, and here we are today. He's made it this far, so he sees no reason to stop now. Alan Papalia, ladies and gentlemen. Majoring in Mechanical Engineering and Minoring in Computer Science. Outside of FSAE I spend most of my time playing basketball, working on side-projects, and writing notes that I normally end up losing anyways.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Niket Shah</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2019/propic.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">President</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Monroe Twp., NJ</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php">nshah99</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Niket is a Senior studying Mechanical Engineering with a minor in the Hoeft Technology & Management Program. As President, he is responsible for the finances and internal affairs of the team. In addition, he is on the chassis subsystem. Outside of Formula, Niket is the President of Engineering Council. He hopes to pursue his Masters degree and industry thereafter.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Professor Michael Philpott</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/philpott.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Faculty Advisor</th>
+                        </thead>
+
+                        <tr>
+                          <td>Office</td>
+                          <td>2007 Mechanical Engineering Lab</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td>mphilpot</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>As the faculty advisor, Professor Philpott oversees all of the SAE teams, including Illini Motorsports, Baja, and Formula Electric. He also leads the one credit hour ME 199 that meets every Monday at 4pm.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Professor Bruce Flachsbart</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/flachsbart.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Faculty Advisor &amp; ESPL Director</th>
+                        </thead>
+
+                        <tr>
+                          <td>Office</td>
+                          <td>264 Mechanical Engineering Bldg</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td>mems</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Professor Flachsbart acts as a faculty advisor and oversees the Engineering Student Project Laboratories where Illini Motorsports designs and builds the vehicle each year. Professor Flachsbart also helps the team with university affairs and acts as a liaison between the team and the College of Engineering.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Jacob Drewniak</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2019/jacob.png">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Electronics Subsystem Lead</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Rolla, Missouri</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?electronics=y">jdrewni2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>
+                        Jacob is a senior in Electrical Engineering at UIUC. He is in charge of every electron on the car. His main goals for this year are to design and implement a custom data logger, achieve active aerodynamics for the rear wing, and to beat Missouri S&T. Outside of school, Jacob enjoys reading, playing golf, and skiing. After graduation, he plans to pursue a Ph.D in Electrical Engineering and stay in school forever, preferably somewhere with mountains.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Stephen Bosch</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2019/bosch.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Drivetrain Subsystem Lead</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Sophomore</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Fairfax, Virginia</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?drivetrain=y">sabosch2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Stephen is a Sophomore studying Engineering Mechanics at UIUC. He is responsible for overseeing the design, validation, and manufacturing of all drivetrain components for the team. He is an avid machinist and enjoys the continued development of the team's manufacturing processes. On the side he enjoys being active, working on personal engineering projects, and immersing himself in all of the community and experiences which UIUC offers.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <strong>Joe Koszut</strong>
+                    </div>
+
+                    <div class="panel-body">
+                      <div class="profile-image">
+                        <img src="./img/team/photos/2019/joekoszutpicture.jpg">
+                      </div>
+
+                      <table class="table table-hover">
+                        <tbody>
+                          <thead>
+                            <th colspan="2">Engine Subsystem Lead</th>
+                          </thead>
+
+                          <tr>
+                            <td>Year</td>
+                            <td>Sophomore</td>
+                          </tr>
+
+                          <tr>
+                            <td>Hometown</td>
+                            <td>LaGrange, Illinois</td>
+                          </tr>
+
+                          <tr>
+                            <td>NetID</td>
+                            <td><a href="./contact.php?engine=y">jkoszut2</a></td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+
+                      <div class="well">
+                        <p>Joe is a sophomore studying Mechanical Engineering. He is responsible for the design, analysis, manufacturing, and tuning of components within the Engine Subsystem. Outside of team and school activities, he enjoys reading books, playing the piano, and working on cars.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <strong>Alex Kirr</strong>
+                    </div>
+
+                    <div class="panel-body">
+                      <div class="profile-image">
+                        <img src="./img/team/photos/2019/alex.jpeg">
+                      </div>
+
+                      <table class="table table-hover">
+                        <tbody>
+                          <thead>
+                            <th colspan="2">Aerodynamics Subsystem Lead</th>
+                          </thead>
+
+                          <tr>
+                            <td>Year</td>
+                            <td>Junior</td>
+                          </tr>
+
+                          <tr>
+                            <td>Hometown</td>
+                            <td>Munster, Indiana</td>
+                          </tr>
+
+                          <tr>
+                            <td>NetID</td>
+                            <td><a href="./contact.php?aerodynamics=y">akirr2</a></td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+
+                      <div class="well">
+                        <p>Alex is a Junior studying Aerospace Engineering. He is in charge of design, manufacturing, and validation of the Aerodynamics package. Outside of the team, Alex enjoys keeping up with Formula 1 and traveling. After his time at UIUC, Alex hopes to work in motorsports or in the aviation industry.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              
+                <div class="col-md-4">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <strong>Tim Kogucki</strong>
+                    </div>
+
+                    <div class="panel-body">
+                      <div class="profile-image">
+                        <img src="./img/team/photos/2019/tim.jpg">
+                      </div>
+
+                      <table class="table table-hover">
+                        <tbody>
+                          <thead>
+                            <th colspan="2">Suspension Subsystem Lead</th>
+                          </thead>
+
+                          <tr>
+                            <td>Year</td>
+                            <td>Junior</td>
+                          </tr>
+
+                          <tr>
+                            <td>Hometown</td>
+                            <td>LaGrange Highlands, Illinois</td>
+                          </tr>
+
+                          <tr>
+                            <td>NetID</td>
+                            <td><a href="./contact.php?suspension=y">kogucki2</a></td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+
+                      <div class="well">
+                        <p>Tim is a junior studying Mechanical Engineering. He is in charge of the design, manufacturing, and tuning of the Suspension Subsystem.  Outside of team activities, Tim loves to focus on tuning and riding his mountain bike as well as skiing and photography. He hopes to pursue a Master's of Science in Mechanical Engineering after graduation and then apply his skills to a job in industry.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+
+              <div class="row">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Michael Rogalski</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2019/mike.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Composites Subsystem Lead</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Lombard, Illinois</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?composites=y">mprogal2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Michael is a senior in Mechanical Engineering, leading the composites subsystem. Michael is primarily responsible for the design, analysis, and manufacturing of all carbon fiber parts on the vehicle. Outside of Formula, Michael enjoys playing club soccer and travelling. He hopes to take his talents to the west coast after graduating from UIUC.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+
         <div class="panel-heading accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2017-2018">
           <h4 class="panel-title">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-team" href="#collapse-2017-2018">
@@ -20,7 +457,7 @@
           </h4>
         </div>
 
-        <div id="collapse-2017-2018" class="panel-collapse collapse in">
+        <div id="collapse-2017-2018" class="panel-collapse collapse">
           <div class="panel-body">
             <div class="row">
               <div class="col-md-4">
@@ -52,7 +489,7 @@
 
                         <tr>
                           <td>NetID</td>
-                          <td><a href="./contact.php?composites=y">aklepa4</a></td>
+                          <td><a href="./contact.php">aklepa4</a></td>
                         </tr>
 
                       </tbody>
@@ -220,7 +657,7 @@
 
                     <div class="well">
                       <p>
-                        I am not Andy.
+                        Jake Leonard is a senior studying Computer Science with a minor in Electrical Engineering, and is in charge of all the electronics on the car.  When he’s not telling electrons what to do, he enjoys climbing, collecting records, and ogling over cute dogs he sees on the internet.  After school, Jake is going to work in the high frequency trading industry.
                       </p>
                     </div>
                   </div>
@@ -241,7 +678,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Drivetrain Subsystem Leader</th>
+                          <th colspan="2">Drivetrain Subsystem Lead</th>
                         </thead>
 
                         <tr>
@@ -285,7 +722,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Chassis Subsystem Leader</th>
+                          <th colspan="2">Chassis Subsystem Lead</th>
                         </thead>
 
                         <tr>
@@ -349,7 +786,7 @@
                     </table>
 
                     <div class="well">
-                      <p>Hi I'm Remi and do Remi stuff.</p>
+                      <p>Remington is a junior in Mechanical Engineering, leading the engine subsystem. Within the team, Remington is responsible for the integration, design, and testing of all engine related systems, through simulations and dynamometer calibrations. Outside of Formula, Remington enjoys working on classic cars and boats, golfing, playing basketball, and boating. He hopes to apply his experience from the team to a career in the automotive or marine industry.</p>
                     </div>
                   </div>
                 </div>
@@ -407,7 +844,7 @@
 
                   <div class="panel-body">
                     <div class="profile-image">
-                      <img src="./img/team/photos/2018/bran.jpg">
+                      <img src="./img/team/photos/2018/brain.jpg">
                     </div>
 
                     <table class="table table-hover">
@@ -423,23 +860,65 @@
 
                         <tr>
                           <td>Hometown</td>
-                          <td>Mars or something</td>
+                          <td>Belmont, MA</td>
                         </tr>
 
                         <tr>
                           <td>NetID</td>
-                          <td><a href="./contact.php?suspension=y">...</a></td>
+                          <td><a href="./contact.php?suspension=y">bnsmith5</a></td>
                         </tr>
 
                       </tbody>
                     </table>
 
                     <div class="well">
-                      <p>I don't even know what I do.</p>
+                      <p>Brian is a Junior majoring in Mechanical Engineering with a minor in Electrical Engineering. Within the team, Brian is most involved with dynamic modeling and analysis of the vehicle and the design and manufacture of machined components. Outside of Formula, Brian enjoys videogames, swimming, and not having to cook. After graduating, Brian hopes to apply his experience to a career in the automotive industry.</p>
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <strong>Kyle Moreau</strong>
+                  </div>
+
+                  <div class="panel-body">
+                    <div class="profile-image">
+                      <img src="./img/team/photos/2018/kyle.jpg">
+                    </div>
+
+                    <table class="table table-hover">
+                      <tbody>
+                        <thead>
+                          <th colspan="2">Composites Subsystem Lead</th>
+                        </thead>
+
+                        <tr>
+                          <td>Year</td>
+                          <td>Senior</td>
+                        </tr>
+
+                        <tr>
+                          <td>Hometown</td>
+                          <td>Mchenry, Illinois</td>
+                        </tr>
+
+                        <tr>
+                          <td>NetID</td>
+                          <td><a href="./contact.php?composites=y">moreau2</a></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                    <div class="well">
+                      <p>Kyle is a senior in Aerospace Engineering, leading the composites subsystem. Kyle is primarily responsible for the design, analysis, and manufacturing of all composite parts on the vehicle. Kyle is interested in design, structural analysis, and aerodynamics. Outside of Formula, Kyle enjoys playing football and volleyball with his friends and working out. He hopes to apply his experience from the team to a career in the aerospace industry.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -718,7 +1197,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Drivetrain Subsystem Leader</th>
+                          <th colspan="2">Drivetrain Subsystem Lead</th>
                         </thead>
 
                         <tr>
@@ -760,7 +1239,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Chassis Subsystem Leader</th>
+                          <th colspan="2">Chassis Subsystem Lead</th>
                         </thead>
 
                         <tr>
@@ -988,7 +1467,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Team Captain &amp; Chassis Subsystem Leader</th>
+                          <th colspan="2">Team Captain &amp; Chassis Subsystem Lead</th>
                         </thead>
 
                         <tr>
@@ -1157,7 +1636,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Electronics Subsystem Leader</th>
+                          <th colspan="2">Electronics Subsystem Lead</th>
                         </thead>
 
                         <tr>
@@ -1199,7 +1678,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Suspension Subsystem Leader</th>
+                          <th colspan="2">Suspension Subsystem Lead</th>
                         </thead>
 
                         <tr>
@@ -1243,7 +1722,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Composities Subsystem Leader</th>
+                          <th colspan="2">Composities Subsystem Lead</th>
                         </thead>
 
                         <tr>
@@ -1285,7 +1764,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Engine Subsystem Leader</th>
+                          <th colspan="2">Engine Subsystem Lead</th>
                         </thead>
 
                         <tr>
@@ -1326,7 +1805,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Aerodynamics Subsytem Leader</th>
+                          <th colspan="2">Aerodynamics Subsytem Lead</th>
                         </thead>
 
                         <tr>
@@ -1426,7 +1905,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Suspension Team Leader &amp; Main Driver</th>
+                          <th colspan="2">Suspension Team Lead &amp; Main Driver</th>
                         </thead>
 
                         <tr>
@@ -1511,7 +1990,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Chief Engineer & Drivetrain Team Leader</th>
+                          <th colspan="2">Chief Engineer & Drivetrain Team Lead</th>
                         </thead>
 
                         <tr>
@@ -1636,7 +2115,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Chassis Team Leader</th>
+                          <th colspan="2">Chassis Team Lead</th>
                         </thead>
 
                         <tr>
@@ -1677,7 +2156,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Engine Team Leader</th>
+                          <th colspan="2">Engine Team Lead</th>
                         </thead>
 
                         <tr>
@@ -1718,7 +2197,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Engine Team Leader</th>
+                          <th colspan="2">Engine Team Lead</th>
                         </thead>
 
                         <tr>
@@ -1761,7 +2240,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Aerodynamics Team Leader</th>
+                          <th colspan="2">Aerodynamics Team Lead</th>
                         </thead>
 
                         <tr>
@@ -1858,7 +2337,7 @@
                       <table class="table table-hover">
                         <tbody>
                           <thead>
-                            <th colspan="2">Chief Engineer &amp; Suspension Leader</th>
+                            <th colspan="2">Chief Engineer &amp; Suspension Lead</th>
                           </thead>
 
                           <tr>
@@ -1942,7 +2421,7 @@
                       <table class="table table-hover">
                         <tbody>
                           <thead>
-                            <th colspan="2">Engine Team Leader</th>
+                            <th colspan="2">Engine Team Lead</th>
                           </thead>
 
                           <tr>
@@ -1983,7 +2462,7 @@
                       <table class="table table-hover">
                         <tbody>
                           <thead>
-                            <th colspan="2">Chassis Team Leader &amp; Driver</th>
+                            <th colspan="2">Chassis Team Lead &amp; Driver</th>
                           </thead>
 
                           <tr>
@@ -2024,7 +2503,7 @@
                       <table class="table table-hover">
                         <tbody>
                           <thead>
-                            <th colspan="2">Aerodynamics Team Leader</th>
+                            <th colspan="2">Aerodynamics Team Lead</th>
                           </thead>
 
                           <tr>
@@ -2100,7 +2579,7 @@
                     <table class="table table-hover">
                       <tbody>
                         <thead>
-                          <th colspan="2">Drivetrain Team Leader</th>
+                          <th colspan="2">Drivetrain Team Lead</th>
                         </thead>
 
                         <tr>

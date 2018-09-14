@@ -16,6 +16,13 @@
               <img src="./img/logos/orangeandblue/ingersoll.jpg">
             </a>
           </div>
+          
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <a href="//www.krayden.com" target="_blank">
+              <img src="./img/logos/orangeandblue/krayden.jpg">
+            </a>
+          </div>
+          
         </div>
 
         <h4>Want to see your company's logo here? <a href="./img/sponsor.pdf" target="_blank">Sponsor Us</a></h4>
@@ -247,12 +254,6 @@
         <h1>Honorary Partners</h1>
 
         <div class="row honorary partner">
-          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-            <a href="//www.reeseprod.com" target="_blank">
-              <img src="./img/logos/honorary/reese.jpg">
-            </a>
-          </div>
-
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
             <a href="//www.thundersynthetics.com" target="_blank">
               <img src="./img/logos/honorary/amsoil.jpg">

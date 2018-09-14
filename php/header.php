@@ -33,7 +33,7 @@
         </li>
 
         <li id="join">
-          <a href="./join.php">Join Us</a>
+          <a href="./join.php">Join</a>
         </li>
 
         <!--li id="give">

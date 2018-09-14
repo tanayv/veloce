@@ -1,12 +1,12 @@
 <?php
   // NetIDs to update year by year.
-  $engineLead = "rsreid2";
-  $suspensionLead = "nblopez";
-  $electronicsLead = "amass2";
-  $chassisLead = "schckmt2";
-  $aerodynamicsLead = "thunga2";
-  $drivetrainLead = "bjwllms2";
-  $compositesLead = "aklepa4";
+  $engineLead = "jkoszut2";
+  $suspensionLead = "kogucki2";
+  $electronicsLead = "jdrewni2";
+  $chassisLead = "papalia2";
+  $aerodynamicsLead = "akirr2";
+  $drivetrainLead = "sabosch2";
+  $compositesLead = "mprogal2";
 
   // Initialze error booleans to FALSE to avoid undefined variable warnings.
   $msgSubjectJoin = FALSE;
@@ -153,7 +153,7 @@
             $emailTo .= ',' . $compositesLead . '@illinois.edu';
           }
           if($msgSubjectWebsite) {
-            $emailTo .= ',' . 'amass2@illinois.edu';
+            $emailTo .= ',' . 'jdrewni2@illinois.edu';
           }
 
           $subject = 'New message from ' . $authorName . ' ' . $authorLastName . ' on Motorsports.illinois.edu: ' . $msgSubject; // This is what the subject of the email will look like

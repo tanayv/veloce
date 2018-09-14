@@ -13,6 +13,240 @@
         <div class="panel panel-default">
           <div class="panel-heading accordion-toggle" data-toggle=
           "collapse" data-parent="#accordion" href=
+          "#collapse-2018">
+            <h4 class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse"
+              data-parent="#accordion" href=
+              "#collapse-2018">2017-2018</a>
+            </h4>
+          </div>
+          <div id="collapse-2018" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <h2>
+                    2017-2018
+                  </h2>
+                  <p>
+                  </p>
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>
+                          Results
+                        </th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          FSAE Michigan 2018
+                        </td>
+                        <td>
+                        50th Overall
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          FSAE Lincoln 2018
+                        </td>
+                        <td>
+                        34th Overall
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-md-8">
+                  <img src="./img/car_2018.jpg">
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th>
+                            Data Points
+                          </th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            Brake
+                          </td>
+                          <td>
+                            Brembo 4-piston front, 2-piston rear
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            BSCD
+                          </td>
+                          <td>
+                            67mm bore / 42.5mm stroke / 599cc
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Cooling
+                          </td>
+                          <td>
+                            Vertically mounted single core double
+                            pass radiator, 1221 cfm fan
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Drive
+                          </td>
+                          <td>
+                            RWD
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Electronics
+                          </td>
+                          <td>
+                            Motec M400 ECU and student designed
+                            data aquisition
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Engine
+                          </td>
+                          <td>
+                          Yamaha YZF-R6
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            FR/RR Track
+                          </td>
+                          <td>
+                            49in front, 49in rear
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Frame
+                          </td>
+                          <td>
+                            Carbon Fiber Hybrid-Monocoque 
+                            with 4130 Rear Spaceframe
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Fuel System
+                          </td>
+                          <td>
+                            Stock Yamaha
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-md-6">
+                    <table class="table table-hover">
+                      <thead>
+                        <tr>
+                          <th>
+                            Data Points
+                          </th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            Fuel Type
+                          </td>
+                          <td>
+                            93 Octane
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            MPD
+                          </td>
+                          <td>
+                            10500 rpm
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            MPT
+                          </td>
+                          <td>
+                            9000 rpm
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            OLWH
+                          </td>
+                          <td>
+                            L: 3109mm / W: 1468mm / H: 1124mm
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Suspension
+                          </td>
+                          <td>
+                            Double unequal length A-arms, Ohlins
+                            TTX25 MkII dampers
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Tire
+                          </td>
+                          <td>
+                          20.0x7.0-13 Goodyear D2704
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Unique
+                          </td>
+                          <td>
+                            Custom airfoils, custom CFRP steering
+                            wheel, custom PDM
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Weight
+                          </td>
+                          <td>
+                            590 lbs with 150lb driver
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            Wheelbase
+                          </td>
+                          <td>
+                            64in
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="panel panel-default">
+          <div class="panel-heading accordion-toggle" data-toggle=
+          "collapse" data-parent="#accordion" href=
           "#collapse-2017">
             <h4 class="panel-title">
               <a class="accordion-toggle" data-toggle="collapse"
@@ -20,7 +254,7 @@
               "#collapse-2017">2016-2017</a>
             </h4>
           </div>
-          <div id="collapse-2017" class="panel-collapse collapse in">
+          <div id="collapse-2017" class="panel-collapse collapse">
             <div class="panel-body">
               <div class="row">
                 <div class="col-md-4">
@@ -144,7 +378,7 @@
                             Fuel System
                           </td>
                           <td>
-                            Stock Honda
+                            Stock Yamaha
                           </td>
                         </tr>
                       </tbody>
@@ -224,7 +458,7 @@
                             Weight
                           </td>
                           <td>
-                            590 lbs with 150lb driver
+                            580 lbs with 150lb driver
                           </td>
                         </tr>
                         <tr>
@@ -288,7 +522,7 @@
                   </table>
                 </div>
                 <div class="col-md-8">
-                  <img src="./img/car_2015.jpg">
+                  <img src="./img/sheila.jpg">
                 </div>
                 <div class="row">
                   <div class="col-md-6">
